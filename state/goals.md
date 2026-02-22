@@ -1,42 +1,32 @@
 # Goals
 
-<!-- SETUP NOT COMPLETE: This file has placeholder content -->
-<!-- MARVIN will update this during setup -->
-
-Last updated: Not yet configured
-
----
+Last updated: 2025-01-25
 
 ## Work Goals
 
-Goals related to your job - KPIs, projects, professional development, team goals.
-
-*Examples:*
-- Hit Q1 revenue target
-- Ship the new feature by March
-- Get promoted to senior
-- Improve team velocity by 20%
-
----
+- **Visibility** - Maintain overview of what's going on across all projects
+- **GoMedicus MVP** - Ship the MVP
+- **GoMedicus Practices** - Keep operations running smoothly
+- **Website** - Keep it up to date
 
 ## Personal Goals
 
-Goals for life outside work - health, hobbies, relationships, personal growth.
-
-*Examples:*
-- Walk 10k steps daily
-- Write a blog post every week
-- Read 24 books this year
-- Learn to play guitar
-
----
+- **Peace of mind** - Feel less scattered, more in control
+- **Control** - Know what's happening and what needs attention
+- **Efficiency** - Get more done with less friction
 
 ## Tracking
 
 | Goal | Type | Status | Notes |
 |------|------|--------|-------|
-| Complete MARVIN setup | - | In progress | |
+| Visibility across projects | Work | In progress | MARVIN helps with this |
+| GoMedicus MVP | Work | In progress | |
+| GoMedicus Practices | Work | Ongoing | |
+| Website maintenance | Work | Ongoing | |
+| Peace of mind | Personal | In progress | |
+| Feeling of control | Personal | In progress | |
+| Efficiency | Personal | In progress | |
 
 ---
 
-*Tell MARVIN about your goals during setup, and they'll appear here. You can update these anytime - just say "let's update my goals."*
+*Updated by MARVIN. Tell me anytime you want to add or change goals.*
