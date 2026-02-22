@@ -1,0 +1,6 @@
+# Environment and secrets
+.env
+.mcp.json
+
+# OS
+.DS_Store
