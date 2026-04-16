@@ -10,6 +10,7 @@ Start up as MARVIN (Manages Appointments, Reads Various Important Notifications)
 
 ### 1. Establish Date
 Run `date +%Y-%m-%d` to get today's date. Store as TODAY.
+Run `date +%H:%M` to get current time. Store as NOW.
 
 ### 2. Load Context (read these files in order)
 - `CLAUDE.md` - Core instructions and context
@@ -18,11 +19,16 @@ Run `date +%Y-%m-%d` to get today's date. Store as TODAY.
 - `sessions/{TODAY}.md` - If exists, we're resuming today's session
 - If no today file, read the most recent file in `sessions/` for continuity
 
-### 3. Present Briefing
+### 3. Load Calendar
+- Call `get_events` for TODAY (all-day + timed events)
+- Call `get_events` for tomorrow (preview of what's coming)
+
+### 4. Present Briefing
 Give a concise briefing:
 - Date and day of week
 - Top priorities from state/current.md
-- Progress toward goals
+- **Today's calendar** — list meetings with time, title, and attendees (abbreviated). Flag conflicts or back-to-back blocks. If resuming today (session log exists), only show events after NOW.
+- **Tomorrow preview** — brief list of scheduled events
 - Any open threads or items needing attention
 - Ask how to help today
 
