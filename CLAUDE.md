@@ -57,6 +57,7 @@ If he just wants execution without pushback, he'll tell you.
 
 - **`state/current.md`** — The single source of truth. Contains all active priorities, open threads, waiting-for items, and recent context. Updated at end of every session. This is the first file to read when starting.
 - **`state/goals.md`** — High-level work and personal goals with tracking table.
+- **`state/archive.md`** — Completed items archived from current.md by `/compact`. Organized by month, newest first.
 
 ### Session Logs (`sessions/`)
 
@@ -74,6 +75,13 @@ One file per day, named `YYYY-MM-DD.md`. Multiple sessions per day append to the
 ### Skills (`skills/`)
 
 Each skill has a `SKILL.md` with frontmatter (name, description, metadata) and a process definition. Skills with `user-invocable: true` are available as slash commands. The `.claude/commands/` directory mirrors skills as slash command entry points.
+
+### Agents (`.claude/agents/`)
+
+Subagents handle heavy lifting during session management:
+
+- **logging** — Generates session log entries. Spawned by `/end` and `/update`. Model: sonnet.
+- **context-refinement** — Updates `state/current.md` with session discoveries. Spawned by `/end`, `/update`, and precompact hook. Model: sonnet.
 
 ### Template Source
 
@@ -97,12 +105,13 @@ Each skill has a `SKILL.md` with frontmatter (name, description, metadata) and a
 | `/start` | Start a session with a briefing |
 | `/end` | End session and save everything |
 | `/update` | Quick checkpoint (save progress) |
+| `/draft` | Review, send, or park message drafts |
+| `/compact` | Archive completed items from state |
 | `/report` | Generate a weekly summary of work |
 | `/commit` | Review and commit git changes |
 | `/code` | Open MARVIN in your IDE |
 | `/help` | Show commands and available integrations |
 | `/sync` | Get updates from MARVIN template |
-| `/ibes` | IBES Tippspiel assistant |
 
 ---
 

@@ -17,9 +17,11 @@ Display this reference:
 
 | Command   | What It Does                        |
 |-----------|-------------------------------------|
-| /start   | Start a session with a briefing     |
+| /start    | Start a session with a briefing     |
 | /end      | End session and save everything     |
 | /update   | Quick checkpoint (save progress)    |
+| /draft    | Review, send, or park message drafts|
+| /compact  | Archive completed items from state  |
 | /report   | Generate a weekly summary of work   |
 | /commit   | Review and commit git changes       |
 | /code     | Open MARVIN in your IDE             |
