@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-16 15:14
+Last updated: 2026-04-16 16:27
 
 ## Active Priorities
 
@@ -17,6 +17,7 @@ Last updated: 2026-04-16 15:14
    - GOM-2730 Multi-Service Pricing: Feedback Basti+Jens ausstehend
 3. **Kronprinzenbau IT-Planung** — Phase 1: 23 Arbeitsplätze, Bestand-Mix. SSoT: [Definition IT-Ausstattung](https://www.notion.so/33c57538249e81bb8268e9345c6d86a5). [Notion Projektseite](https://www.notion.so/33c57538249e814f80c9e437e75f460e)
    - ⚠️ **Parallelbetrieb-Risiko:** Jens hat angedeutet → Bestand-Mix fällt weg, komplett neu nötig. Jan Kreimeyer Termin ausstehend (Email 15.04.).
+   - 🔴 **Deadline 18.04.:** Michael — Hardware-Inventar Bestand liefern + Netzwerk-Preset entscheiden (Lütjensee-Preset wiederverwenden?)
    - Offen: Rezeptdrucker-Modell, Cherry ST-1506 Kartenleser
    - Angebot bis 15.05. Lambda-Woche 20.-24.07. bestätigt.
 4. **Lütjensee** — Go-Live Juli, PVS-Migration KW 31 (ab 3. August), Konversion KW 28. Lambda-Angebot 49.740 € → zu teuer, Nachverhandlung läuft. Telefonassistent: Doc Medico Interim ab Konversion.
@@ -99,6 +100,7 @@ Last updated: 2026-04-16 15:14
 ### Work - AI & Systems Office (ehem. CDIO Rolle)
 
 **"Niko's Office" Meeting 16.04.** mit Jens, Tim-Ole, Flo. [Meeting-Notizen](https://docs.google.com/document/d/1WN_J2IvpAiD1D0jvGfxn3WWHKzhr0N3Mo7BTTa8Ph9c/edit). Office heißt jetzt **"AI and Systems Office"** mit 3 Säulen:
+**Tim-Ole 1:1 (15.04.):** [Meeting-Notizen](https://docs.google.com/document/d/1ac88fa1JB55ityZ_E3CWbg1uwE-cmvH0ZrjZDdV93g0/edit) — CDIO-Seite fast fertig, 2 offene Jens-Punkte. Strategie-Shift Bottom-up → Top-down bestätigt.
 1. **AI Infrastructure / Enablement** — AI-first Org
 2. **Systems Enablement / People Enablement** — Onboarding, Effizienz, Personio-Management (von Sebastian L. übernehmen)
 3. **IT Systems** — Praxis-IT, Vendor-Management, Hardware
@@ -118,10 +120,13 @@ Last updated: 2026-04-16 15:14
   - [ ] Nach Feedback: Titel + Text in Personio aktualisieren
   - [ ] Active Sourcing starten (LinkedIn: Tomedo/medatixx/TI/Hexnode) + Franzi/Antonia-Kontakte
   - [ ] Basel Abdul Fattah absagen
+  - [ ] Klären: Wer hat "HR & People Manager" in Personio angelegt und warum (16 leere Stellen ohne Titel aufräumen)
 - [ ] **Notion Org-Struktur umsetzen — Deadline Do 17.04. Nachmittag**
 - [ ] 30-60-90 Plan weiterentwickeln (Jens-Deliverable)
 - [ ] Personio-Management Übernahme von Sebastian L. planen
 - [ ] Meeting mit Antonia + Franzi Löle organisieren (IT-Migrations-Erfahrungsaustausch)
+- [ ] Nikolai: Slack-Drafts an Jens absenden (CDIO-Diskussionen abgeschlossen + Skills-Seite aktualisiert)
+- [ ] Nikolai: O5 Scope-Definition auf Notion-Seite (CDIO) formalisieren
 - [ ] Jens: Verbindliche AI-Policy definieren
 - [ ] Hardware: Flos M4-Upgrade (Alice' Rechner), Henrys Upgrade
 - [ ] Flos Cloud-Onboarding abschließen
@@ -131,7 +136,7 @@ Last updated: 2026-04-16 15:14
 
 **DD läuft.** Owners: Ben (CTO) + Nikolai (CDO). [DD Master](https://www.notion.so/32757538249e8151b9e2d55985c58b96) · [Tech DD](https://www.notion.so/32757538249e8181a8cbd5c317fe7d4d) · [Fragenkatalog](https://www.notion.so/32957538249e81e58f51dfe4ff3ec27f) (24✅/22🟡/7🔴)
 - **Investor-Feedback (16.04.):** Investoren wollen Operational Maturity + Benchmarks. Nikolais Anteil ~20%.
-- **IT-Integration Deliverables:** [Scorecard](https://docs.google.com/document/d/16CycnHLBl1N1quuo1_t-e6X2iOnot-ofIllwBBfPhjI/edit) (WIP, 31%) · [Playbook](https://docs.google.com/document/d/1lShnhdqXWIOQvIVjhThVLlkMY80hq7x8W9XYst6Lva8/edit) (WIP) · [Drive](https://drive.google.com/drive/folders/1gnJY9eTsSUAFF80FUvXhgEPzrnVPmkhT)
+- **IT-Integration Deliverables:** [Scorecard](https://docs.google.com/document/d/16CycnHLBl1N1quuo1_t-e6X2iOnot-ofIllwBBfPhjI/edit) (WIP, 31% — 16/51 Meilensteine) · [Playbook](https://docs.google.com/document/d/1lShnhdqXWIOQvIVjhThVLlkMY80hq7x8W9XYst6Lva8/edit) (WIP, 5 Phasen) · [Drive](https://drive.google.com/drive/folders/1gnJY9eTsSUAFF80FUvXhgEPzrnVPmkhT)
   - [ ] CDIO-Profil + Hiring-Pipeline — noch nicht erstellt
 - ⚠️ **§393 SGB V (Cloud C5):** GoMedicus braucht ggf. eigenes C5-Testat. Prüfauftrag Sebastian Schulz
 
@@ -170,6 +175,7 @@ Last updated: 2026-04-16 15:14
 
 ### Work - Lambda / HSK
 
+- [ ] **🔴 Kronprinzenbau (Deadline 18.04.):** Michael Füllemann — Hardware-Inventar Bestand + Netzwerk-Preset Entscheidung
 - [ ] Michael Füllemann → 2x SMC-KT + 2x Cherry Kartenleser an Lambda
 - [ ] Michael Füllemann → Adressen Robert & Nele an Paul Epple
 - [ ] Paul Epple → Angebot Telemedizin-Setup + VPN-Gateways
