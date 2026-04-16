@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-16 12:55
+Last updated: 2026-04-17 01:30
 
 ## Active Priorities
 
@@ -96,21 +96,36 @@ Last updated: 2026-04-16 12:55
 
 - [ ] "GoMedicus Prime" — Ärztekammer-Prüfung abwarten (Philipp plant Termin mit Justiziarin)
 
-### Work - CDIO Rolle / Tim-Ole CIO-Diskussion
+### Work - AI & Systems Office (ehem. CDIO Rolle)
 
-**CDIO-Rolle** — Alle Positionen entschieden, 9 KPIs finalisiert. [Notion Spec](https://www.notion.so/32d57538249e8015a424f04a61f0a348) · [Ownership](https://www.notion.so/2e757538249e804cbf10ea312f83ec39)
+**"Niko's Office" Meeting 16.04.** mit Jens, Tim-Ole, Flo. [Meeting-Notizen](https://docs.google.com/document/d/1WN_J2IvpAiD1D0jvGfxn3WWHKzhr0N3Mo7BTTa8Ph9c/edit). Office heißt jetzt **"AI and Systems Office"** mit 3 Säulen:
+1. **AI Infrastructure / Enablement** — AI-first Org
+2. **Systems Enablement / People Enablement** — Onboarding, Effizienz, Personio-Management (von Sebastian L. übernehmen)
+3. **IT Systems** — Praxis-IT, Vendor-Management, Hardware
+
+**Org-Struktur (Jens):** Platform Entity (extern, eigener CEO) | Corporate Office | Platform Ops | Care Operations | People Office (Flo) | Marketing | Growth | **AI Tech & Systems Office (Nikolai)**
+
+**Notion-Restrukturierung:** Org-Struktur in Notion Spaces umsetzen. 1-Woche-Test in "Praxisintegration" mit 4er-Gruppe (Nikolai, Jens, Tim-Ole, Flo). Datenbank-Pflicht für alle. **Zugesagt: Do 17.04. Nachmittag.**
+
+**Franzi Löle** — Doctolib-Hintergrund, PVS-Projektleitung bei Dr. Lipp (2 Jahre). Start 1.8. oder 1.9. Bestätigt: Lambda = bester Vendor. Sie + Antonia fragen bei Dr. Lipp nach wechselwilligen IT-Kandidaten.
+
+**Kernaussage Jens:** Alles was nicht auf die 3 Säulen einzahlt, muss abgegeben oder gestrichen werden.
+
+[Notion Spec](https://www.notion.so/32d57538249e8015a424f04a61f0a348) · [Ownership](https://www.notion.so/2e757538249e804cbf10ea312f83ec39)
 - Verbleibende Jens-Blocker: O2 Roadmap-Datum + PM Plattform Budget
 - **Hiring IT Ops Lead** — Personio Job 2594644, 3 Bewerbungen/kein Match. [Optimierungs-Doc](https://docs.google.com/document/d/1_DSjzfoVBsxCjg2n2KxRyqR4vzkIJYB5f-Q_P9yHk8Y/edit) an Flo (16.04.)
-  - [ ] Flo: Feedback zum Optimierungs-Doc abwarten
+  - [ ] Flo: Feedback zum Optimierungs-Doc + IT-Stellenanzeige verfeinern (gemeinsam)
   - [ ] Nach Feedback: Titel + Text in Personio aktualisieren
-  - [ ] Active Sourcing starten (LinkedIn: Tomedo/medatixx/TI/Hexnode)
+  - [ ] Active Sourcing starten (LinkedIn: Tomedo/medatixx/TI/Hexnode) + Franzi/Antonia-Kontakte
   - [ ] Basel Abdul Fattah absagen
-  - [ ] Klären: "HR & People Manager (Personalreferent)" — neu in Personio, Kontext unklar
-- [ ] Hiring: Mediengestalter ausschreiben ODER Freelancer Nils
-- [ ] AI-Enablement-Plan mit Jens (Q2-Ziel)
-- [ ] Slack-Drafts an Jens absenden (CDIO-Diskussionen + Claude Skills)
-- [ ] O5 Scope auf Notion-Seite formalisieren
-- [ ] Jens: O2 Roadmap-Datum + PM Plattform Budget klären
+- [ ] **Notion Org-Struktur umsetzen — Deadline Do 17.04. Nachmittag**
+- [ ] 30-60-90 Plan weiterentwickeln (Jens-Deliverable)
+- [ ] Personio-Management Übernahme von Sebastian L. planen
+- [ ] Meeting mit Antonia + Franzi Löle organisieren (IT-Migrations-Erfahrungsaustausch)
+- [ ] Jens: Verbindliche AI-Policy definieren
+- [ ] Hardware: Flos M4-Upgrade (Alice' Rechner), Henrys Upgrade
+- [ ] Flos Cloud-Onboarding abschließen
+- [ ] Häufigere 1h-Gespräche über Praxis-Pipeline einplanen
 
 ### Work - Series A Tech DD Prep
 
