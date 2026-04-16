@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-17 01:30
+Last updated: 2026-04-16 15:14
 
 ## Active Priorities
 
@@ -214,6 +214,7 @@ Last updated: 2026-04-17 01:30
 **Auto-Sync:** Stop-Hook committed+pushed nach Session-Save. Nightly Safety Net via launchd um 23:00 (`com.marvin.nightly-sync`).
 **Hooks:** PreCompact (auto-save vor Komprimierung), Stop (auto-checkpoint + push), PostToolUse (QMD reindex), PreToolUse (Vault frontmatter check).
 **UI:** Flicker-Free aktiviert (`CLAUDE_CODE_NO_FLICKER=1`), TUI fullscreen.
+**Agents:** ✅ logging + context-refinement agents fertig (16.04.). `/end` + `/update` spawnen beide automatisch. `/draft` + `/compact` Skills live.
 **Routines (Cloud):**
 - [ ] Morning Briefing Routine — erstellt, Google Workspace Connector noch aktivieren, testen
 - [ ] Weekly Report Routine — Prompt ready, noch nicht angelegt
