@@ -8,36 +8,21 @@ Lightweight save without ending the session. Use frequently to preserve context.
 
 ## Instructions
 
-### 1. Identify What Changed
-Quickly scan the recent conversation for:
-- Topics worked on
-- Decisions made
-- Files created/modified
-- Any state changes needed
+### 1. Spawn Logging Agent (Checkpoint Mode)
+Spawn the **logging agent** (`.claude/agents/logging.md`) to write a lightweight checkpoint.
 
-Keep it brief. No full summary needed.
+Use the Agent tool with `subagent_type: "general-purpose"` and a prompt like:
+> "You are the MARVIN logging agent. Read `.claude/agents/logging.md` for your instructions. Run the /update flow — write a checkpoint entry for today."
 
-### 2. Append to Session Log
-Get today's date: `date +%Y-%m-%d`
+### 2. Spawn Context-Refinement Agent
+Only if something material changed (new thread, completed item, changed priority, new link).
 
-Append to `sessions/{TODAY}.md`:
-```markdown
-## Update: {TIME}
-- {what was worked on, 1-3 bullets}
-```
+If nothing material changed, skip this step.
 
-If file doesn't exist, create with header: `# Session Log: {TODAY}`
+Use the Agent tool with `subagent_type: "general-purpose"` and a prompt like:
+> "You are the MARVIN context-refinement agent. Read `.claude/agents/context-refinement.md` for your instructions. Update `state/current.md` based on recent work."
 
-### 3. Update State (if needed)
-Only update `state/current.md` if something actually changed:
-- New open thread
-- Completed item
-- Changed priority
-- New task discovered
-
-Skip if nothing material changed.
-
-### 4. Confirm (minimal)
+### 3. Confirm (minimal)
 One line: "Checkpointed: {brief description}"
 
 No summary. No "next actions" list. Just confirm the save.

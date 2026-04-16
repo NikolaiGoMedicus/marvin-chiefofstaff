@@ -9,46 +9,35 @@ Wrap up the current session and save context for continuity.
 ## Instructions
 
 ### 1. Summarize This Session
-Review the conversation and extract:
+Review the conversation and prepare a brief summary of:
 - **Topics discussed** - What did we work on?
 - **Decisions made** - What was decided?
 - **Open threads** - What's unfinished or needs follow-up?
 - **Action items** - What needs to happen next?
 
-### 2. Update Session Log
-Get today's date with `date +%Y-%m-%d`.
+### 2. Spawn Logging Agent
+Spawn the **logging agent** (`.claude/agents/logging.md`) to write the session log entry.
 
-Append to `sessions/{TODAY}.md` (create if doesn't exist):
-```markdown
-## Session: {TIME}
+Use the Agent tool with `subagent_type: "general-purpose"` and a prompt like:
+> "You are the MARVIN logging agent. Read `.claude/agents/logging.md` for your instructions. Run the /end flow — write a full session log entry for today."
 
-### Topics
-- {topic 1}
-- {topic 2}
+Wait for the agent to complete and confirm the log was written.
 
-### Decisions
-- {decision 1}
+### 3. Spawn Context-Refinement Agent
+Spawn the **context-refinement agent** (`.claude/agents/context-refinement.md`) to update state.
 
-### Open Threads
-- {thread 1}
+Use the Agent tool with `subagent_type: "general-purpose"` and a prompt like:
+> "You are the MARVIN context-refinement agent. Read `.claude/agents/context-refinement.md` for your instructions. Update `state/current.md` based on this session's work."
 
-### Next Actions
-- {action 1}
-```
+Wait for the agent to complete and confirm state was updated.
 
-If creating new file, add header: `# Session Log: {TODAY}`
+### 4. Clean Outbox
+Check `state/current.md` for the `## Outbox` section. If any drafts were sent during this session, remove them from the Outbox table.
 
-### 3. Update State
-Update `state/current.md` with:
-- Any new priorities
-- Changed project statuses
-- New open threads
-- Removed/completed items
-
-### 4. Confirm
+### 5. Confirm
 Show a brief summary:
-- What was logged
+- What was logged (from logging agent)
+- What state changed (from context-refinement agent)
 - Key items for next session
-- State updated confirmation
 
 Keep it concise.
