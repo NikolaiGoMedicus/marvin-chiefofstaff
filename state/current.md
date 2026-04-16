@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-17 00:30
+Last updated: 2026-04-17 00:50
 
 ## Active Priorities
 
@@ -255,6 +255,17 @@ Last updated: 2026-04-17 00:30
 - Anleitung: Vault `Arbeit/GoMedicus/Wissen/Hexnode-iPad-Enrollment-Anleitung.md` + [Google Doc](https://docs.google.com/document/d/18ILfetnrSv9ZAdFNP1A0Z-BUQ7N4iwveM6zy3N3D5OY/edit)
 - Hexnode: `medkitdoc.hexnodemdm.com` · ABM: `business.apple.com`
 - Policy: "Kiosk Policy MKD" (V77, seit 2021), 5+N Devices direct. VPP: 93/20000 MedKitDoc-Lizenzen.
+
+### Work - MARVIN Infrastructure
+
+**GitHub Repo:** [NikolaiGoMedicus/marvin-chiefofstaff](https://github.com/NikolaiGoMedicus/marvin-chiefofstaff) (private). Erster Push 16.04.
+**Auto-Sync:** Stop-Hook committed+pushed nach Session-Save. Nightly Safety Net via launchd um 23:00 (`com.marvin.nightly-sync`).
+**Hooks:** PreCompact (auto-save vor Komprimierung), Stop (auto-checkpoint + push), PostToolUse (QMD reindex), PreToolUse (Vault frontmatter check).
+**UI:** Flicker-Free aktiviert (`CLAUDE_CODE_NO_FLICKER=1`), TUI fullscreen.
+**Routines (Cloud):**
+- [ ] Morning Briefing Routine — erstellt, Google Workspace Connector noch aktivieren, testen
+- [ ] Weekly Report Routine — Prompt ready, noch nicht angelegt
+- [ ] Routines nach Test scharfschalten
 
 ### Work - Slack MCP Integration
 
