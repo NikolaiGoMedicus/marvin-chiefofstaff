@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-16 22:50
+Last updated: 2026-04-17 00:30
 
 ## Active Priorities
 
@@ -136,6 +136,13 @@ Last updated: 2026-04-16 22:50
 **DD-Start erste Aprilwoche.** Owners: Ben (CTO) + Nikolai (CDO). Tim hat DD-Hut.
 - ✅ **Tim-Ole Zugriff:** DD Master-Seite + alle Unterseiten mit Team geteilt (31.03.)
 - ⚠️ **DD Gap-Analyse (31.03.):** Nur 8% der ~83 Deliverables fertig. Tech DD 84%, alle anderen unter 50%. Governance 0%, KPI 0%, Finance 6%, 310Klinik 8%. **Medical & Clinical (02.04.):** 🟡 Fragenkatalog substantiell beantwortet, keine Standalone-Docs nötig (Impact-Fragebogen kommt). DSGVO-Overlap mit Tech DD geklärt. 3/6 Discussions resolved, Rückforderungen-Antwort (<500€) eingetragen. Bottleneck: Jens/Arved/Tim-Domains.
+- **Investor-Feedback (Tim-Ole, 16.04.):** 5 Anforderungen — M&A Plan, Prozess-Playbook, Buy & Build Track Record, Status Quo Lütjensee/paeDOC, Kompetenzprofile. Nikolais Anteil ~20%. Kernbotschaft: Investoren wollen Operational Maturity + Benchmarks sehen.
+- **IT-Integration DD-Deliverables (16.04.):** 3 Deliverables definiert, 2 fertig (WIP):
+  - ✅ [WIP] [IT-Integration Scorecard](https://docs.google.com/document/d/16CycnHLBl1N1quuo1_t-e6X2iOnot-ofIllwBBfPhjI/edit) — 4 Standorte, 51 Meilensteine, 16 ✅ (31%). Daten aus Drive Sheets + Notion + current.md verifiziert.
+  - ✅ [WIP] [IT Integration Playbook](https://docs.google.com/document/d/1lShnhdqXWIOQvIVjhThVLlkMY80hq7x8W9XYst6Lva8/edit) — 5 Phasen, Lütjensee-Benchmarks, 10 Lessons Learned. Benchmark: 150–180 Tage.
+  - [ ] CDIO-Profil + Hiring-Pipeline — noch nicht erstellt
+  - **Drive:** GoM Plattform > [15 IT-Integration & Praxis-Onboarding](https://drive.google.com/drive/folders/1gnJY9eTsSUAFF80FUvXhgEPzrnVPmkhT)
+  - **Notion:** [Tech DD](https://www.notion.so/32757538249e8181a8cbd5c317fe7d4d) — neue WIP-Section "IT-Integration / Buy & Build" verlinkt
 - **Notion:** [DD Master](https://www.notion.so/32757538249e8151b9e2d55985c58b96) · [Tech DD](https://www.notion.so/32757538249e8181a8cbd5c317fe7d4d)
 - **Fragenkatalog:** [Notion](https://www.notion.so/32957538249e81e58f51dfe4ff3ec27f) — **24 ✅ / 22 🟡 / 7 🔴** (Stand 27.03., Tabelle korrigiert)
 - **MDR/CE Abgrenzungsdokument:** [Notion](https://www.notion.so/32f57538249e81cf84d6e5c97cc5833e) — GoMedicus = kein MP, Feature-Klassifizierung, Regel 11
