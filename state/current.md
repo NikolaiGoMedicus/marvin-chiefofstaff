@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-17 08:17
+Last updated: 2026-04-17 14:30
 
 ## Active Priorities
 
@@ -15,9 +15,13 @@ Last updated: 2026-04-17 08:17
    - Staging → Prod offen: GOM-2335 (Phone Validation), GOM-1977 (Birthday Field)
    - Corti Template: ✅ unblocked (GOM-2446). GOM-2689 Transcript: ✅ non-blocking decided. GOM-2736 BDT: ✅ Platzierung decided.
    - GOM-2730 Multi-Service Pricing: Feedback Basti+Jens ausstehend
-3. **Kronprinzenbau IT-Planung** — Phase 1: 23 Arbeitsplätze, Bestand-Mix. SSoT: [Definition IT-Ausstattung](https://www.notion.so/33c57538249e81bb8268e9345c6d86a5). [Notion Projektseite](https://www.notion.so/33c57538249e814f80c9e437e75f460e)
+3. **Kronprinzenbau IT-Planung** — Phase 1: ~24 Arbeitsplätze, nun in **2 Installationen** aufgeteilt. SSoT: [Definition IT-Ausstattung](https://www.notion.so/33c57538249e81bb8268e9345c6d86a5) (Update 17.04., Deadline 30.04.). [Notion Projektseite](https://www.notion.so/33c57538249e814f80c9e437e75f460e)
+   - **Installation 1 (Süd + Labor + Empfang klein, ~16 APs):** 11 Mac-Mini (Empfang 3x, Sprechz. 1-4, Arzt 1-2, Empfang klein) + 3 iMac (Backoffice, Funktion, Labor) + 2 MacBook (Urin-Lab) + 11 Curved 80cm mit Cam+Mic + 2 iPads + 1 normaler Bildschirm. Telefonie: 1 stationär + 8 schnurlos + 2 via Headset. Peripherie: 2 Drucker-Türme, ? Drucker mit Kopierer, 3 Scanner.
+   - **Installation 2 (Nord, ~8 APs):** 5 Mac-Mini (Sprechz. 5-9) + 3 iMac (Arzt 3-4, Funktion2) + 3 Curved 80cm + 2 große Bildschirme (Sprechz. 8-9). Telefonie: 8 schnurlos + 2 via Headset. Peripherie: 1 Drucker-Turm + 5 kleine Drucker.
+   - **Bestand-Mix (aus Kaiserstr. + Tübinger Str.):** 6 iMac, 2 Mac-Mini, 1 MacBook, 1 Telefon stationär, 3 Scanner, 2 große Bildschirme. Rest = Neu-Hardware.
    - ⚠️ **Parallelbetrieb-Risiko:** Jens hat angedeutet → Bestand-Mix fällt weg, komplett neu nötig. Jan Kreimeyer Termin ausstehend (Email 15.04.).
    - 🔴 **Deadline 18.04.:** Michael — Hardware-Inventar Bestand liefern + Netzwerk-Preset entscheiden (Lütjensee-Preset wiederverwenden?)
+   - Offene Zellen (SSoT): iPad-Bestand Empfang, WLAN-AP-Anzahl (beide Installationen), Drucker mit Kopierer Installation 1, Telefon-schnurlos-Anzahl Nord (8?)
    - Offen: Rezeptdrucker-Modell, Cherry ST-1506 Kartenleser
    - Angebot bis 15.05. Lambda-Woche 20.-24.07. bestätigt.
 4. **Lütjensee** — Go-Live Juli, PVS-Migration KW 31 (ab 3. August), Konversion KW 28. Lambda-Angebot 49.740 € → zu teuer, Nachverhandlung läuft. Telefonassistent: Doc Medico Interim ab Konversion.
@@ -237,6 +241,8 @@ Last updated: 2026-04-17 08:17
 - [ ] MCP-Server um Search-Tool erweitern (nutzt User Token)
 
 ### Work - GoMedicus Platform
+
+**Notion-Seite "Plattform & Produkt"** — Letzte Aktualisierung 17.04. (synced with current.md): April-Snapshot (QA 20.03., MVP-Decisions 14.04., GOM-2638 Spec + PR #855, Cancellation Flow, Service Visibility, Email Templates, PVS Analysis, Evaluations, Alice Offboarding), Sub-Bereiche Owner aktualisiert (Kalender+Video → Interim TBD + Ben; Patientensteuerung → Friederike + Interim TBD), ICD-10-GM Synonym Search Link gefixt. [Notion](https://www.notion.so/31357538249e8137bb21c3cec34cb48b)
 
 **QA Bug Review — Video MVP Testing (20.03.)** — 46 Items, 8 kritisch
 - [Google Doc DE](https://docs.google.com/document/d/1unofwTdNlppTddQex3PPLOa9n0Y0eaBaNKNOL9_M_2w/edit) · [EN](https://docs.google.com/document/d/1zVaDHpeI7D6hU9-m5SKiNrxbPeA2Fdk2zY5rmXiHBSs/edit)
