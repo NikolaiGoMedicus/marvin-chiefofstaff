@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-17 14:30
+Last updated: 2026-04-17 17:30
 
 ## Active Priorities
 
@@ -273,9 +273,14 @@ Last updated: 2026-04-17 14:30
 
 **PVS-Workflow-Analyse (Ben, Feb 2026)** — [Google Doc](https://docs.google.com/document/d/1jcDjpRT9Z3j37tabVdR3fLNxw9UpPrcsV6Lgm5slzLc/edit). Tomedo API v4.22.8 + Medatixx FHIR R4 Workflow-Mapping, Multi-TG Patient-Sync Konzept v1.0, Datenmigrations-Plan (DRAFT). Drive: 09 Plattform-Architektur. [Notion: PVS Integration](https://www.notion.so/31357538249e81bea8abde305bc9a8c0). Review Philipp ausstehend.
 
-**Email Templates (SendGrid)** — 6 Dynamic Templates im Backend: `src/modules/notifications/domain/templates/template-dictionary.ts` (GoM-Backend). Content liegt in SendGrid Dashboard, nicht im Repo.
-- Templates: contact-form, email-confirmation, appointment-scheduled, forgot-password-email, referral-request-succesful-confirmation (Typo: succesful), patient-care-manager-creation
-- **Gaps für MVP/Launch-Check:** kein Reminder-Mail, kein Cancel/Reschedule-Mail, kein Video-Termin-spezifisches Mail, Branding-Check in SendGrid offen
+**Email Templates (SendGrid)** — ✅ Vollständig versioniert (17.04.). 16 Templates im GitHub Repo, synced via Python-Script mit SendGrid.
+- **Repo:** [GoMedicus/email-templates](https://github.com/GoMedicus/email-templates) — 16 Templates, 5 PRs gemerged
+- **PRs (alle gemerged):** Content Harmonization, Sync Tooling, Visual Harmonization, Du-form Fix, Preview Gallery
+- **Drive:** `/Platform/Email-Templates` — Previews aller 16 Templates, geteilt via Domain-Zugang
+- **Notion:** Projektseite unter Plattform & Produkt angelegt
+- **Sync:** Python-Script zieht Templates aus SendGrid → Repo (vollständige Versionierung)
+- Templates: contact-form, email-confirmation, appointment-scheduled, forgot-password-email, referral-request-succesful-confirmation (Typo: succesful), patient-care-manager-creation + 10 weitere
+- **Gaps für MVP/Launch-Check:** kein Reminder-Mail, kein Cancel/Reschedule-Mail, kein Video-Termin-spezifisches Mail
 - [ ] Slack-Draft an Jens absenden (Overview + Gap-Observations) — im Outbox
 
 **Offene Issues:**
@@ -302,7 +307,9 @@ Last updated: 2026-04-17 14:30
 
 **Pipeline-Konsolidierung** — SSoT: [Deal Tracking](https://www.notion.so/eeefeba00f664cf7ba94f019cfcfbd2b?v=c13e2dea37224d96a61f1f956f7ae75f). Funnel: Ansprache→Qualifizierung→Termsheet→DD→Angebot→Closing. Folgetermin Flo: Do 16.04. 16:00.
 - ✅ **DB-Audit + Content-Konsolidierung (16.04.):** 25 Einträge auditiert. GLM + CCN standalone-Seiten in DB geflattened, Internisten Trittau Research verknüpft, Dr. Gaede neu angelegt, Daffner Typo gefixt + DD-Inkonsistenz-Callout.
+- ✅ **SOP: Deal Room Standard (17.04.):** Verbindliche Anleitung erstellt — CCN + GLM als Referenz-Templates (Qualifizierung vs. Termsheet/DD), Properties-Pflichtmatrix, Scoring-Schema, Email→Claude→DB Workflow. [Notion SOP](https://www.notion.so/34557538249e81a483e7fabca26bc3d2). Claude Instruction mit Banner auf SOP verlinkt.
 - ⚠️ **Daffner DD-Inkonsistenz:** Zwei Analysen mit 250k vs. 150k kalk. Arztgehalt → EBITDA 0 vs. 113k. Klärung vor Gespräch nötig.
+- [ ] **Jens:** Notion-Zugriff auf Hauptdatenbank freigeben (aktuell nur Unterseiten-Zugriff) + Deal-Infos außerhalb der DB reinziehen. Draft-Message steht, Review ausstehend.
 - Offen: Feld-Mapping, Workflow auf Notion verankern, Name-Spalte nach vorne, Scoring nachtragen (2/25 gefüllt)
 
 ### Work - Brand University Bewertung WS 25/26
