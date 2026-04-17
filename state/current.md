@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-16 16:27
+Last updated: 2026-04-17 08:14
 
 ## Active Priorities
 
@@ -107,7 +107,7 @@ Last updated: 2026-04-16 16:27
 
 **Org-Struktur (Jens):** Platform Entity (extern, eigener CEO) | Corporate Office | Platform Ops | Care Operations | People Office (Flo) | Marketing | Growth | **AI Tech & Systems Office (Nikolai)**
 
-**Notion-Restrukturierung:** Org-Struktur in Notion Spaces umsetzen. 1-Woche-Test in "Praxisintegration" mit 4er-Gruppe (Nikolai, Jens, Tim-Ole, Flo). Datenbank-Pflicht für alle. **Zugesagt: Do 17.04. Nachmittag.**
+**Notion-Restrukturierung:** ✅ Org-Struktur in Notion umgesetzt (16.04.). Bereiche-DB Office-Property + 2 Views ("Nach Office", "Alle Bereiche"), Offices-Übersicht auf Company HQ, Praxisintegration Test-Space mit Callout, Org Structure unter Company HQ. 1-Woche-Test in "Praxisintegration" mit 4er-Gruppe (Nikolai, Jens, Tim-Ole, Flo). Datenbank-Pflicht für alle.
 
 **Franzi Löle** — Doctolib-Hintergrund, PVS-Projektleitung bei Dr. Lipp (2 Jahre). Start 1.8. oder 1.9. Bestätigt: Lambda = bester Vendor. Sie + Antonia fragen bei Dr. Lipp nach wechselwilligen IT-Kandidaten.
 
@@ -121,7 +121,8 @@ Last updated: 2026-04-16 16:27
   - [ ] Active Sourcing starten (LinkedIn: Tomedo/medatixx/TI/Hexnode) + Franzi/Antonia-Kontakte
   - [ ] Basel Abdul Fattah absagen
   - [ ] Klären: Wer hat "HR & People Manager" in Personio angelegt und warum (16 leere Stellen ohne Titel aufräumen)
-- [ ] **Notion Org-Struktur umsetzen — Deadline Do 17.04. Nachmittag**
+- [x] **Notion Org-Struktur umsetzen** ✅ (16.04.) — Bereiche-DB Office-Property, 2 neue Views, Offices-Übersicht auf Company HQ, Praxisintegration Test-Space Callout, Org Structure unter Company HQ verschoben. ⚠️ "Nach Office" Board-View Tab muss manuell in Notion UI umsortiert werden.
+- [ ] Notion Org-Struktur Link an Jens/Tim-Ole/Flo senden
 - [ ] 30-60-90 Plan weiterentwickeln (Jens-Deliverable)
 - [ ] Personio-Management Übernahme von Sebastian L. planen
 - [ ] Meeting mit Antonia + Franzi Löle organisieren (IT-Migrations-Erfahrungsaustausch)
@@ -181,6 +182,9 @@ Last updated: 2026-04-16 16:27
 - [ ] Paul Epple → Angebot Telemedizin-Setup + VPN-Gateways
 
 **GoMedicus Kids — Tomedo-Migration** — 3 Standorte (Bisingen, Altensteig, Fellbach), 21 Arbeitsplätze. [Notion](https://www.notion.so/33d57538249e8192b88dea25a0180cce) · [Lambda-Anforderungen](https://docs.google.com/document/d/1CXYSWt_W2XXCcnTFhAEaHooETPJn-PN9xfCBqJWi0AA/edit). Inventar komplett, Email an Lambda (Jan) raus.
+- ✅ **VPN-Zugang aktiv (16.04.)** via Tunnelblick (Seidemann IT Solutions)
+- **T2-Med Zugang:** Arved (schneider), Nikolai (bockholt), Barbara Kölner (Credentials klären)
+- ✅ Notion-Seite GoMedicus Kids aktualisiert
 - [ ] Seidemann-Ticket → Serverstruktur-Details an Lambda liefern (KW 16!)
 - [ ] Internet-Infos 3 Standorte — bei Lambda nachfragen
 - [ ] Zollsoft-Rahmenvertrag mit Martin (Lambda) klären
