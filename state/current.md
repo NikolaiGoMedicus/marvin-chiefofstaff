@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-17 17:30
+Last updated: 2026-04-17 16:30
 
 ## Active Priorities
 
@@ -243,6 +243,8 @@ Last updated: 2026-04-17 17:30
 ### Work - GoMedicus Platform
 
 **Notion-Seite "Plattform & Produkt"** — Letzte Aktualisierung 17.04. (synced with current.md): April-Snapshot (QA 20.03., MVP-Decisions 14.04., GOM-2638 Spec + PR #855, Cancellation Flow, Service Visibility, Email Templates, PVS Analysis, Evaluations, Alice Offboarding), Sub-Bereiche Owner aktualisiert (Kalender+Video → Interim TBD + Ben; Patientensteuerung → Friederike + Interim TBD), ICD-10-GM Synonym Search Link gefixt. [Notion](https://www.notion.so/31357538249e8137bb21c3cec34cb48b)
+
+**Video-Plattform Branding** — Working Doc live: [Slack Canvas](https://gomedicusgroup.slack.com/docs/T04KJACGGBH/F0ATJHGKX5K) in Group DM mit Jens/Sebastian/Antonia. Offene Entscheidungen: Service-Name, URL/Domain, Brand-Architektur (A/B/C/D), Design-Variante (aktuell 2 Stimmen für rechts), Positioning-Frame (B2C/B2B2C/Dual). MARVIN-Input mit Benchmark, Name-Vorschlägen + Risiko-Flags ergänzt. Next Actions bis Mo 20.04. im Canvas.
 
 **QA Bug Review — Video MVP Testing (20.03.)** — 46 Items, 8 kritisch
 - [Google Doc DE](https://docs.google.com/document/d/1unofwTdNlppTddQex3PPLOa9n0Y0eaBaNKNOL9_M_2w/edit) · [EN](https://docs.google.com/document/d/1zVaDHpeI7D6hU9-m5SKiNrxbPeA2Fdk2zY5rmXiHBSs/edit)
