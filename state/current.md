@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-17 08:14
+Last updated: 2026-04-17 08:17
 
 ## Active Priorities
 
@@ -266,6 +266,11 @@ Last updated: 2026-04-17 08:14
 - [ ] Nach Alice-Feedback: Scope-Abgrenzung ggf. anpassen + Link auf GOM-2638 posten
 
 **PVS-Workflow-Analyse (Ben, Feb 2026)** — [Google Doc](https://docs.google.com/document/d/1jcDjpRT9Z3j37tabVdR3fLNxw9UpPrcsV6Lgm5slzLc/edit). Tomedo API v4.22.8 + Medatixx FHIR R4 Workflow-Mapping, Multi-TG Patient-Sync Konzept v1.0, Datenmigrations-Plan (DRAFT). Drive: 09 Plattform-Architektur. [Notion: PVS Integration](https://www.notion.so/31357538249e81bea8abde305bc9a8c0). Review Philipp ausstehend.
+
+**Email Templates (SendGrid)** — 6 Dynamic Templates im Backend: `src/modules/notifications/domain/templates/template-dictionary.ts` (GoM-Backend). Content liegt in SendGrid Dashboard, nicht im Repo.
+- Templates: contact-form, email-confirmation, appointment-scheduled, forgot-password-email, referral-request-succesful-confirmation (Typo: succesful), patient-care-manager-creation
+- **Gaps für MVP/Launch-Check:** kein Reminder-Mail, kein Cancel/Reschedule-Mail, kein Video-Termin-spezifisches Mail, Branding-Check in SendGrid offen
+- [ ] Slack-Draft an Jens absenden (Overview + Gap-Observations) — im Outbox
 
 **Offene Issues:**
 - GOM-2689 — ✅ Transcript Failure UX: **Non-blocking MVP entschieden (14.04.)** — Jens + Sebastian approved. Arzt kann Konsultation ohne Transcript abschließen, manuelles Notizfeld als Fallback. Re-Record/Retry als Fast-Follow. Decision auf Linear gepostet.
