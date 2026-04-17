@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-17 16:30
+Last updated: 2026-04-17 17:15
 
 ## Active Priorities
 
@@ -96,6 +96,7 @@ Last updated: 2026-04-17 16:30
 - Friederike — Tomedo-Import-Test (fehlende Felder 3108/4111/3110) ⚠️ stale seit 13.03.
 - Philipp Gonser — ZDS Bürosysteme Feedback (Mail 05.02.) ⚠️ sehr stale
 - Corti.ai / Adam Culbertson — Addendum v3 versendet (14.04.), Feedback abwarten. [v3 Doc](https://docs.google.com/document/d/1Z2voUKJNa3Q-DrM3vWtHTYjisSuWRd3YsOvgGTiPmnY/edit)
+- Seidemann IT Solutions — Admin-Zugang + Teamviewer Bisingen-Server (Email 17.04.)
 
 ### Work - Website
 
@@ -189,7 +190,10 @@ Last updated: 2026-04-17 16:30
 - ✅ **VPN-Zugang aktiv (16.04.)** via Tunnelblick (Seidemann IT Solutions)
 - **T2-Med Zugang:** Arved (schneider), Nikolai (bockholt), Barbara Kölner (Credentials klären)
 - ✅ Notion-Seite GoMedicus Kids aktualisiert
-- [ ] Seidemann-Ticket → Serverstruktur-Details an Lambda liefern (KW 16!)
+- ✅ **IT-Übergabe-Email an Seidemann gesendet (17.04.):** Admin-Zugang + Teamviewer Bisingen-Server angefragt. CC: Jan Kreimeyer (Lambda), Phillipp Gonser, Jens Neubert, Arved Schneider.
+- **Lambda Rahmenvertrag-Konditionen (14.04.):** 3.000 € einmalig pro Cluster, Installationspauschale pro AP, inkl. managed XDR + Supportflatrate + NIS2-ready. Rabattstaffel: 5% ab Standort 28, 10% ab Standort 40. Kein Mietmodell auf GoMedicus Services GmbH (Bonität) → Barkonditionen. paeDoc im Budget, Lütjensee leicht drüber (laut Arved).
+- **Jan Kreimeyer Timeline Bisingen:** Backup + RZ-Spiegel KW 17, Test-DKV KW 17, Produktivumstellung KW 19 (ab 4.5.). Präferenz: Teamviewer statt VPN für Server-Zugriff.
+- [ ] Jans offene Fragen beantworten: Testdatenkonvertierung T2med, Internet-Infos der Standorte, paeDoc-Abrechnung über welche GmbH
 - [ ] Internet-Infos 3 Standorte — bei Lambda nachfragen
 - [ ] Zollsoft-Rahmenvertrag mit Martin (Lambda) klären
 - [ ] Lambda (Jan): Angebot erstellen
