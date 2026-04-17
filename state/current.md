@@ -290,7 +290,9 @@ Last updated: 2026-04-17 08:14
 - [ ] Flo: Excel-Liste zum Merge + Sheet reviewen
 
 **Pipeline-Konsolidierung** — SSoT: [Deal Tracking](https://www.notion.so/eeefeba00f664cf7ba94f019cfcfbd2b?v=c13e2dea37224d96a61f1f956f7ae75f). Funnel: Ansprache→Qualifizierung→Termsheet→DD→Angebot→Closing. Folgetermin Flo: Do 16.04. 16:00.
-- Offen: Feld-Mapping, Workflow auf Notion verankern, Name-Spalte nach vorne
+- ✅ **DB-Audit + Content-Konsolidierung (16.04.):** 25 Einträge auditiert. GLM + CCN standalone-Seiten in DB geflattened, Internisten Trittau Research verknüpft, Dr. Gaede neu angelegt, Daffner Typo gefixt + DD-Inkonsistenz-Callout.
+- ⚠️ **Daffner DD-Inkonsistenz:** Zwei Analysen mit 250k vs. 150k kalk. Arztgehalt → EBITDA 0 vs. 113k. Klärung vor Gespräch nötig.
+- Offen: Feld-Mapping, Workflow auf Notion verankern, Name-Spalte nach vorne, Scoring nachtragen (2/25 gefüllt)
 
 ### Work - Brand University Bewertung WS 25/26
 
