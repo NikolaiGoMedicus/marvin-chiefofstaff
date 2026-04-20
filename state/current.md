@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-17 18:30
+Last updated: 2026-04-20 11:01
 
 ## Active Priorities
 
@@ -8,7 +8,7 @@ Last updated: 2026-04-17 18:30
    - **Ricarda Staar** — Setup-Session 16.04. 15:30. [Rollenseite](https://www.notion.so/34357538249e81e68722ccaf8de6e91e)
    - **Sabrina Deffner** — Kernbedarf = Use-Case-Discovery (nicht Setup). [Rollenseite](https://www.notion.so/34357538249e8127b094f0e614343b20)
    - **Antonia Gebhardt** — Stufe 2 gestartet (15.04.), Check-in KW 16 (22.04.). [Rollenseite](https://www.notion.so/33b57538249e81319fb6cadaad9a5eb2). T1 nachholen.
-   - **Thomas Flieger** — ✅ Setup komplett. Pipedrive MCP ✅.
+   - **Thomas Flieger** — ⚠️ Pipedrive MCP hat seit 09.04. NIE funktioniert ("Failed to spawn process: No such file or directory" — kein Node.js + Claude Desktop erbt kein Shell-PATH). Meeting 20.04. 09:30–10:10: Node LTS installiert, PATH-Fix (.zshrc export /usr/local/bin), Shell-Wrapper-Config bereitgestellt. Verifikation nach Neustart ausstehend.
    - **Janina Huebsch** — ✅ Setup komplett. Pipedrive Anrede-Problem: Custom-Feld "Begrüßung" anlegen + testen vor Di 21.04. [Webinar-Guide](https://docs.google.com/document/d/1y86DSiPAij2zw6SwI3ALhZcdAQGqOrZRK9gQIAfG8OE/edit)
    - **Notion:** [AI Org](https://www.notion.so/2fd57538249e804abc35fb9d874b2829) · [AI Playbook](https://www.notion.so/34357538249e814688cfdb0434dc973f) · [Prompt-Bibliothek](https://www.notion.so/33057538249e8163960ce8e02607ff32) · [Datenschutz-Leitfaden](https://www.notion.so/33057538249e81e69759e6e668324627) · [T1-Auswertung](https://docs.google.com/document/d/1wMYAwTYDV3i6_DmYwMQSSm4w3LCf-ijgVd4qCykkUDI/edit)
 2. **GoMedicus MVP** — ⚠️ **Muss live.** Timeline: Kids Juni, Lütjensee+Kronprinzenbau Juli, 2 weitere Okt. PVS: Tomedo bevorzugt.
@@ -238,6 +238,15 @@ Last updated: 2026-04-17 18:30
 - [ ] Weekly Report Routine — Prompt ready, noch nicht angelegt
 - [ ] Routines nach Test scharfschalten
 
+### Work - Pipedrive MCP Infrastruktur
+
+**Nikolai Claude Desktop:** Pipedrive MCP (@iamsamuelfraga/mcp-pipedrive@2.0.0) eingebaut (20.04.), Token aus marvin/.mcp.json wiederverwendet, JSON validiert.
+**Thomas:** Node LTS installiert, PATH /usr/local/bin zu .zshrc hinzugefügt, Shell-Wrapper-Config für Claude Desktop bereitgestellt. Verifikation nach Neustart ausstehend.
+- 3 Use Cases ausgearbeitet + 242-Tool-Katalog strukturiert
+- [ ] Thomas: Setup nach Neustart verifizieren
+- [ ] Entscheidung: Shared Claude Project "GoMedicus Sales" mit Thomas auf denselben MCP-Workflows statt individuellem Setup?
+- [ ] Playbook (Use Cases + Tool-Katalog) ins Vault schreiben + qmd embed
+
 ### Work - Slack MCP Integration
 
 **MARVIN Slack App** — Bot + User Token aktiv, Read + Post funktioniert. Bot Scope: `channels:manage`. User Scopes: `channels:write`, `groups:write`.
@@ -375,6 +384,13 @@ Last updated: 2026-04-17 18:30
 ### Work - AI Services Rollout
 
 - **Office Hours:** Do 15:00 weekly (ab 16.04.). **Ownership:** Nikolai (Enablement) + Flo (OKRs)
+
+**Thomas Flieger — Follow-ups aus 16.04. + 20.04.:**
+- [ ] Thomas: Pipedrive MCP nach Neustart verifizieren (Node LTS + Shell-Wrapper-Config)
+- [ ] Grit-Anbindung: mit Sebastian klären (Thomas braucht Grit als weitere Vertriebskraft, volle Pipedrive-Anbindung)
+- [ ] Workflow ↔ Pipedrive-Schnittstelle: Automatisierungsoptionen ermitteln
+- [ ] Korian-Verknüpfungsfehler: Duplikate konsolidieren (Korian AG Deutschland ID 354 + Töchter + 2x Intensivpflege). Dr. Schulz (Medical Director Korian, 229 Einrichtungen) hat eingehend Nachfrage gestellt → **Wiedervorlage 21.04.**
+- [ ] Nächste Thomas-Session: UC1 Korian-Cleanup live, UC2 Webinar-Follow-up-Demo, UC3 1100 Alt-Deals Reaktivierung als Homework
 
 **Offene Setups:**
 - [ ] Sebastian L.: Google Auth + 30 Plesk E-Mail-Adressen ([Anleitung](https://docs.google.com/document/d/10_OZwtcmvcH1lcqLGZliPsJuMEF2RDcFxyZGEXmQIgE/edit))
