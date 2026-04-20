@@ -354,5 +354,15 @@ Report each issue with the specific value found vs. the correct value.
 
 ---
 
-*Source: Figma styleguide (GoMedicus-Group, node 233:588) + Intro Wrist 03032026 presentation*
-*Updated: 2026-03-09*
+## Related Systems
+
+- **Figma Brand Library (current):** fileKey `bQvrd5Oz0C4nBq4G0K409S` ("GoMedicus-Group / Rebrush 2025 v1.0"). Styleguide canvas = node `233:588`. Contains the full styleguide: Typography (Figtree Desktop+Mobile), Colors (GoMedicus palette + shadcn neutrals) as Figma Variables, UI Elements (Button Primary/Secondary, Links, Inputs). This document mirrors that file in human-readable form.
+- **Figma Inspiration (legacy):** fileKey `5WGopxVtuwkHXBxhqI8CNk` ("Go-Medicus"). Older draft with Lato + generic palette. **Ignore for brand work**, kept for history only.
+- ⚠️ **Interaction-Color-Drift:** Figma Variable reads `#4385F5`, this document says `#4285F4`. 1-digit delta, likely rounding. Resolve in next Figma/Skill alignment pass.
+- **Claude Design (`claude.ai/design`):** This document is uploaded as DOCX during the Design System onboarding. If content here changes, re-upload to keep Claude Design in sync.
+- **gom-frontend codebase:** Connected directly to Claude Design via GitHub. Tailwind config + globals.css + shadcn/ui components serve as the "ground truth" for generated UI.
+
+---
+
+*Source: Figma styleguide "GoMedicus-Group" (fileKey `bQvrd5Oz0C4nBq4G0K409S`, styleguide node `233:588`) + Intro Wrist 03032026 presentation*
+*Updated: 2026-04-20 — fileKey corrected, legacy Inspiration-File separated, Interaction-Drift flagged*
