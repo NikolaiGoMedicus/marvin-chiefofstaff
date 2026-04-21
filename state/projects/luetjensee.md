@@ -107,6 +107,7 @@ Live: hausarztzentrum-luetjensee.web.app. Custom Domain: Email an Olaf Reinhardt
 - Praxis: 04154-71 21 · Rezept: 04154-709 38 48 · Mo/Di/Do 8–18, Mi/Fr 8–12
 - LANFOCUS (TI): Daniel Doobe — 040/65 65 665
 - PC-Fun (IT): Olaf Rajek — 04552-999896
+- medatixx x.comfort Support: 0951 9335-300 (Mo–Fr 08–17, Sa 09–12) · support.xcomfort@medatixx.de — bis Tomedo-Migration KW 31 relevant
 
 ## BARMER — Gesicherte Mailverbindung
 
