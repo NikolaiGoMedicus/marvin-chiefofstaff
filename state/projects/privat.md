@@ -46,3 +46,9 @@ tags: [privat]
 
 - BlackHat OS V1.0, SSH: 192.168.178.37
 - [ ] aircrack-ng installieren, Bjorn starten
+
+## Laser Forge
+
+- **Repo:** `~/Documents/web/laser-forge/`
+- Privates Side-Project, Session 21.04.
+- [ ] Weitermachen / nächste Schritte definieren

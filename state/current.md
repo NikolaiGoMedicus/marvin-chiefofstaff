@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-21 11:30
+Last updated: 2026-04-21 13:31
 
 > **Modulare State-Architektur (seit 21.04.):** Details leben in `state/projects/*.md`. Diese Datei ist der Index + aktuelle Prioritäten. Für die alte Monolith-Version siehe `current.md.pre-migration`.
 
@@ -28,7 +28,7 @@ Last updated: 2026-04-21 11:30
 - [Starface](projects/starface.md) · [Doc Cirrus](projects/doc-cirrus.md) · [Hardware-Standards](projects/hardware-standards.md)
 - [QM Handbuch](projects/qm-handbuch.md) · [Notion Konsolidierung](projects/notion-konsolidierung.md) · [Reporting](projects/reporting.md)
 - [Website](projects/website.md) · [Lütjensee Designer-Brief](projects/luetjensee-designer-brief.md)
-- [Privat](projects/privat.md) — Strom, Solar, Karriere, Claudio, Meshtastic, Flipper
+- [Privat](projects/privat.md) — Strom, Solar, Karriere, Claudio, Meshtastic, Flipper, Laser Forge
 
 ## Outbox
 
