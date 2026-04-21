@@ -1,78 +1,100 @@
 ---
-description: Archive completed sections from current.md
+description: Archive completed work and trim stale content
 ---
 
-# /compact - Archive Completed Items
+# /compact - Archive & Trim
 
-Move fully-completed sections from `state/current.md` to `state/archive.md` to keep the active state file lean.
+Archive completed projects and trim stale content across the modular state. Operates on **project files** (`state/projects/*.md`), not on `current.md` globally.
+
+## State Architecture
+
+`state/current.md` is a slim index. Detail content lives in `state/projects/*.md` with frontmatter (`project`, `status`, `owner`, `updated`, `tags`). `/compact` works on these files.
 
 ## Instructions
 
-### 1. Scan for Archivable Sections
+### 1. Scan for Archivable Projects & Sections
 
-Read `state/current.md` and identify sections (### headings under `## Open Threads`) that meet ALL of these criteria:
-- Every `[ ]` checkbox in the section is checked `[x]` or replaced with ✅
-- No unchecked `[ ]` items remain
-- No "Warten auf" items (even if old)
-- Section is explicitly marked "✅ Erledigt" or all work is visibly complete
+Iterate `state/projects/*.md`. For each file, check:
 
-**Never archive:**
-- `## Active Priorities` (always stays)
-- `## Outbox` (always stays)
-- Any section with at least one open `[ ]`
-- Any section with a "Warten auf" entry
+**a) Project-level archive candidates:**
+- Frontmatter `status: done` → candidate for full archive
+- Frontmatter `status: paused` AND `updated` > 90 days ago → suggest archive
+
+**b) Section-level archive candidates within a file:**
+- `## Open Items` where every `[ ]` is `[x]` or `✅` → candidate to compress into a `## History` block in-place (not moved out of the file)
 
 ### 2. Show Candidates
 
-If no archivable sections found:
-> "Nothing to archive. All sections have open items."
-Done.
+If no candidates found:
+> "Nothing to archive. All project files have active work."
 
-If candidates found, list them:
-> **Found {N} archivable sections:**
-> 1. Virtual Backgrounds (Sales Team) — ✅ complete
-> 2. IGP Stundenzettel Q1 — ✅ complete
+Otherwise list candidates grouped by type:
+
+> **Project-level archive candidates (2):**
+> 1. `hardware-standards.md` — status: waiting, no activity since 27.03. → move to archive?
+> 2. `alice-offboarding.md` — status: waiting, waiting on Q3 decision → move to archive?
 >
-> **Move to archive?** (yes/no/select specific)
+> **Section-level compress candidates (3):**
+> 1. `luetjensee.md` / Hardware-Inventar — all items ✅ → compress to one-line in History?
+> 2. ...
+>
+> **Action?** (yes = all / select numbers / no)
 
-Wait for confirmation. User can say "yes" (all), "no" (abort), or pick specific items by number.
+Wait for confirmation.
 
-### 3. Archive
+### 3. Archive (Project-Level)
 
-For each confirmed section:
+For each approved project-level archive:
 
 **a) Read or create `state/archive.md`:**
-If the file doesn't exist, create it with:
+
 ```markdown
 # Archive
 
-Completed items moved from current.md by /compact.
+Completed / dormant projects moved from state/projects/ by /compact.
 ```
 
-**b) Find or create the current month heading:**
-Format: `## YYYY-MM (Month Name)`
-Example: `## 2026-04 (April)`
+**b) Find or create the current-month heading:** `## YYYY-MM (Month Name)` (newest month at top, after the file header).
 
-If the heading doesn't exist, add it at the top (after the file header) so newest months appear first.
+**c) Append a condensed summary under the month heading:**
 
-**c) Add the archived section under the month heading:**
 ```markdown
-### {Section Title} — archived {DD.MM.}
-{Condensed content: key outcome + links. Remove redundant checkboxes. Keep links and references.}
+### {Project Title} — archived {DD.MM.}
+
+**Outcome:** {1-3 sentence summary of status when archived.}
+
+**Key links:**
+- {Notion / Google Doc / etc.}
+
+Full history: `state/projects/archive/{YYYY-MM}/{slug}.md` (if preserved).
 ```
 
-**d) Remove the section from `state/current.md`.**
+**d) Move the file:** `mv state/projects/{slug}.md state/projects/archive/{YYYY-MM}/{slug}.md` (create dirs as needed). Do NOT delete — keep the full file for historical lookup.
 
-### 4. Report
+**e) Remove the project's row from `state/current.md`** (Active Priorities or Secondary list).
 
-Show the result:
-> **Archived {N} sections.**
-> current.md: {before} → {after} lines.
-> Archive: `state/archive.md`
+### 4. Compress (Section-Level)
+
+For each approved section-level compress:
+
+- Read the section
+- Collapse the fully-done Open Items into a single line under a new or existing `## History` block:
+  - `### {Section name} — completed {DD.MM.}` + 1-2 lines of outcome + key links
+- Remove the detailed checkboxes
+- Update the file's frontmatter `updated:` to today
+
+### 5. Report
+
+```
+Archived: 2 projects (hardware-standards, alice-offboarding)
+Compressed: 3 sections across 2 files
+current.md: 53 → 51 lines
+archive.md: {before} → {after} lines
 ```
 
-## Context
+## Rules
 
-This is a MARVIN workspace. `.claude/commands/` contains Claude Code slash command files (markdown instruction files). This is a brand new file — no existing file to read.
-
-Work from: /Users/nikolaibockholt/marvin
+- **Never archive `goals.md` or `current.md`.**
+- **Never archive a project file with `status: active`.**
+- **Compress, don't delete.** Full content must remain retrievable — archived files move, they don't disappear.
+- **Always ask before acting.** `/compact` is destructive-enough to warrant confirmation even though it's reversible.

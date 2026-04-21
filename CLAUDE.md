@@ -53,39 +53,65 @@ If he just wants execution without pushback, he'll tell you.
 
 ## Architecture
 
-### Critical State Files
+### State (modular, seit 2026-04-21)
 
-- **`state/current.md`** — The single source of truth. Contains all active priorities, open threads, waiting-for items, and recent context. Updated at end of every session. This is the first file to read when starting.
-- **`state/goals.md`** — High-level work and personal goals with tracking table.
-- **`state/archive.md`** — Completed items archived from current.md by `/compact`. Organized by month, newest first.
+```
+state/
+├── current.md            Schlanker Index: Active Priorities, Outbox, Stale Threads, Today's Focus (~150 Zeilen)
+├── goals.md              High-level Work/Personal Goals
+├── archive.md            Empfänger von /compact (komprimierte Zusammenfassungen)
+├── projects/
+│   ├── _TEMPLATE.md      Vorlage für neue Projekte
+│   ├── luetjensee.md     Je ein File pro Projekt/Thread mit Frontmatter
+│   ├── ai-services-rollout.md
+│   └── ...               ~30 Files
+└── sessions/             Session-Logs (eine Datei pro Tag)
+```
+
+**Regeln:**
+- `current.md` bleibt schlank. Details landen in `state/projects/{slug}.md`.
+- Jedes Projekt-File hat Frontmatter: `project`, `status` (active/waiting/paused/done), `owner`, `updated`, `tags`.
+- `/start` lädt nur `current.md` + `goals.md`. Projekt-Files werden on-demand gelesen.
+- `context-refinement` Agent patched nur die Projekt-Files, die sich in der Session geändert haben.
 
 ### Session Logs (`sessions/`)
 
-One file per day, named `YYYY-MM-DD.md`. Multiple sessions per day append to the same file. Format:
+Eine Datei pro Tag (`YYYY-MM-DD.md`). Mehrere Sessions/Tag werden appended. Format:
 
 ```markdown
-## Session: {TIME}
-
+## Session: {Label} ({start}–{end})
 ### Topics
 ### Decisions
 ### Open Threads
 ### Next Actions
+### Artefakte
 ```
 
-### Skills (`skills/`)
+### Commands & Skills
 
-Each skill has a `SKILL.md` with frontmatter (name, description, metadata) and a process definition. Skills with `user-invocable: true` are available as slash commands. The `.claude/commands/` directory mirrors skills as slash command entry points.
+- **`.claude/commands/*.md`** — autoritative Entry-Points für alle Slash-Commands (`/start`, `/end`, `/update`, `/compact`, `/draft`, `/commit`, `/report`, `/help`, `/sync`, `/status`, `/code`, `/marvin`). Diese Dateien bestimmen, was bei einem `/xyz` tatsächlich passiert.
+- **`skills/*/SKILL.md`** — Skill-Metadaten für die Skills-Liste. Für Session-Skills (start, end, update) sind das nur Zeiger auf die commands-Datei.
 
 ### Agents (`.claude/agents/`)
 
-Subagents handle heavy lifting during session management:
+- **logging** — schreibt `sessions/{TODAY}.md`. Spawned von `/end` und `/update`. Model: sonnet.
+- **context-refinement** — patched `state/current.md` + relevante `state/projects/*.md`. Spawned von `/end` (parallel zu logging), `/update` (wenn material change), und PreCompact-Hook. Model: sonnet.
 
-- **logging** — Generates session log entries. Spawned by `/end` and `/update`. Model: sonnet.
-- **context-refinement** — Updates `state/current.md` with session discoveries. Spawned by `/end`, `/update`, and precompact hook. Model: sonnet.
+Bei `/end` laufen beide Agents **parallel** in einer Message — keine File-Konflikte, weil logging nur sessions/ und context-refinement nur state/ anfasst.
+
+### Hooks (`.claude/hooks/`)
+
+| Event | Script | Zweck |
+|-------|--------|-------|
+| PreCompact | `pre-compact-save.sh` | Reminder, vor Context-Komprimierung State zu speichern |
+| PostToolUse (Write/Edit) | `qmd-reindex.sh` | Startet `qmd embed` im Hintergrund bei Vault-Edits |
+| PreToolUse (Write) | `vault-frontmatter-check.sh` | Blockt Vault-Writes ohne Frontmatter |
+
+**Kein Stop-Hook mehr** (entfernt 2026-04-21). Commits + Pushes passieren ausschließlich bei `/end`, `/commit` oder dem Nightly-Sync (`com.marvin.nightly-sync` 23:00 via launchd). Die Datei `auto-checkpoint.sh` existiert noch, ist aber nicht mehr in der Hook-Config referenziert.
 
 ### Template Source
 
-`.marvin-source` points to the template folder (`/Users/nikolaibockholt/Documents/marvin-template`). Integration setup scripts live there, not in this repo. Use `/sync` to pull template updates.
+`.marvin-source` zeigt auf `/Users/nikolaibockholt/Documents/marvin-template`. Setup-Scripts leben dort, nicht in diesem Repo. `/sync` zieht Template-Updates. **Achtung:** Template ist Baseline — unsere modulare State-Struktur + geänderte Hooks sind lokale Erweiterungen, die beim Sync geschützt werden müssen.
 
 ---
 
@@ -119,18 +145,24 @@ Subagents handle heavy lifting during session management:
 
 **Starting (`/start` or `/marvin`):**
 1. `date +%Y-%m-%d` to get today
-2. Read `state/current.md`, `state/goals.md`
-3. Read `sessions/{TODAY}.md` (or most recent session for continuity)
-4. Give concise briefing: date, top priorities, open threads, ask how to help
+2. Read `state/current.md` (schlanker Index) + `state/goals.md`
+3. Read `sessions/{TODAY}.md` (oder most recent für Kontinuität)
+4. Kalender laden (`get_events` heute + morgen)
+5. Briefing: Datum, Top-Priorities, Today's Calendar, Tomorrow Preview, Outbox, Stale Threads. Projekt-Files werden NICHT preemptiv gelesen.
 
 **During a session:**
 - Track what's discussed, decided, and completed
-- Use `/update` to checkpoint without ending
+- Use `/update` to checkpoint without ending (parallel Agents wenn material change)
+- Projekt-Files unter `state/projects/*.md` gezielt laden, wenn über ein bestimmtes Projekt gesprochen wird
 
 **Ending (`/end`):**
-- Summarize session → append to `sessions/{TODAY}.md`
-- Update `state/current.md` with new priorities, completed items, open threads
-- Update "Last updated" timestamp in current.md
+1. Summarize session
+2. Spawn **logging** + **context-refinement** Agents **parallel** in einer Message
+   - logging → `sessions/{TODAY}.md`
+   - context-refinement → `state/current.md` (Index) + relevante `state/projects/*.md` (Detail)
+3. Outbox cleanen (gesendete Drafts entfernen)
+4. **Single commit + push** (`git add -A && git commit -m "session: {TODAY} end" && git push`). Kein Auto-Commit über Stop-Hook mehr.
+5. Kurze Confirmation
 
 ---
 

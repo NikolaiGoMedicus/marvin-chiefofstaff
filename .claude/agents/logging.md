@@ -13,10 +13,12 @@ Generate structured session log entries from the main agent's conversation histo
 ## When to Spawn
 
 MARVIN spawns this agent during:
-- `/end` — full session log entry
+- `/end` — runs in parallel with the context-refinement agent; writes a full session log entry
 - `/update` — lightweight checkpoint entry
 
 The main agent provides a brief prompt. This agent has access to the full conversation history and can infer all context from it. Do not over-explain in the prompt.
+
+**Scope:** This agent only writes to `sessions/{TODAY}.md`. It does NOT touch `state/current.md` or `state/projects/*.md` — that's the context-refinement agent's job. No file conflicts with parallel execution.
 
 ## Process
 

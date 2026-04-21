@@ -1,6 +1,6 @@
 ---
 name: context-refinement
-description: Update current.md with discoveries from work session
+description: Update state (current.md index + state/projects/*.md) with discoveries from work session
 model: sonnet
 ---
 
@@ -8,44 +8,63 @@ model: sonnet
 
 ## Purpose
 
-Apply targeted edits to `state/current.md` based on what happened in the work session. Handles status changes, new threads, completed items, and new links/contacts discovered during the session.
+Apply targeted edits to `state/current.md` (the slim index) and the relevant `state/projects/*.md` files based on what happened in the work session. Handles status changes, new threads, completed items, and new links/contacts discovered during the session.
 
 ## When to Spawn
 
 MARVIN spawns this agent during:
-- `/end` — after the logging agent finishes
-- `/update` — as the only agent (lighter checkpoint)
+- `/end` — runs in parallel with the logging agent
+- `/update` — as the only agent when material change occurred (lighter checkpoint)
 - Precompact hook — before context window compaction
 
 The main agent provides a brief prompt. This agent has access to the full conversation history and can infer all context from it. Do not over-explain in the prompt.
 
+## State Architecture (since 2026-04-21)
+
+MARVIN uses a **modular state** layout:
+
+```
+state/
+├── current.md              Slim index: Active Priorities, Outbox, Stale Threads, Notes
+├── projects/
+│   ├── ai-services-rollout.md
+│   ├── luetjensee.md
+│   ├── ... (~30 project files)
+│   └── _TEMPLATE.md
+├── archive.md
+└── goals.md
+```
+
+- **`current.md` is an index.** It lists Active Priorities with `→ [projects/foo.md]` links and has sections for Outbox, Stale Threads, and short Today's Focus notes. Keep it **under ~150 lines / 15 KB**.
+- **`state/projects/*.md` holds the detail** for each project: status, open items, waiting-on, links, notes. Frontmatter has `project`, `status`, `owner`, `updated`, `tags`.
+
 ## Process
 
-1. Read `state/current.md` to get the current state
-2. Review the conversation history and identify changes:
-   - **Status changes** — items that moved from open to done, or got new status
-   - **New threads** — topics that emerged and need tracking
-   - **Completed items** — checkboxes to check, sections to mark done
-   - **New links/artifacts** — Google Docs, Notion pages, Figma files created
-   - **New contacts/details** — names, emails, phone numbers discovered
-   - **Updated details** — dates, amounts, decisions that supersede old info
-   - **Outbox changes** — drafts that were sent (remove from outbox) or parked (add to outbox)
-3. Apply targeted edits to `state/current.md`:
-   - Use the Edit tool for precise changes — do NOT rewrite the entire file
-   - Check `[ ]` items that were completed → `[x]`
-   - Add ✅ markers with dates where applicable
-   - Add new threads under the appropriate `### Work -` section
-   - Update "Last updated" timestamp at the top
-4. Return a diff summary to the main agent:
-   > "Updated current.md: marked 2 items ✅, added 1 new thread (LMS Entscheidung), updated Outbox (removed 1 sent draft). Last updated → {timestamp}."
+1. **Read `state/current.md`** to see the current index and priorities.
+2. **Identify which projects were touched in this session.** For each:
+   - Read the relevant `state/projects/{slug}.md`
+   - Apply targeted Edits (not rewrites): check `[ ]` → `[x]`, add ✅ markers with date, add new Open Items or Waiting-On entries, add new links
+   - Update the file's frontmatter `updated: YYYY-MM-DD` if content changed
+3. **Update `state/current.md` only for index-level changes:**
+   - A project's priority rank changed or a new project entered the Active Priorities list
+   - A new draft entered the Outbox or a parked draft was sent (remove row)
+   - A Stale Threads entry became unstale or a new stale entry emerged
+   - Today's Focus notes (2-4 lines max)
+   - Timestamp: always update `Last updated: YYYY-MM-DD HH:MM`
+4. **Return a concise diff summary** to the main agent (2-4 lines):
+
+   > "Updated luetjensee.md: marked Beschilderung Henry-Brief ✅, added new waiting-on for Olaf. current.md: Stale-Thread refreshed. Timestamp → 2026-04-21 17:45."
 
 ## Rules
 
-- **Targeted edits only.** Never rewrite current.md from scratch. Use Edit tool for each change.
-- **Preserve structure.** Don't move sections around, rename headings, or restructure the file.
+- **Targeted edits only.** Never rewrite files from scratch. Use the Edit tool for each change.
+- **One file per change.** Touch only the project files that actually changed. Do NOT scan all project files.
+- **current.md stays slim.** Never move detail content back into current.md — it goes in the relevant project file.
+- **Preserve structure.** Don't move sections, rename headings, or restructure files.
 - **Conservative.** Only change things that clearly happened in the session. Don't infer or assume.
-- **Timestamp.** Always update `Last updated: YYYY-MM-DD HH:MM` at the top of current.md.
-- **Outbox.** If drafts were sent during the session, remove them from the Outbox table. If new drafts were parked, they should already be there (done by /draft command).
+- **Timestamps.** Update `Last updated:` on current.md AND the frontmatter `updated:` on each touched project file.
+- **New project?** If a genuinely new project emerged, create `state/projects/{slug}.md` from `state/projects/_TEMPLATE.md` and add it to current.md under "Secondary / laufend" (or Active Priorities if it's top-5).
+- **Outbox.** If drafts were sent during the session, remove them from the Outbox table. If new drafts were parked, they should already be there (done by `/draft` command).
 
 ## Output Format
 
@@ -54,5 +73,5 @@ Return a concise diff summary (2-4 lines). Do not return the full file content.
 ## Notes
 
 - If the session was purely conversational (no state changes), return: "No state changes needed."
-- When adding new threads, place them under the most relevant existing `### Work -` section. If no section fits, create a new one following the existing naming pattern.
 - When in doubt about whether something changed, leave it unchanged. Better to miss an update than to introduce an error.
+- The agent runs in parallel with the logging agent during `/end` — logging writes to `sessions/`, this agent writes to `state/`. No conflict.
