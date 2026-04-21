@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-21 13:32
+Last updated: 2026-04-21 18:00
 
 > **Modulare State-Architektur (seit 21.04.):** Details leben in `state/projects/*.md`. Diese Datei ist der Index + aktuelle Prioritäten. Für die alte Monolith-Version siehe `current.md.pre-migration`.
 
@@ -10,7 +10,7 @@ Last updated: 2026-04-21 13:32
 2. **GoMedicus Platform & MVP** — ⚠️ Muss live. GOM-2335 + GOM-1977 Staging→Prod offen. → [projects/gomedicus-platform.md](projects/gomedicus-platform.md)
 3. **Kronprinzenbau IT-Planung** — 🔴 Deadline 18.04. bei Michael überfällig. Angebot bis 15.05. → [projects/kronprinzenbau.md](projects/kronprinzenbau.md)
 4. **Lütjensee** — Go-Live Juli. Lambda-Nachverhandlung 49,7k → 25-30k läuft. → [projects/luetjensee.md](projects/luetjensee.md)
-5. **GoMedicus Kids — Tomedo-Migration** — Bisingen KW 19 Produktivumstellung. → [projects/gomedicus-kids.md](projects/gomedicus-kids.md)
+5. **GoMedicus Kids — Tomedo-Migration** — PaeDoc-Umstellung fixiert 13.08.2026. KW 19 Bisingen-Timeline prüfen. → [projects/gomedicus-kids.md](projects/gomedicus-kids.md)
 6. **AI & Systems Office (Jens-Deliverables)** — 30-60-90 + Hiring IT Ops Lead. → [projects/ai-systems-office.md](projects/ai-systems-office.md)
 7. **Series A Tech DD** — 🔴 IP-Transfer Cloudnonic blockt LOI. → [projects/series-a-dd.md](projects/series-a-dd.md)
 
@@ -27,7 +27,7 @@ Last updated: 2026-04-21 13:32
 - [Telefon AI Agent](projects/telefon-ai-agent.md) · [Tomedo CUA Agent](projects/tomedo-cua-agent.md) · [Voice Onboarding](projects/voice-onboarding.md)
 - [Starface](projects/starface.md) · [Doc Cirrus](projects/doc-cirrus.md) · [Hardware-Standards](projects/hardware-standards.md)
 - [QM Handbuch](projects/qm-handbuch.md) · [Notion Konsolidierung](projects/notion-konsolidierung.md) · [Reporting](projects/reporting.md)
-- [Website](projects/website.md) · [Lütjensee Designer-Brief](projects/luetjensee-designer-brief.md)
+- [Website](projects/website.md) · [Design-Assets Rollout (Lüt/KB/Kids)](projects/design-assets-rollout.md) · [Lütjensee Designer-Brief (superseded)](projects/luetjensee-designer-brief.md)
 - [Privat](projects/privat.md) — Strom, Solar, Karriere, Claudio, Meshtastic, Flipper, Laser Forge
 
 ## Outbox
@@ -36,18 +36,13 @@ _Drafts, die auf Absenden warten. Drafts landen hier durch `/draft park`, werden
 
 | # | Ziel | Thema | Ort |
 |---|------|-------|-----|
-| _leer — nach Migration 21.04._ | | | |
+| _leer — Sebastian Luitle, Aurelia Giordano, Nils Graßmann alle am 21.04. gesendet._ | | | |
 
 ## Stale Threads (>14 Tage ohne Bewegung)
 
-Basis: letzte Sichtung in Session-Logs. Top-Kandidaten:
-
-- **Philipp Gonser** — ZDS Bürosysteme Feedback (last: 05.02., 75 Tage) → [luetjensee.md Waiting On](projects/luetjensee.md)
-- **Olaf Rajek** — IP→Sprechzimmer Mapping (last: 12.03., 40 Tage) → [luetjensee.md Waiting On](projects/luetjensee.md)
-- **Friederike** — Tomedo-Import-Test (3108/4111/3110) (last: 13.03., 39 Tage) → [luetjensee.md Waiting On](projects/luetjensee.md)
-- **Doc Cirrus** — Präsentationstermin bei Isabell (last: vor 27.03.) → [doc-cirrus.md](projects/doc-cirrus.md)
+_Keine aktiven Stale Threads. Aufgeräumt 21.04._
 
 ## Today's Focus / Notes
 
-- **Claude Design** Onboarding läuft, Token-Validation und Test-Prompt Lütjensee stehen als nächstes → [claude-design-setup.md](projects/claude-design-setup.md).
 - MARVIN-Refactor 21.04.: State modularisiert, Stop-Hook entfernt, /end + /update parallelisiert. Neue Struktur siehe `CLAUDE.md` Architecture-Sektion + [marvin-infrastructure.md](projects/marvin-infrastructure.md).
+- Florian AI-Liste (21.04.) verarbeitet: #1 (Poster-Kosten Henry), #2 (Sebastian Luitle Mail), #4 (Nils-Anfrage) alle erledigt. #3+#7 (Sebastian Schulz Cluster-Datenzugriff) offen → in ai-systems-office.md notiert.

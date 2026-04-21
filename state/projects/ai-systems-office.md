@@ -55,6 +55,12 @@ Personio Job 2594644, 3 Bewerbungen/kein Match. [Optimierungs-Doc](https://docs.
 - [ ] Basel Abdul Fattah absagen
 - [ ] Klären: Wer hat "HR & People Manager" in Personio angelegt und warum (16 leere Stellen ohne Titel aufräumen)
 
+## Florian AI-Liste — Offene Punkte
+
+Aus Flos Mail 21.04. ("Nikolai AIs"). #1, #2, #4 erledigt. Noch offen:
+
+- [ ] **#3 + #7 Sebastian Schulz — Cluster-Datenzugriff:** Sebastian S. soll Cluster-Daten für AI-Auswertungen nutzen. Klären: Datenzugriff-Modell, Compliance, Tooling. → Ggf. eigenes Projekt-File wenn Scope wächst.
+
 ## Open Items
 
 - [x] **Notion Org-Struktur umsetzen** ✅ (16.04.) — ⚠️ "Nach Office" Board-View Tab muss manuell in Notion UI umsortiert werden

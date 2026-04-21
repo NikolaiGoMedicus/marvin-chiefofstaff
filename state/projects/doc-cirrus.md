@@ -10,9 +10,10 @@ tags: [work, pvs, evaluation]
 
 ## Status
 
+Paused — Präsentationstermin-Thread am 21.04. als irrelevant verworfen. Testzugang + API-Docs-Thread bleiben für späteren Wiederaufgriff stehen.
+
 - **Testzugang:** `eb3e6401000.trial.doc-cirrus.com` (Customer 11556)
 
 ## Open Items
 
-- [ ] Neuen Präsentationstermin finden + bei Isabell buchen
 - [ ] Benjamin API-Docs Zugangsinfo weiterleiten (Sol-Partner-Programm nötig)

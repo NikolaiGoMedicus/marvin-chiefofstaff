@@ -1,6 +1,6 @@
 ---
 project: claude-design-setup
-status: active
+status: paused
 owner: nikolai
 updated: 2026-04-21
 tags: [work, design-system, brand, ai]
@@ -10,7 +10,9 @@ tags: [work, design-system, brand, ai]
 
 ## Status
 
-**Ziel:** Claude Design (claude.ai/design) als Brand-/Design-System-Layer für GoMedicus aufsetzen, damit Claude automatisiert Handoffs für 4 Surfaces generiert (Figma Brand Library, Website, Plattform, interne Tools). Phase 1 ✅ (Assets prepared). Onboarding auf claude.ai/design läuft aktuell.
+**Paused (21.04.).** Phase 1 ✅ Assets vorbereitet, Onboarding durchgespielt. Nikolai macht hier erstmal Pause — wird wieder aufgegriffen, wenn ein konkreter Use-Case ansteht (z.B. Lütjensee-Landingpage oder Handoff für eine der 4 Surfaces).
+
+**Ziel (für Wiederaufnahme):** Claude Design (claude.ai/design) als Brand-/Design-System-Layer für GoMedicus — automatisierte Handoffs für Figma Brand Library, Website, Plattform, interne Tools.
 
 ## Artefakte
 

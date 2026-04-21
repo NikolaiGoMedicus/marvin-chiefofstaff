@@ -27,6 +27,8 @@ tags: [work, lambda, kids, tomedo-migration]
 
 Backup + RZ-Spiegel KW 17, Test-DKV KW 17, Produktivumstellung KW 19 (ab 4.5.). Präferenz: Teamviewer statt VPN für Server-Zugriff.
 
+⚠️ **PaeDoc-Deadline gesetzt (Flo-Mail 21.04.):** Tomedo-Umstellung PaeDoc auf **13.08.2026** fixiert. KW 19-Timeline für Bisingen mit Flo/Jan gegenprüfen — ob das noch kompatibel ist oder angepasst werden muss.
+
 ## Open Items
 
 - [ ] Jans offene Fragen beantworten: Testdatenkonvertierung T2med, Internet-Infos der Standorte, paeDoc-Abrechnung über welche GmbH

@@ -58,6 +58,19 @@ Eingerichtet (20.03.), 2 SSIDs (`Praxis-Luetjensee` + `GoMedicus-Gast`). ✅ WLA
 - [ ] Klären: Datenmigration medatixx → Tomedo
 - [ ] Pascom + Doc Medico Weiterleitung klären
 
+## Angebotsanalyse Lambda vs. Systemhelden (20.04.)
+
+Gegenangebot system-helden.de (Nabil Hiepler) für Lütjensee eingeholt (17.04., gültig bis 17.05.). ✅ Notion-Seite am 21.04. unter **🏥 Lütjensee — Standort-Profil & Integration** eingeordnet (vorher unter "Praxis-IT Rollout" im AI & Systems Office).
+
+- **Notion-Analyse:** [1.2 Angebotsanalyse Lütjensee Lambda vs system-helden](https://www.notion.so/1-2-Angebotsanalyse-L-tjensee-Lambda-vs-system-helden-34857538249e81ff9ad9d58acdadd872)
+- **Kennzahlen (netto, Vollumfang):**
+  - Lambda AG-4023: **41.798 €** einmalig + **837 €/Monat** → 24M-TCO ~62.000 €
+  - Systemhelden (V206099 + V206100): **31.524 €** einmalig + **416 €/Monat** → 24M-TCO ~41.500 €
+  - Bereinigt (gleiche Leistungsbasis, ohne Schulung/Telefon): Einmal-Delta nur ~2.500 € → **Differenz kommt v.a. aus laufenden Kosten**.
+- **Flos Framing an Nabil (20.04.):** "Bereinigt nehmen sich die Angebote nix" — Systemhelden fehlt einiges (Telefon, Monitore, Schulung). Antwort an Nabil ist raus.
+- **Systemhelden Profil:** ~70 MA, tomedo-only seit 2014, ~350 Praxen / 4500 APs betreut. Kooperationen Stuttgart/Berlin/München für Vor-Ort-Service. Referenzen: Rick&Nick, Ortheum, Ortivity, Artemis, Verifymed. Alternativ-Modell: komplett managed (Infra + Macs mieten) → ~3.900 €/Monat.
+- **Offene Hebel auf Lambda-Seite:** 80h→40h IT-Service (~4.914 € sparen), ggf. Telefonsystem streichen wenn Lütjensee behält (~1.526 € sparen).
+
 ## Tomedo-Migration KW 31
 
 - [ ] Nikolai: Email Medizintechnik-Inventar, Video-Walkthrough, Raumplan, Labor-Info, WLAN-Details an Lambda
@@ -104,8 +117,5 @@ PGP-Setup steht.
 
 ## Waiting On
 
-- Olaf Rajek — IP→Sprechzimmer Mapping (Email 12.03.) ⚠️ stale
-- Friederike — Tomedo-Import-Test (fehlende Felder 3108/4111/3110) ⚠️ stale seit 13.03.
-- Philipp Gonser — ZDS Bürosysteme Feedback (Mail 05.02.) ⚠️ sehr stale
 - Corti.ai / Adam Culbertson — Addendum v3 versendet (14.04.), Feedback abwarten. [v3 Doc](https://docs.google.com/document/d/1Z2voUKJNa3Q-DrM3vWtHTYjisSuWRd3YsOvgGTiPmnY/edit) — direkte Abhängigkeit zu [mkd-integration.md](mkd-integration.md) Phase 1 Corti-Features
 - Seidemann IT Solutions — Admin-Zugang + Teamviewer Bisingen-Server (Email 17.04.)
