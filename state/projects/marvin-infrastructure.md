@@ -10,6 +10,7 @@ tags: [work, marvin, infrastructure]
 
 ## Status
 
+- **Major Refactor 21.04.2026 (Vormittag/Mittag):** State-Architektur von monolithischer `current.md` auf modulare Struktur (`current.md` = Index, `state/projects/*.md` = Details) migriert. Stop-Hook entfernt, Auto-Sync auf `/end` + `/commit` + nightly launchd konsolidiert, logging + context-refinement Agents parallelisiert. Commit `1ddacca`.
 - **GitHub Repo:** [NikolaiGoMedicus/marvin-chiefofstaff](https://github.com/NikolaiGoMedicus/marvin-chiefofstaff) (private). Erster Push 16.04.
 - **Auto-Sync (neu ab 21.04.):** Commit + Push nur noch bei `/end` und `/commit`. Nightly Safety Net via launchd um 23:00 (`com.marvin.nightly-sync`). Stop-Hook entfernt.
 - **Hooks (aktiv):** PreCompact (auto-save vor Komprimierung), PostToolUse (QMD reindex), PreToolUse (Vault frontmatter check).
