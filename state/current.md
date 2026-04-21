@@ -1,13 +1,13 @@
 # Current State
 
-Last updated: 2026-04-21 18:00
+Last updated: 2026-04-21 21:30
 
 > **Modulare State-Architektur (seit 21.04.):** Details leben in `state/projects/*.md`. Diese Datei ist der Index + aktuelle Prioritäten. Für die alte Monolith-Version siehe `current.md.pre-migration`.
 
 ## Active Priorities
 
 1. **AI Services Rollout** — T2 Form heute an Basti+Jens raus; Antonia Check-in morgen. → [projects/ai-services-rollout.md](projects/ai-services-rollout.md)
-2. **GoMedicus Platform & MVP** — ⚠️ Muss live. GOM-2335 + GOM-1977 Staging→Prod offen. → [projects/gomedicus-platform.md](projects/gomedicus-platform.md)
+2. **GoMedicus Platform & MVP** — ⚠️ Muss live. Practice Management Redesign + GOM-2862/2863 (Urgent) dominieren Dev. GOM-1976 Notification Events: waiting on Cloudnonic review. → [projects/gomedicus-platform.md](projects/gomedicus-platform.md)
 3. **Kronprinzenbau IT-Planung** — 🔴 Deadline 18.04. bei Michael überfällig. Angebot bis 15.05. → [projects/kronprinzenbau.md](projects/kronprinzenbau.md)
 4. **Lütjensee** — Go-Live Juli. Lambda-Nachverhandlung 49,7k → 25-30k läuft. → [projects/luetjensee.md](projects/luetjensee.md)
 5. **GoMedicus Kids — Tomedo-Migration** — PaeDoc-Umstellung fixiert 13.08.2026. KW 19 Bisingen-Timeline prüfen. → [projects/gomedicus-kids.md](projects/gomedicus-kids.md)
@@ -46,3 +46,5 @@ _Keine aktiven Stale Threads. Aufgeräumt 21.04._
 
 - MARVIN-Refactor 21.04.: State modularisiert, Stop-Hook entfernt, /end + /update parallelisiert. Neue Struktur siehe `CLAUDE.md` Architecture-Sektion + [marvin-infrastructure.md](projects/marvin-infrastructure.md).
 - Florian AI-Liste (21.04.) verarbeitet: #1 (Poster-Kosten Henry), #2 (Sebastian Luitle Mail), #4 (Nils-Anfrage) alle erledigt. #3+#7 (Sebastian Schulz Cluster-Datenzugriff) offen → in ai-systems-office.md notiert.
+- GOM-1976 Notification Events (21.04.): Spec-Doc erstellt, Email an Nicolas + Benjamin (Cloudnonic) gesendet — waiting on review. Scope: Areas 1-3, Area 4 post-launch.
+- Linear-Drift bereinigt (21.04.): GOM-2335, GOM-1977, GOM-2689, GOM-2638, GOM-2736 alle bereits Done in Linear — gomedicus-platform.md aktualisiert (Recently Shipped section).

@@ -12,9 +12,17 @@ tags: [work, platform, mvp, priority]
 
 ⚠️ **MVP muss live.** Timeline: Kids Juni, Lütjensee+Kronprinzenbau Juli, 2 weitere Okt. PVS: Tomedo bevorzugt.
 
-- Staging → Prod offen: GOM-2335 (Phone Validation), GOM-1977 (Birthday Field)
-- Corti Template: ✅ unblocked (GOM-2446). GOM-2689 Transcript: ✅ non-blocking decided. GOM-2736 BDT: ✅ Platzierung decided.
+- Corti Template: ✅ unblocked (GOM-2446).
 - GOM-2730 Multi-Service Pricing: Feedback Basti+Jens ausstehend
+- **Dominant Dev-Fokus jetzt:** Practice Management Redesign (GOM-2815/2816/2817/2826/2836/2823/2855) + Urgent-Cluster GOM-2862 (Telefon/Homepage/Manager at Locations) + GOM-2863 (Virtual Practices EPIC, Urgent)
+
+## Recently Shipped (Linear Done)
+
+- ✅ GOM-2335 — Phone Validation (Done 2026-02-23, Camilo, PR #688)
+- ✅ GOM-1977 — Birthday Field (Done 2026-01-22, JMRS, PR #585)
+- ✅ GOM-2689 — Transcript WebSocket Implementation (Done 2026-04-07, Joan, PR #867) — Non-blocking MVP-Decision war Scoping, Impl.-Ticket ebenfalls durch
+- ✅ GOM-2638 — Privacy Notice / Buchungsflow Rechtsdokumente (Done 2026-04-08, Joan, PR #855)
+- ✅ GOM-2736 — BDT Backend (Done 2026-04-14, José David, PR #838)
 
 ## Notion Plattform & Produkt
 
@@ -76,12 +84,18 @@ Nicolas hat 9 offene Business-Fragen + 5 Edge Cases aufbereitet. Proposed Decisi
 - **Gaps für MVP/Launch-Check:** kein Reminder-Mail, kein Cancel/Reschedule-Mail, kein Video-Termin-spezifisches Mail
 - [ ] Slack-Draft an Jens absenden (Overview + Gap-Observations) — im Outbox
 
+## GOM-1976 — Notification Events (Product Definition)
+
+- **Status:** Waiting on Cloudnonic Review (seit 2026-04-21)
+- **Google Doc:** [Notification Events Spec](https://docs.google.com/document/d/134NGjG0ur_XmJLib55dM8cwsqB45Bii4D1BMOFTx7bs/edit)
+- **Email gesendet (21.04.):** Nicolas Arambulo (nicolas@cloudnonic.com) + Benjamin (benjamin@cloudnonic.com, cc) um Review gebeten
+- **Scope:** Areas 1-3 (Appointment / Task / Video) — Area 4 (Prescriptions/Docs) parked post-launch
+- **7 offene Fragen** pending their input
+- **Next:** Nach Review → finalisieren → als Linear-Comment posten → Tatiana erstellt Implementation-Tickets
+
 ## Offene Issues
 
-- GOM-2689 — ✅ Transcript Failure UX: **Non-blocking MVP entschieden (14.04.)** — Jens + Sebastian approved. Arzt kann Konsultation ohne Transcript abschließen, manuelles Notizfeld als Fallback. Re-Record/Retry als Fast-Follow. Decision auf Linear gepostet.
-- GOM-2335 — 🟡 Staging. Phone Validation (Prod-Deployment nötig)
-- GOM-1977 — 🟡 Staging. Birthday Field (hängt seit Januar)
-- GOM-1976 — 📋 Notification Events — Product Definition mit Alice
+- GOM-2689 — ✅ Transcript Failure UX: **Non-blocking MVP entschieden (14.04.)** — Jens + Sebastian approved. Arzt kann Konsultation ohne Transcript abschließen, manuelles Notizfeld als Fallback. Re-Record/Retry als Fast-Follow. Decision auf Linear gepostet. Impl.-Ticket done (s. Recently Shipped).
 - [ ] Call mit Nele — PVS-Feldnutzung
 - [ ] Corti/CTI Update ans Team
 
