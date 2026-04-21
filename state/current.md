@@ -51,7 +51,7 @@ Last updated: 2026-04-20 18:30
 
 **Praxis-WLAN** — Eingerichtet (20.03.), 2 SSIDs (`Praxis-Luetjensee` + `GoMedicus-Gast`). ✅ WLAN-Schild für Wartezimmer erstellt ([Figma](https://www.figma.com/design/F5XMSl8u6pg7z73gxCMmzH)).
 - [ ] Schild ausdrucken + im Wartezimmer aufhängen
-- [ ] Hexnode MDM: 3 Lütjensee-iPads supervised enrollen. **Anleitung fertig:** [Google Doc](https://docs.google.com/document/d/18ILfetnrSv9ZAdFNP1A0Z-BUQ7N4iwveM6zy3N3D5OY/edit) + Vault `Wissen/Hexnode-iPad-Enrollment-Anleitung.md`. Session mit Flo gestartet (08.04.), noch nicht abgeschlossen. → Hexnode-Instance gehört zu MKD, siehe Abschnitt MedKitDoc Hardware.
+- [ ] Hexnode MDM: 3 Lütjensee-iPads supervised enrollen. **SSoT Anleitung:** [📱 iPad & Hardware Deployment (Notion)](https://www.notion.so/34157538249e81278deadf1846e2e9c8) — Vanilla Way (ADE + Configurator Wiederherstellen) am 20.04. verifiziert. → Hexnode-Instance gehört zu MKD, siehe Abschnitt MedKitDoc Hardware.
 - [ ] MacBook Air für Praxis-Arzt einrichten (Telemedizin)
 
 **Hardware-Inventar** — ✅ Ist-Aufnahme komplett + ✅ Mail an Lambda gesendet (02.04.): 9 PCs + 1 Laptop + 1 Server + 7 Monitore + 9 Drucker + 1 Scanner + 4 Kartenleser + 2 APs.
