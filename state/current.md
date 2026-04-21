@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-20 11:01
+Last updated: 2026-04-20 15:00
 
 ## Active Priorities
 
@@ -95,7 +95,7 @@ Last updated: 2026-04-20 11:01
 - Olaf Rajek — IP→Sprechzimmer Mapping (Email 12.03.) ⚠️ stale
 - Friederike — Tomedo-Import-Test (fehlende Felder 3108/4111/3110) ⚠️ stale seit 13.03.
 - Philipp Gonser — ZDS Bürosysteme Feedback (Mail 05.02.) ⚠️ sehr stale
-- Corti.ai / Adam Culbertson — Addendum v3 versendet (14.04.), Feedback abwarten. [v3 Doc](https://docs.google.com/document/d/1Z2voUKJNa3Q-DrM3vWtHTYjisSuWRd3YsOvgGTiPmnY/edit)
+- Corti.ai / Adam Culbertson — Addendum v3 versendet (14.04.), Feedback abwarten. [v3 Doc](https://docs.google.com/document/d/1Z2voUKJNa3Q-DrM3vWtHTYjisSuWRd3YsOvgGTiPmnY/edit) — direkte Abhängigkeit zu MKD Integration Roadmap Phase 1 Corti-Features
 - Seidemann IT Solutions — Admin-Zugang + Teamviewer Bisingen-Server (Email 17.04.)
 
 ### Work - Website
@@ -144,7 +144,7 @@ Last updated: 2026-04-20 11:01
 - **Investor-Feedback (16.04.):** Investoren wollen Operational Maturity + Benchmarks. Nikolais Anteil ~20%.
 - **IT-Integration Deliverables:** [Scorecard](https://docs.google.com/document/d/16CycnHLBl1N1quuo1_t-e6X2iOnot-ofIllwBBfPhjI/edit) (WIP, 31% — 16/51 Meilensteine) · [Playbook](https://docs.google.com/document/d/1lShnhdqXWIOQvIVjhThVLlkMY80hq7x8W9XYst6Lva8/edit) (WIP, 5 Phasen) · [Drive](https://drive.google.com/drive/folders/1gnJY9eTsSUAFF80FUvXhgEPzrnVPmkhT)
   - [ ] CDIO-Profil + Hiring-Pipeline — noch nicht erstellt
-- ⚠️ **§393 SGB V (Cloud C5):** GoMedicus braucht ggf. eigenes C5-Testat. Prüfauftrag Sebastian Schulz
+- ⚠️ **§393 SGB V (Cloud C5):** GoMedicus braucht ggf. eigenes C5-Testat. Prüfauftrag Sebastian Schulz. Wird durch MKD Integration Roadmap Phase 3 (Backend-Migration) getriggert.
 
 **Offen:**
 - [ ] Ben: IP-Transfer Cloudnonic dokumentieren (LOI Precondition! 🔴 Blocker)
@@ -169,6 +169,27 @@ Last updated: 2026-04-20 11:01
 - DSFA (Jul 2022) nur als PDF — manuell zu sichten
 - Owner "???" bei 3 Deliverables → Sebastian klären
 - [ ] Sebastian: MKD DD TODO-Liste mit 7 roten Deliverables + Owner-Klärung
+- Komplementär zur **MKD Integration Roadmap** (siehe unten)
+
+### Work - MKD Integration Roadmap
+
+**Integration_Roadmap_MedKitDoc_GoMedicus V0.2** — Sebastian Schulz hat Roadmap veröffentlicht (20.04.). [Google Doc](https://docs.google.com/document/d/12ty7r7u2q-iffOoHa7x1O3G5wNuu_UPUPkamrPOLGkU/edit)
+- **Zielvision:** Ärzte nur GoMedicus, App = Pflege-Frontend, Daten zentral in GoM, Corti als AI-Layer
+- **Phase 1 (MVP Quick Wins):** 27–42 PT Framna App + 7 FT-Tage Cloudnonic Backend
+- **Phase 2 (Full Integration Physician Side):** direkte Abhängigkeit zu QA Bug Review Video MVP (siehe Work - GoMedicus Platform)
+- **Phase 3 (Deep Integration + Backend-Migration):** triggert §393 SGB V / C5-Frage (siehe Series A Tech DD Prep)
+- **Phase 4 (Scaling + Analytics)**
+- **Corti-Features (Phase 1)** — direkte Abhängigkeit zu Corti Addendum v3 (siehe Work - Lütjensee Warten auf)
+
+**Klärungsbedarf mit Sebastian Schulz:**
+- [ ] Estimate-Klarheit App vs. Backend (Aufteilung der 27–42 PT + 7 FT-Tage)
+- [ ] Corti-Conditionality an Addendum v3 koppeln
+- [ ] Phase-2 Video-Abhängigkeit zum QA-Stand klarziehen
+- [ ] C5 / §393 SGB V Implikation Phase 3 explizit adressieren
+
+**Nikolais Actions:**
+- [ ] Corti-Doku-Review (deckt sich mit bestehendem "Corti ICD Agent Arnim fragen", siehe Evaluationen)
+- [ ] Entscheiden: Kommentar im Doc / Slack an Sebastian / Notion-Vorbereitung für Sync
 
 ### Work - MFA Onboarding Guide
 
@@ -261,7 +282,7 @@ Last updated: 2026-04-20 11:01
 
 **Video-Plattform Branding** — Working Doc live: [Slack Canvas](https://gomedicusgroup.slack.com/docs/T04KJACGGBH/F0ATJHGKX5K) in Group DM mit Jens/Sebastian/Antonia. Offene Entscheidungen: Service-Name, URL/Domain, Brand-Architektur (A/B/C/D), Design-Variante (aktuell 2 Stimmen für rechts), Positioning-Frame (B2C/B2B2C/Dual). MARVIN-Input mit Benchmark, Name-Vorschlägen + Risiko-Flags ergänzt. Next Actions bis Mo 20.04. im Canvas.
 
-**QA Bug Review — Video MVP Testing (20.03.)** — 46 Items, 8 kritisch
+**QA Bug Review — Video MVP Testing (20.03.)** — 46 Items, 8 kritisch. ⚠️ Blocker für MKD Integration Roadmap Phase 2.
 - [Google Doc DE](https://docs.google.com/document/d/1unofwTdNlppTddQex3PPLOa9n0Y0eaBaNKNOL9_M_2w/edit) · [EN](https://docs.google.com/document/d/1zVaDHpeI7D6hU9-m5SKiNrxbPeA2Fdk2zY5rmXiHBSs/edit)
 - [ ] Docs an Alice, Basti, Nicolas teilen
 - [ ] Priorisierungs-Meeting + Linear-Tickets
