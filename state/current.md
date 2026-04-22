@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-22 17:30
+Last updated: 2026-04-22 16:40
 
 > **Modulare State-Architektur (seit 21.04.):** Details leben in `state/projects/*.md`. Diese Datei ist der Index + aktuelle Prioritäten. Für die alte Monolith-Version siehe `current.md.pre-migration`.
 
@@ -24,7 +24,7 @@ Last updated: 2026-04-22 17:30
 - [MFA Onboarding Guide](projects/mfa-onboarding-guide.md) · [People / Onboarding](projects/people-onboarding.md) · [Alice Offboarding](projects/alice-offboarding.md)
 - [BDT Export/Import](projects/bdt-export.md) · [Email Templates — siehe GoMedicus Platform](projects/gomedicus-platform.md)
 - [Pipedrive MCP](projects/pipedrive-mcp.md) · [Slack MCP](projects/slack-mcp.md) · [MARVIN Infrastructure](projects/marvin-infrastructure.md)
-- [Telefon AI Agent](projects/telefon-ai-agent.md) · [Tomedo CUA Agent](projects/tomedo-cua-agent.md) · [Voice Onboarding](projects/voice-onboarding.md)
+- [Telefon AI Agent](projects/telefon-ai-agent.md) · [Tomedo CUA Agent](projects/tomedo-cua-agent.md) · [Tomedo Exploration](projects/tomedo-exploration.md) · [Voice Onboarding](projects/voice-onboarding.md)
 - [Starface](projects/starface.md) · [Doc Cirrus](projects/doc-cirrus.md) · [Hardware-Standards](projects/hardware-standards.md)
 - [QM Handbuch](projects/qm-handbuch.md) · [Notion Konsolidierung](projects/notion-konsolidierung.md) · [Reporting](projects/reporting.md)
 - [Website](projects/website.md) · [Design-Assets Rollout (Lüt/KB/Kids)](projects/design-assets-rollout.md) · [Lütjensee Designer-Brief (superseded)](projects/luetjensee-designer-brief.md)
@@ -49,3 +49,4 @@ _Keine aktiven Stale Threads. Aufgeräumt 21.04._
 - Antonia-Call-Commitments noch pending — linear-Epic "Operations Reporting" anlegen nach Call.
 - Lambda Support-Tickets (22.04.) raus: (1) Tunnelblick DNS-Warnung `fmichels` (Franziska, unkritisch — Tomedo-Connection ok, Einschätzung erbeten); (2) Neuer VPN-Zugang Benjamin Heinke für read-only Tomedo-DB (Scope-Fragen offen, Lütjensee als Start vorgeschlagen). Beide an support@lambda-itsystems.de + Paul Epple CC. → warten auf Antwort, ggf. nach 2-3 Tagen nachhaken.
 - Nils Graßmann (Style & Grace) Follow-up gesendet (22.04.): komplette Asset-Link-Liste nachgereicht, da Original-Sharing-Notifications 21.04. offenbar nicht ankamen. Angebot weiterhin bis ~05.05. erwartet.
+- Tomedo Exploration M0-M5 ✅ (22.04., ~2h): Greenfield-Repo + private GitHub, read-only DB-Zugang, 2314 Tabellen, 11 Entity-Docs, 3 Reusable-Queries für Antonia. Details in [tomedo-exploration.md](projects/tomedo-exploration.md). Next: Queries an Antonia + Linear-Epic "Operations Reporting".
