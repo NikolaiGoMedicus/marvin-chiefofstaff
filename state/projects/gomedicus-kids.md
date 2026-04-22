@@ -36,6 +36,16 @@ Backup + RZ-Spiegel KW 17, Test-DKV KW 17, Produktivumstellung KW 19 (ab 4.5.). 
 - [ ] Zollsoft-Rahmenvertrag mit Martin (Lambda) klären
 - [ ] Lambda (Jan): Angebot erstellen
 
+## Tomedo Praxisfragebogen (zollsoft)
+
+Maria Schweinitz (zollsoft) will Praxisfragebogen auch für paeDOC ausgefüllt haben (Flo-Mail 22.04., Gmail `19db55bd6bb20c87`). Konsolidierter Draft in Notion: [🧾 Tomedo® Praxisfragebogen — Drafts](https://www.notion.so/34a57538249e81ba88b2d463cb9fc1d6) (auch Lütjensee). ~50% vorbefüllt.
+
+- [ ] ⚠️ Klären Standort 3: Fellbach (current.md, Website-Archiv) vs. Rangendingen (DD-Architekturdoc)
+- [ ] Klären: Genauer Firmenname (paeDoc GmbH vs. MVZ GmbH vs. GoMedicus Services — Jans offene Frage)
+- [ ] Lücken füllen: E-Mail, vollständige Adressen aller 3 Standorte, MA/Arzt-Count, Laboranbindung, Telefonanlagen, Geräteansprechpartner
+- [ ] Modul-Entscheidungen: 15 Module (Ja/Nein/Vielleicht)
+- [ ] In Asana-Form abtippen
+
 ## Waiting On
 
 - Seidemann IT Solutions — Admin-Zugang + Teamviewer Bisingen-Server (Email 17.04.)

@@ -116,6 +116,15 @@ PGP-Setup steht.
 - Alias-Datei (6 KKs): [Drive MedKitDoc](https://drive.google.com/file/d/1MkaainGdUrhsfDhwVYyUWFwuKdma60QJ/view)
 - [ ] Slack an Friederike senden (SVLFG-Anleitung + aktualisierte Alias-Datei)
 
+## Tomedo Praxisfragebogen (zollsoft)
+
+Maria Schweinitz (zollsoft) will Praxisfragebogen für Lütjensee ausgefüllt haben (Flo-Mail 22.04., Gmail `19db55bd6bb20c87`). Konsolidierter Draft in Notion: [🧾 Tomedo® Praxisfragebogen — Drafts](https://www.notion.so/34a57538249e81ba88b2d463cb9fc1d6) (auch paeDOC). ~70% vorbefüllt.
+
+- [ ] Lücken füllen: E-Mail-Adresse, vollständige Adresse, MA-Count, mobile APs, iPads, Laboranbindung, Telefonanlage-Modell, Diagnostik-Geräte-Ansprechpartner
+- [ ] Klären: Betriebsstätten-Count (Großbaier Privatpraxis = eigene BSNR?), Stefan Haupt im Scope?
+- [ ] Modul-Entscheidungen: 15 Module (Ja/Nein/Vielleicht)
+- [ ] In Asana-Form abtippen: https://form.asana.com/?k=o58O1lEV_ECVJQbwY1g9vA&d=502525010300487
+
 ## Waiting On
 
 - Corti.ai / Adam Culbertson — Addendum v3 versendet (14.04.), Feedback abwarten. [v3 Doc](https://docs.google.com/document/d/1Z2voUKJNa3Q-DrM3vWtHTYjisSuWRd3YsOvgGTiPmnY/edit) — direkte Abhängigkeit zu [mkd-integration.md](mkd-integration.md) Phase 1 Corti-Features
