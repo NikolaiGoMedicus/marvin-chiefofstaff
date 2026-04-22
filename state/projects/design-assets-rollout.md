@@ -2,7 +2,7 @@
 project: design-assets-rollout
 status: active
 owner: nikolai
-updated: 2026-04-21
+updated: 2026-04-22
 tags: [work, design, rollout, priority, lütjensee, kronprinzenbau, paedoc, nils-anfrage-sent]
 ---
 
@@ -11,6 +11,8 @@ tags: [work, design, rollout, priority, lütjensee, kronprinzenbau, paedoc, nils
 ## Status
 
 **21.04.:** Flo-AI #4 an Nikolai übergeben ("Externe Designer-Ressourcen zusammenstellen"). Parallel AI #1 (Poster-Kosten ermitteln) über Henry-DM bereits gestartet — er hat Drive-Referenzen geliefert.
+
+**22.04.:** Follow-up-Mail an Nils gesendet (Reply im Thread der Original-Anfrage 21.04.) mit kompletter Asset-Link-Liste (Designer-Brief Google Doc, Referenz-Drive-Ordner, alle drei Figma-Links), da Nils die ursprünglichen Drive-/Figma-Sharing-Notifications offenbar nicht erhalten hatte. Waiting-on-Status und Angebots-Deadline ~05.05. unverändert.
 
 **Ziel der aktuellen Phase:** Designer-Briefing an Freelancer rausgeben → **Preisangebot pro Asset-Typ** bekommen, um ein realistisches Budget für den Rollout zu planen.
 
@@ -89,7 +91,7 @@ tags: [work, design, rollout, priority, lütjensee, kronprinzenbau, paedoc, nils
 
 ## Waiting On
 
-- **Nils Graßmann** — Angebot (Preis pro Asset-Typ + Pauschal-Option), erbeten bis ~05.05. (Anfrage 21.04.)
+- **Nils Graßmann** — Angebot (Preis pro Asset-Typ + Pauschal-Option), erbeten bis ~05.05. (Erstanfrage 21.04., Follow-up mit Asset-Links 22.04.)
 
 ## Links
 

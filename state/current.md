@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-22 14:50
+Last updated: 2026-04-22 17:30
 
 > **Modulare State-Architektur (seit 21.04.):** Details leben in `state/projects/*.md`. Diese Datei ist der Index + aktuelle Prioritäten. Für die alte Monolith-Version siehe `current.md.pre-migration`.
 
@@ -48,3 +48,4 @@ _Keine aktiven Stale Threads. Aufgeräumt 21.04._
 - Zanadio-Workflow als Agent-Demo-Kandidat identifiziert (ersetzt künstlichen Demo für Basti/Henry/Jens).
 - Antonia-Call-Commitments noch pending — linear-Epic "Operations Reporting" anlegen nach Call.
 - Lambda Support-Tickets (22.04.) raus: (1) Tunnelblick DNS-Warnung `fmichels` (Franziska, unkritisch — Tomedo-Connection ok, Einschätzung erbeten); (2) Neuer VPN-Zugang Benjamin Heinke für read-only Tomedo-DB (Scope-Fragen offen, Lütjensee als Start vorgeschlagen). Beide an support@lambda-itsystems.de + Paul Epple CC. → warten auf Antwort, ggf. nach 2-3 Tagen nachhaken.
+- Nils Graßmann (Style & Grace) Follow-up gesendet (22.04.): komplette Asset-Link-Liste nachgereicht, da Original-Sharing-Notifications 21.04. offenbar nicht ankamen. Angebot weiterhin bis ~05.05. erwartet.
