@@ -2,7 +2,7 @@
 project: ai-services-rollout
 status: active
 owner: nikolai
-updated: 2026-04-22
+updated: 2026-04-23
 tags: [work, ai, enablement, priority]
 ---
 
@@ -39,7 +39,8 @@ T1 fertig (Ø Sicherheit 3,1/5). Office Hours Do 15:00 weekly (ab 16.04.). Näch
 - [ ] T1-Auswertung an Flo teilen
 - [ ] T2 Form: Vorschau prüfen, auf 16 Namen erweitern, an Basti+Jens (~21.04.). [Form](https://docs.google.com/forms/d/18FEtF2zVqjbUpCmgZnhNNqCb7Pc9BOq7mMYZcNuyv_k/edit)
 - [ ] Prompt-Workshop planen
-- [ ] Antonia-Call 22.04. durchführen (siehe Antonia-Sektion unten)
+- [x] Antonia-Call 22.04. durchführen (siehe Antonia-Sektion unten) ✅ 2026-04-22
+- [ ] Antonia Follow-up 23.04. 15:30-16:15 "Reporting-Automatisierung: Workflow-Konkretisierung" (Meet: pxh-cbkc-ctk)
 - [ ] T1-Befragung Antonia nachholen
 - [ ] Jens: Ownership "Prozess & Adoption" (Alice-Nachfolge)
 - [ ] Agent-Demo für Basti, Henry, Jens — **Kandidat: Zanadio-Versand-Workflow** (aus Antonias Sheet)
@@ -63,6 +64,9 @@ T1 fertig (Ø Sicherheit 3,1/5). Office Hours Do 15:00 weekly (ab 16.04.). Näch
 6. **Antonia als Lead "Operations-Reporting-Track"** im AI Playbook — falls sie im Call zustimmt, dokumentiert Learnings dort + präsentiert Blueprint im Team.
 
 **Call-Struktur 30 min:** 5' Framing + Lob → 8' Quick-Win-Entscheidung → 10' Zanadio-Agent-Case → 5' Offene-Fragen-Mapping → 2' Commitments.
+
+**Follow-up Meeting 2026-04-23 15:30-16:15** — "Reporting-Automatisierung: Workflow-Konkretisierung" (45 min, Meet: pxh-cbkc-ctk)
+Prep-Request an Antonia: Ziel-Dokumente mitbringen — Friederikes Operations Weekly, Master-Excel Frank Weinert, AK-SharePoint, MV/BB-Verteiler-Report (je einen pro der 4 Reporting-Prozesse).
 
 **Open (nach Call):**
 - [ ] Commitments festzurren + hier dokumentieren

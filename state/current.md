@@ -1,12 +1,12 @@
 # Current State
 
-Last updated: 2026-04-22 22:00
+Last updated: 2026-04-22 22:30
 
 > **Modulare State-Architektur (seit 21.04.):** Details leben in `state/projects/*.md`. Diese Datei ist der Index + aktuelle Prioritäten. Für die alte Monolith-Version siehe `current.md.pre-migration`.
 
 ## Active Priorities
 
-1. **AI Services Rollout** — Antonia-Check-in 22.04. prep done; Call-Commitments pending. Zanadio = Agent-Demo-Kandidat. T2 Form + Linear-Epic "Operations Reporting" next. → [projects/ai-services-rollout.md](projects/ai-services-rollout.md)
+1. **AI Services Rollout** — Antonia-Call 22.04. ✅. Follow-up 23.04. 15:30 "Workflow-Konkretisierung" geplant (Prep: 4 Ziel-Docs). Linear-Epic "Operations Reporting" + T2 Form next. → [projects/ai-services-rollout.md](projects/ai-services-rollout.md)
 2. **GoMedicus Platform & MVP** — ⚠️ Muss live. Practice Management Redesign + GOM-2862/2863 (Urgent) dominieren Dev. GOM-1976 Notification Events: waiting on Cloudnonic review. → [projects/gomedicus-platform.md](projects/gomedicus-platform.md)
 3. **Kronprinzenbau IT-Planung** — 🔴 Deadline 18.04. bei Michael überfällig. Angebot bis 15.05. → [projects/kronprinzenbau.md](projects/kronprinzenbau.md)
 4. **Lütjensee** — Go-Live Juli. Lambda-Nachverhandlung 49,7k → 25-30k läuft. → [projects/luetjensee.md](projects/luetjensee.md)
