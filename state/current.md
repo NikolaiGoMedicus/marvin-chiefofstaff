@@ -1,12 +1,12 @@
 # Current State
 
-Last updated: 2026-04-22 12:59
+Last updated: 2026-04-22 14:12
 
 > **Modulare State-Architektur (seit 21.04.):** Details leben in `state/projects/*.md`. Diese Datei ist der Index + aktuelle Prioritäten. Für die alte Monolith-Version siehe `current.md.pre-migration`.
 
 ## Active Priorities
 
-1. **AI Services Rollout** — T2 Form heute an Basti+Jens raus; Antonia Check-in morgen. → [projects/ai-services-rollout.md](projects/ai-services-rollout.md)
+1. **AI Services Rollout** — Antonia-Check-in 22.04. prep done; Call-Commitments pending. Zanadio = Agent-Demo-Kandidat. T2 Form + Linear-Epic "Operations Reporting" next. → [projects/ai-services-rollout.md](projects/ai-services-rollout.md)
 2. **GoMedicus Platform & MVP** — ⚠️ Muss live. Practice Management Redesign + GOM-2862/2863 (Urgent) dominieren Dev. GOM-1976 Notification Events: waiting on Cloudnonic review. → [projects/gomedicus-platform.md](projects/gomedicus-platform.md)
 3. **Kronprinzenbau IT-Planung** — 🔴 Deadline 18.04. bei Michael überfällig. Angebot bis 15.05. → [projects/kronprinzenbau.md](projects/kronprinzenbau.md)
 4. **Lütjensee** — Go-Live Juli. Lambda-Nachverhandlung 49,7k → 25-30k läuft. → [projects/luetjensee.md](projects/luetjensee.md)
@@ -44,7 +44,7 @@ _Keine aktiven Stale Threads. Aufgeräumt 21.04._
 
 ## Today's Focus / Notes
 
-- MARVIN-Refactor 21.04.: State modularisiert, Stop-Hook entfernt, /end + /update parallelisiert. Neue Struktur siehe `CLAUDE.md` Architecture-Sektion + [marvin-infrastructure.md](projects/marvin-infrastructure.md).
-- Florian AI-Liste (21.04.) verarbeitet: #1 (Poster-Kosten Henry), #2 (Sebastian Luitle Mail), #4 (Nils-Anfrage) alle erledigt. #3+#7 (Sebastian Schulz Cluster-Datenzugriff) offen → in ai-systems-office.md notiert.
-- GOM-1976 Notification Events (21.04.): Spec-Doc erstellt, Email an Nicolas + Benjamin (Cloudnonic) gesendet — waiting on review. Scope: Areas 1-3, Area 4 post-launch.
-- Linear-Drift bereinigt (21.04.): GOM-2335, GOM-1977, GOM-2689, GOM-2638, GOM-2736 alle bereits Done in Linear — gomedicus-platform.md aktualisiert (Recently Shipped section).
+- Antonia AI Check-in 22.04.: Prep-Session abgeschlossen. Antonias Reporting-Sheet analysiert (4 Prozesse × 4 Horizonte + 5 offene Fragen). Sechs Hebel + Call-Struktur erarbeitet. Details in ai-services-rollout.md.
+- Zanadio-Workflow als Agent-Demo-Kandidat identifiziert (ersetzt künstlichen Demo für Basti/Henry/Jens).
+- Antonia-Call-Commitments noch pending — linear-Epic "Operations Reporting" anlegen nach Call.
+- Lambda Support-Tickets (22.04.) raus: (1) Tunnelblick DNS-Warnung `fmichels` (Franziska, unkritisch — Tomedo-Connection ok, Einschätzung erbeten); (2) Neuer VPN-Zugang Benjamin Heinke für read-only Tomedo-DB (Scope-Fragen offen, Lütjensee als Start vorgeschlagen). Beide an support@lambda-itsystems.de + Paul Epple CC. → warten auf Antwort, ggf. nach 2-3 Tagen nachhaken.
