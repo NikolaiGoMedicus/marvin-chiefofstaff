@@ -2,7 +2,7 @@
 project: ai-systems-office
 status: active
 owner: nikolai
-updated: 2026-04-21
+updated: 2026-04-22
 tags: [work, role, strategy, cdio]
 ---
 
@@ -45,10 +45,24 @@ Doctolib-Hintergrund, PVS-Projektleitung bei Dr. Lipp (2 Jahre). Start 1.8. oder
 - [Notion Spec](https://www.notion.so/32d57538249e8015a424f04a61f0a348)
 - [Ownership](https://www.notion.so/2e757538249e804cbf10ea312f83ec39)
 
-## Hiring IT Ops Lead
+## Hiring IT Ops Lead — IT Operations Manager Praxis-IT
 
-Personio Job 2594644, 3 Bewerbungen/kein Match. [Optimierungs-Doc](https://docs.google.com/document/d/1_DSjzfoVBsxCjg2n2KxRyqR4vzkIJYB5f-Q_P9yHk8Y/edit) an Flo (16.04.).
+Personio Jobs 2594644 + 2608146. Optimierungs-Doc an Flo (16.04.). Triage-Session 22.04.: 12 Bewerbungen total, 9 rejected, 3 aktiv.
 
+### Aktive Kandidaten (Stand 22.04.)
+
+| Kandidat | App-ID | Personio-Candidate-ID | Einschätzung | Next Step |
+|----------|--------|-----------------------|--------------|-----------|
+| **Malekkhouyan, Arash** | — | — | Nikolai-Favorit: moderner Stack, Entwicklungspotential | Interview vorbereiten |
+| **Crumbach, Tobias** | — | — | Solider Kandidat, abwarten | Flos Meinung einholen |
+| **Lakhani, Priya** | — | — | Nicht passend | Absage senden |
+
+### Open Items
+
+- [ ] Flo: Fazit zu den 3 aktiven Bewerbungen — Gmail Draft `r-4148311281209141750` (an f.kleinau@gomedicusgroup.com)
+- [ ] Lakhani absagen (nach Flo-Absprache)
+- [ ] Crumbach: Flos Meinung abwarten, dann entscheiden
+- [ ] Malekkhouyan: Interview einleiten wenn Flo zustimmt
 - [ ] Flo: Feedback zum Optimierungs-Doc + IT-Stellenanzeige verfeinern (gemeinsam)
 - [ ] Nach Feedback: Titel + Text in Personio aktualisieren
 - [ ] Active Sourcing starten (LinkedIn: Tomedo/medatixx/TI/Hexnode) + Franzi/Antonia-Kontakte
