@@ -2,13 +2,32 @@
 project: tomedo-exploration
 status: active
 owner: nikolai
-updated: 2026-04-22
+updated: 2026-04-23
 tags: [work, gomedicus, tomedo, reporting, knowledge-base]
 ---
 
 # Tomedo Exploration
 
 Knowledge Base + Query-Library für Tomedo-Datenbank. Greenfield-Repo, aufgesetzt am 22.04.2026.
+
+## Update 2026-04-23 — Discovery "Tagesliste" für Auslastungs-Reporting
+
+Arved + Nikolai Call (10:16): Arved braucht automatisiertes Auslastungs-Reporting
+(Patienten/Arzt/h × Standort × Tag). Manuelles Sheet 1.-14.4. war Proof-of-Concept.
+
+**Befund:** Die Tomedo-UI "Tagesliste" speist sich aus Tabelle `besuch` (nicht `termin`).
+Arveds Handzählung matcht DB ±1 pro Zeile über 24 Vergleichspunkte.
+
+**Neue Artefakte:**
+- Entity-Doc: [`docs/entities/besuch.md`](../../Documents/web/tomedo-exploration/docs/entities/besuch.md)
+- Reusable Queries: `auslastung-taegliche-besuche.sql`, `auslastung-stunden-heatmap.sql`
+- Discovery-Sheet für Arved + Sebastian: [Tomedo DB Discovery — Auslastungs-Reporting](https://docs.google.com/spreadsheets/d/1fDMAiVdROwkzW4vzXQXLboFDpp8aAwM_FCVVo3WcE-U/edit)
+- Notion-Seite aktualisiert: neue Sektion "Discovery 2026-04-23" und Queries-Liste auf 5 erweitert.
+
+**Offen für nächsten Call:**
+- Scope-Entscheidung: DB-only Phase 1 oder Personio-Integration parallel?
+- MFA-Metrik-Ersatz (Arveds "Patienten/MFA/h" methodisch kaputt)
+- Arzt-Kürzel-Mapping (GorA, CWA, SauB, HajS ...) zentral zu Arved+Michael pflegen
 
 ## Location
 
@@ -44,12 +63,14 @@ bf481f3  chore: initial setup (M0)
 ## Was drin ist
 
 - **Schema-Metadata:** 2.314 Tabellen, 14.703 Spalten, 3.078 Indizes, 13 Views, 4.140 pseudo-FKs
-- **11 Entity-Docs** (patient, termin, leistung, kvschein, medikamentenverordnung, diagnose, labor, karteieintrag, patientenformular, epa, cke)
+- **12 Entity-Docs** (patient, termin, **besuch**, leistung, kvschein, medikamentenverordnung, diagnose, labor, karteieintrag, patientenformular, epa, cke)
 - **3 Pattern-Docs** (patient-join-kaskade, hibernate-conventions, objectid-timestamp-decode)
-- **3 Reusable-Queries** für Antonias Operations Reporting:
-  - `adipositaskurs-woche.sql` — Wochenreport AK/eTermin + verlinkte Adipositas-Meds
-  - `zanadio-beantwortete-formulare.sql` — Permalink-Formulare mit dekodiertem Timestamp
-  - `termine-mit-verordnung.sql` — generisches LEGO-Stück
+- **5 Reusable-Queries**:
+  - `adipositaskurs-woche.sql` — Wochenreport AK/eTermin + verlinkte Adipositas-Meds (Antonia)
+  - `zanadio-beantwortete-formulare.sql` — Permalink-Formulare mit dekodiertem Timestamp (Antonia)
+  - `termine-mit-verordnung.sql` — generisches LEGO-Stück (Antonia)
+  - `auslastung-taegliche-besuche.sql` — Patienten/Tag/Standort/Arzt (Arved, seit 23.04.)
+  - `auslastung-stunden-heatmap.sql` — Besuche/Stunde/Standort (Arved, seit 23.04.)
 - **PROJECT_CONTEXT.md** — single-file Bundle für Upload als Claude-Projekt-Kontext
 
 ## Wichtigste Befunde

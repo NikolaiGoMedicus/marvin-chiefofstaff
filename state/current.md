@@ -1,12 +1,12 @@
 # Current State
 
-Last updated: 2026-04-23 18:30
+Last updated: 2026-04-23 11:34
 
 > **Modulare State-Architektur (seit 21.04.):** Details leben in `state/projects/*.md`. Diese Datei ist der Index + aktuelle Prioritäten. Für die alte Monolith-Version siehe `current.md.pre-migration`.
 
 ## Active Priorities
 
-1. **AI Services Rollout** — Antonia-Call 22.04. ✅. Follow-up 23.04. 15:30 "Workflow-Konkretisierung" geplant (Prep: 4 Ziel-Docs). Linear-Epic "Operations Reporting" + T2 Form next. → [projects/ai-services-rollout.md](projects/ai-services-rollout.md)
+1. **AI Services Rollout** — Antonia-Call 22.04. ✅. Follow-up 23.04. 15:30 "Workflow-Konkretisierung" noch heute. Linear-Epic "Operations Reporting" + T2 Form next. → [projects/ai-services-rollout.md](projects/ai-services-rollout.md)
 2. **GoMedicus Platform & MVP** — ⚠️ Muss live. Practice Management Redesign + GOM-2862/2863 (Urgent) dominieren Dev. GOM-1976 Notification Events: waiting on Cloudnonic review. → [projects/gomedicus-platform.md](projects/gomedicus-platform.md)
 3. **Kronprinzenbau IT-Planung** — 🔴 Deadline 18.04. bei Michael überfällig. Angebot bis 15.05. → [projects/kronprinzenbau.md](projects/kronprinzenbau.md)
 4. **Lütjensee** — Go-Live Juli. Lambda-Nachverhandlung 49,7k → 25-30k läuft. → [projects/luetjensee.md](projects/luetjensee.md)
@@ -49,14 +49,8 @@ _Keine aktiven Stale Threads. Aufgeräumt 21.04._
 
 ## Today's Focus / Notes
 
-- Antonia AI Check-in 22.04.: Prep-Session abgeschlossen. Antonias Reporting-Sheet analysiert (4 Prozesse × 4 Horizonte + 5 offene Fragen). Sechs Hebel + Call-Struktur erarbeitet. Details in ai-services-rollout.md.
-- Zanadio-Workflow als Agent-Demo-Kandidat identifiziert (ersetzt künstlichen Demo für Basti/Henry/Jens).
-- Antonia-Call-Commitments noch pending — linear-Epic "Operations Reporting" anlegen nach Call.
-- Lambda Support-Tickets (22.04.) raus: (1) Tunnelblick DNS-Warnung `fmichels` (Franziska, unkritisch — Tomedo-Connection ok, Einschätzung erbeten); (2) Neuer VPN-Zugang Benjamin Heinke für read-only Tomedo-DB (Scope-Fragen offen, Lütjensee als Start vorgeschlagen). Beide an support@lambda-itsystems.de + Paul Epple CC. → warten auf Antwort, ggf. nach 2-3 Tagen nachhaken.
-- Nils Graßmann (Style & Grace) Follow-up gesendet (22.04.): komplette Asset-Link-Liste nachgereicht, da Original-Sharing-Notifications 21.04. offenbar nicht ankamen. Angebot weiterhin bis ~05.05. erwartet.
-- Tomedo Exploration M0-M5 ✅ (22.04., ~2h): Greenfield-Repo + private GitHub, read-only DB-Zugang, 2314 Tabellen, 11 Entity-Docs, 3 Reusable-Queries für Antonia. Details in [tomedo-exploration.md](projects/tomedo-exploration.md). Next: Queries an Antonia + Linear-Epic "Operations Reporting".
-- Hiring IT Ops Manager Triage (22.04. Abend): 12 Bewerbungen, 9 rejected, 3 aktiv. Nikolai-Favorit: Malekkhouyan (moderner Stack, Entwicklungspotential). Lakhani → Absage vorgesehen. Crumbach → Flos Meinung abwarten. Fazit-Mail an Flo als Gmail-Draft geparkt. Details in [ai-systems-office.md](projects/ai-systems-office.md).
-- **Tomedo® Praxisfragebogen** (22.04. 17:30): Maria Schweinitz (zollsoft) will Fragebogen zweimal ausgefüllt — paeDOC + Hausarztzentrum Lütjensee (Flo forwarded, Gmail `19db55bd6bb20c87`). Konsolidierter Draft in Notion: [🧾 Tomedo® Praxisfragebogen — Drafts](https://www.notion.so/34a57538249e81ba88b2d463cb9fc1d6) (Parent: Praxis-IT Rollout). Lütjensee ~70%, paeDOC ~50% vorbefüllt. Modul-Tabellen (15 Module/Praxis) mit Empfehlungen. ⚠️ Diskrepanz: paeDOC Standort 3 = Fellbach (current.md) vs. Rangendingen (DD-Architekturdoc) — klären. Next: Nikolai füllt Lücken + Module, dann Transfer in Asana-Form.
-- **Claude AI Debrief für Arved** (23.04.): Briefing-Mail als Gmail-Draft geparkt. Notion-Kostenübersicht erstellt. Jahresplan-Wechsel = ~20% / ~2.270 €/Jahr Sparpotential. 7 Premium-Seats bestätigt. Details in [claude-admin.md](projects/claude-admin.md).
-- **Meeting 23.04. 10:30 Tim-Ole + Jens** (3 Themen): Notion Intranet Architecture, Claude Skills Program, AI Workflow & Session Recording. PostHog-Empfehlung aus Research-Brief zurückgezogen → 3-Phasen-Modell (Plausible → Matomo → PostHog). Details in [platform-analytics.md](projects/platform-analytics.md).
-- **Prep v2 für Antonia-Follow-up 23.04. 15:30** erstellt: [Google Doc](https://docs.google.com/document/d/1SJUJWtctbN5CMHsss9IhT87uAkK70ttaPDL5u7YBiek/edit).
+- **23.04. Vormittag:** Claude Admin/Arved-Briefing-Draft ✅, Meeting-Prep 10:30 Tim-Ole + Jens ✅ (3-Phasen-Analytics-Modell, Claude Skills, Notion Intranet). Details in [claude-admin.md](projects/claude-admin.md) + [platform-analytics.md](projects/platform-analytics.md).
+- **23.04. Mittag — Tomedo DB Discovery für Arveds Auslastungs-Reporting** ✅. `besuch`-Tabelle = Tomedo-Tagesliste (nicht `termin`). Arveds 14-Tage-Zahlen matchen DB ±1 pro Zeile. Entity-Doc + 2 Reusable-Queries (`auslastung-taegliche-besuche.sql`, `auslastung-stunden-heatmap.sql`) committed + pushed (commit `16a7ff2`). [Diskussions-Sheet für Arved + Sebastian Schulz](https://docs.google.com/spreadsheets/d/1fDMAiVdROwkzW4vzXQXLboFDpp8aAwM_FCVVo3WcE-U/edit) mit 7 Tabs erstellt. Details in [tomedo-exploration.md](projects/tomedo-exploration.md). Offen: Scope-Call mit Arved+Sebastian (DB-only Phase 1 vs. Personio parallel).
+- **Antonia Follow-up 15:30** steht noch aus — Prep-Doc v2 bereit: [Google Doc](https://docs.google.com/document/d/1SJUJWtctbN5CMHsss9IhT87uAkK70ttaPDL5u7YBiek/edit). Nach Call: Linear-Epic "Operations Reporting" anlegen.
+- **Outbox-Drafts pending:** Flo Hiring-Fazit, Antragswesen Paul, Arved Claude-Briefing — alle warten auf Nikolai-Freigabe.
+- **Offene Praxis-Threads:** Tomedo-Praxisfragebogen (Nikolai füllt Lücken, paeDOC Standort 3 klären Fellbach vs. Rangendingen), Lambda Tickets warten auf Antwort.
