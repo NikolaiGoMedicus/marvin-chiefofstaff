@@ -10,6 +10,59 @@ tags: [work, gomedicus, tomedo, reporting, knowledge-base]
 
 Knowledge Base + Query-Library für Tomedo-Datenbank. Greenfield-Repo, aufgesetzt am 22.04.2026.
 
+## Update 2026-04-23 (Nachmittag) — Telemed-Reporting für Sebastian Lüttle
+
+**Kontext:** Live-Demo mit Sebastian Lüttle (GoMedicus Services, Reporting). Ad-hoc-Frage zu telemedizinischen Arzt-Patienten-Kontakten. Ergebnis: signifikante operative Verschiebung + neue Reusable-Query + wichtige Schema-/Business-Erkenntnisse (mehrfach iteriert während des Calls).
+
+**Korrigierte Definition (nach Sebastians Input):**
+
+Telemedizinischer Arzt-Patienten-Kontakt = Termin in einer von **27 Terminarten**:
+- **13 Video-Terminarten** (Standort-spezifisch + GoMedicus-generisch)
+- **11 Sonder-Sprechstunden** (exklusiv telemedizinisch, GKV): Apo-VSS, Depression-Beratung, Fatigue-Beratung, Inkontinenz, M.Bechterew, Brustkrebs, Diabetes-Sprechstunde, Diabetes-Lotse, Doctorbox STI, ZNA (Notaufnahme-VSS), Zanadio (+ zanadio)
+- **1 Adipositas-Beratung (Novo Nordisk) = Privatleistung** — aus GKV-Count exkludieren
+- **2 Telefonat-Terminarten**
+
+Versicherungs-Split via Schein im Zielquartal:
+- GKV (inkl. HZV): `kvschein.jahr/.quartal`
+- HZV-Teilnehmer (Subset GKV): `hzvschein → hzvdetails.patient_ident`
+- SV: `dvpschein` (falls relevant)
+- Privat: kein Schein + alle Adipositas-Beratung
+
+**Erkenntnisse:**
+
+1. **`leistung.patient_ident` ist bei EBM-Abrechnungs-Ziffern durchweg NULL** — Pfad zu Patient muss über `leistung.invkvschein_ident → kvschein.patient_ident` laufen. Betrifft 01450, 01444, 88220, 01439. → Neuer Pattern-Doc `docs/patterns/abrechnung-ziffern-join.md`.
+2. **Arzt-Tabelle heißt `nutzer`**, nicht `arzt`. `abrechnenderarzt_ident → nutzer.ident`.
+3. **EBM 01450 ist nicht die vollständige Telemed-Quelle.** Sie deckt nur abgerechnete Video-Sprechstunden ab, verfehlt ~34% der Telemed-Kontakte (Telefonate + Sonder-Beratungen ohne Video-Zuschlag). Primärquelle = Terminart + Schein-Check.
+4. **HZV-Teilnehmer automatisch in GKV-Count enthalten** (kvschein existiert für alle GKV-Patienten, unabhängig von HZV-Einschreibung).
+5. **`besuch.terminkalender` ist in Bisingen durchgängig leer** (730/730 KW13, 100%). Pflege-Problem. Video-Exclude-Filter bei Auslastungs-Queries daher nur an gepflegten Standorten (Gosheim, Rangendingen) wirksam.
+6. **Sonder-Telemed-Besuche dürfen NICHT zu Vor-Ort-Auslastung zählen** (Sebastian-Ansage). Auslastungs-Query `auslastung-taegliche-besuche.sql` seit 23.04. mit Exclude-Filter gepatcht — aber Bisingen bleibt Blindspot, solange `terminkalender` dort nicht gepflegt wird.
+7. **Operative Verschiebung Bisingen → Reutlingen-Tübinger-Straße** (via EBM 01450, GKV-Video): Bisingen KW11 (185) → KW15 (31) = -83%; REU-Tü 13 → 121 = +830%. Bisher nicht quantifiziert.
+
+**Zahlen KW13/2026 (23.-29.3.) — korrigierte Primärquelle (Terminart + Schein):**
+
+| Segment | Pat. | Termine |
+|---|---:|---:|
+| Telemed-Kontakte gesamt | **234** | 283 |
+| GKV inkl. HZV (kvschein Q1) | 224 | 239 |
+| HZV-Subset | **102** | 112 |
+| Adipositas-Beratung (Privat/Novo) | 1 | 1 |
+| Privat/Selbstzahler (kein Schein) | 9 | 9 |
+
+**Vergleich nur-EBM-01450:** 149 GKV-Pat (Delta -75 zur Terminart-Zählung = Telefonate + Sonder-Beratungen).
+
+**Arzt-Split Bisingen KW13 (nur EBM 01450):** Dr. Philipp Moon (MooP) 133/109 (91%), Dr. Robert Bartaky (BarR) 13/13. Kompletter Arzt-Split via neue Terminart-Query noch nicht gelaufen — Follow-up.
+
+**Neue Artefakte:**
+- `queries/reusable/telemed-kontakte.sql` — parametrisiert (Zeitraum, BS), liefert KW × Standort × Arzt
+- `docs/patterns/abrechnung-ziffern-join.md` — Pattern-Doc mit Verifikation
+- Updates: README (Key Learnings erweitert), PROJECT_CONTEXT.md (Hard Rules + Abrechnungs-Muster-Sektion), `docs/entities/leistung.md` (Patient-Join-Tabelle)
+- Notion-Update ausstehend (siehe unten)
+
+**Offen:**
+- Privat/GOÄ sauber abbilden — `l.containedonrechnung_ident → rechnung`-Pfad verifizieren
+- Arzt-Kürzel-Mapping Bisingen: nur 2 Ärzte in KW13, aber das `nutzer.kuerzel`-Schema (MooP, BarR) sollte zentral dokumentiert werden
+- Wenn Sebastian eigenen Zugriff will: Lambda-Ticket analog Benjamin-Heinke vom 22.04. aufsetzen
+
 ## Update 2026-04-23 — Discovery "Tagesliste" für Auslastungs-Reporting
 
 Arved + Nikolai Call (10:16): Arved braucht automatisiertes Auslastungs-Reporting
@@ -65,12 +118,16 @@ bf481f3  chore: initial setup (M0)
 - **Schema-Metadata:** 2.314 Tabellen, 14.703 Spalten, 3.078 Indizes, 13 Views, 4.140 pseudo-FKs
 - **12 Entity-Docs** (patient, termin, **besuch**, leistung, kvschein, medikamentenverordnung, diagnose, labor, karteieintrag, patientenformular, epa, cke)
 - **3 Pattern-Docs** (patient-join-kaskade, hibernate-conventions, objectid-timestamp-decode)
-- **5 Reusable-Queries**:
+- **6 Reusable-Queries**:
   - `adipositaskurs-woche.sql` — Wochenreport AK/eTermin + verlinkte Adipositas-Meds (Antonia)
   - `zanadio-beantwortete-formulare.sql` — Permalink-Formulare mit dekodiertem Timestamp (Antonia)
   - `termine-mit-verordnung.sql` — generisches LEGO-Stück (Antonia)
   - `auslastung-taegliche-besuche.sql` — Patienten/Tag/Standort/Arzt (Arved, seit 23.04.)
   - `auslastung-stunden-heatmap.sql` — Besuche/Stunde/Standort (Arved, seit 23.04.)
+  - `telemed-kontakte.sql` — Videosprechstunden via EBM 01450, KW × Standort × Arzt (Sebastian Lüttle, seit 23.04.)
+- **4 Pattern-Docs** (+1 seit 23.04.):
+  - `patient-join-kaskade.md`, `hibernate-conventions.md`, `objectid-timestamp-decode.md`
+  - `abrechnung-ziffern-join.md` — EBM-Zuschläge → Patient via kvschein (neu)
 - **PROJECT_CONTEXT.md** — single-file Bundle für Upload als Claude-Projekt-Kontext
 
 ## Wichtigste Befunde
