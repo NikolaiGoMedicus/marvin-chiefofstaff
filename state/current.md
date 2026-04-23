@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-23 11:34
+Last updated: 2026-04-23 14:01
 
 > **Modulare State-Architektur (seit 21.04.):** Details leben in `state/projects/*.md`. Diese Datei ist der Index + aktuelle Prioritäten. Für die alte Monolith-Version siehe `current.md.pre-migration`.
 
@@ -52,5 +52,6 @@ _Keine aktiven Stale Threads. Aufgeräumt 21.04._
 - **23.04. Vormittag:** Claude Admin/Arved-Briefing-Draft ✅, Meeting-Prep 10:30 Tim-Ole + Jens ✅ (3-Phasen-Analytics-Modell, Claude Skills, Notion Intranet). Details in [claude-admin.md](projects/claude-admin.md) + [platform-analytics.md](projects/platform-analytics.md).
 - **23.04. Mittag — Tomedo DB Discovery für Arveds Auslastungs-Reporting** ✅. `besuch`-Tabelle = Tomedo-Tagesliste (nicht `termin`). Arveds 14-Tage-Zahlen matchen DB ±1 pro Zeile. Entity-Doc + 2 Reusable-Queries (`auslastung-taegliche-besuche.sql`, `auslastung-stunden-heatmap.sql`) committed + pushed (commit `16a7ff2`). [Diskussions-Sheet für Arved + Sebastian Schulz](https://docs.google.com/spreadsheets/d/1fDMAiVdROwkzW4vzXQXLboFDpp8aAwM_FCVVo3WcE-U/edit) mit 7 Tabs erstellt. Details in [tomedo-exploration.md](projects/tomedo-exploration.md). Offen: Scope-Call mit Arved+Sebastian (DB-only Phase 1 vs. Personio parallel).
 - **Antonia Follow-up 15:30** steht noch aus — Prep-Doc v2 bereit: [Google Doc](https://docs.google.com/document/d/1SJUJWtctbN5CMHsss9IhT87uAkK70ttaPDL5u7YBiek/edit). Nach Call: Linear-Epic "Operations Reporting" anlegen.
+- **23.04. Nachmittag — Brand University Day 3 Slidev** ✅. Full Slidev deck gebaut (`/brand-university/day3-slides/slides.md`, theme: seriph). Tonight-Tasks noch offen: Sola Gem + GPT bauen, Prompt Library freigeben, Projektor-Setup testen. Details in [brand-university.md](projects/brand-university.md).
 - **Outbox-Drafts pending:** Flo Hiring-Fazit, Antragswesen Paul, Arved Claude-Briefing — alle warten auf Nikolai-Freigabe.
 - **Offene Praxis-Threads:** Tomedo-Praxisfragebogen (Nikolai füllt Lücken, paeDOC Standort 3 klären Fellbach vs. Rangendingen), Lambda Tickets warten auf Antwort.

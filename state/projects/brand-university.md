@@ -24,7 +24,8 @@ Bewertungen fertig (09.04.). 25 Studenten, 13 Gruppen, Noten 91–96. PDFs gener
 
 - [Day 1 Slides](https://docs.google.com/presentation/d/1Chsejvpao7X4-23_3oSqNi5b66eiWtqojVL5_KbLi0I/edit)
 - [Day 2 Slides](https://docs.google.com/presentation/d/1czeHGbnyQDNaoG4OK3Kblv_do7NdMMlJcRvCGuxpN2g/edit) (38 Slides, fertig)
-- [Day 3 Slides](https://docs.google.com/presentation/d/14yss7fPfL9ox7HIWPrB25iOTuRiO3yVuR1fIDDpGTU4/edit) (15 Slides, erstellt 23.04.)
+- [Day 3 Slides (Google)](https://docs.google.com/presentation/d/14yss7fPfL9ox7HIWPrB25iOTuRiO3yVuR1fIDDpGTU4/edit) (15 Slides, erstellt 23.04.)
+- **Day 3 Slidev** — `/Users/nikolaibockholt/Documents/brand-university/day3-slides/slides.md` (Slidev, theme: seriph, full deck gebaut 23.04.)
 - [Day 3 Spec (Vault)](Arbeit/Brand%20University/Kurse/Marketing%20AI%20-%20SuSe%202026%20-%20Day%203%20Plan.md) — komplette Blockstruktur, Demo-Prompts, Sola Brand Kit, Advanced Techniques
 - [Prompt Library (Google Doc)](https://docs.google.com/document/d/19DiLkLZu0PfAj35kedX2sBQdx_Z1JzDW37C1o2vFA58/edit) — 12 Marketing-Templates + 5-Layer-Pattern. Sharing OFF bis Nikolai freigibt.
 
