@@ -77,8 +77,10 @@ Prep-Request an Antonia: Ziel-Dokumente mitbringen — Friederikes Operations We
 ## Claude Skills Library
 
 - [Skills Program](https://www.notion.so/33f57538249e811782e0cad8c575d3ef) — technisch korrigiert, unter AI Playbook
+- Meeting 23.04. 10:30 mit Tim-Ole + Jens: Claude Skills Program besprochen (neben Notion Intranet Architecture + AI Workflow / Session Recording)
 - [ ] Jens: Working Session Corporate Document Style
 - [ ] Erstes Claude Project "GoMedicus Corporate Docs" aufsetzen
+- [ ] Notion Intranet Architecture: Ergebnisse aus Tim-Ole/Jens-Meeting aufarbeiten (→ ggf. eigenes Project-File)
 
 ## Offene Initiativen
 

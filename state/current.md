@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-22 23:15
+Last updated: 2026-04-23 18:30
 
 > **Modulare State-Architektur (seit 21.04.):** Details leben in `state/projects/*.md`. Diese Datei ist der Index + aktuelle Prioritäten. Für die alte Monolith-Version siehe `current.md.pre-migration`.
 
@@ -29,6 +29,8 @@ Last updated: 2026-04-22 23:15
 - [Starface](projects/starface.md) · [Doc Cirrus](projects/doc-cirrus.md) · [Hardware-Standards](projects/hardware-standards.md)
 - [QM Handbuch](projects/qm-handbuch.md) · [Notion Konsolidierung](projects/notion-konsolidierung.md) · [Reporting](projects/reporting.md)
 - [Website](projects/website.md) · [Design-Assets Rollout (Lüt/KB/Kids)](projects/design-assets-rollout.md) · [Lütjensee Designer-Brief (superseded)](projects/luetjensee-designer-brief.md)
+- [Claude Admin / Lizenzmanagement](projects/claude-admin.md) — Pricing, Jahresplan-Hebel, Arved-Debrief (23.04.)
+- [Platform Analytics & Session Recording](projects/platform-analytics.md) — 3-Phasen-Strategie (Plausible → Matomo → PostHog). PostHog-Empfehlung zurückgezogen (DSGVO). Phase 1 (Plausible Event-Spec) läuft.
 - [Privat](projects/privat.md) — Strom, Solar, Karriere, Claudio, Meshtastic, Flipper, Laser Forge
 
 ## Outbox
@@ -39,6 +41,7 @@ _Drafts, die auf Absenden warten. Drafts landen hier durch `/draft park`, werden
 |---|------|-------|-----|
 | 1 | Flo Kleinau (f.kleinau@gomedicusgroup.com) | IT Operations Manager – Praxis-IT: Fazit zu den 3 aktiven Bewerbungen | Gmail Draft `r-4148311281209141750` |
 | 2 | Paul Gonser (p.gonser@gomedicusgroup.com) | Antragswesen | Gmail Draft `r-195552586130492000` |
+| 3 | Arved Schneider (a.schneider@gomedicusgroup.com) | Claude AI @ GoMedicus — Kurz-Briefing für dein Debrief | Gmail Draft `r2985519939217385353` |
 
 ## Stale Threads (>14 Tage ohne Bewegung)
 
@@ -54,3 +57,6 @@ _Keine aktiven Stale Threads. Aufgeräumt 21.04._
 - Tomedo Exploration M0-M5 ✅ (22.04., ~2h): Greenfield-Repo + private GitHub, read-only DB-Zugang, 2314 Tabellen, 11 Entity-Docs, 3 Reusable-Queries für Antonia. Details in [tomedo-exploration.md](projects/tomedo-exploration.md). Next: Queries an Antonia + Linear-Epic "Operations Reporting".
 - Hiring IT Ops Manager Triage (22.04. Abend): 12 Bewerbungen, 9 rejected, 3 aktiv. Nikolai-Favorit: Malekkhouyan (moderner Stack, Entwicklungspotential). Lakhani → Absage vorgesehen. Crumbach → Flos Meinung abwarten. Fazit-Mail an Flo als Gmail-Draft geparkt. Details in [ai-systems-office.md](projects/ai-systems-office.md).
 - **Tomedo® Praxisfragebogen** (22.04. 17:30): Maria Schweinitz (zollsoft) will Fragebogen zweimal ausgefüllt — paeDOC + Hausarztzentrum Lütjensee (Flo forwarded, Gmail `19db55bd6bb20c87`). Konsolidierter Draft in Notion: [🧾 Tomedo® Praxisfragebogen — Drafts](https://www.notion.so/34a57538249e81ba88b2d463cb9fc1d6) (Parent: Praxis-IT Rollout). Lütjensee ~70%, paeDOC ~50% vorbefüllt. Modul-Tabellen (15 Module/Praxis) mit Empfehlungen. ⚠️ Diskrepanz: paeDOC Standort 3 = Fellbach (current.md) vs. Rangendingen (DD-Architekturdoc) — klären. Next: Nikolai füllt Lücken + Module, dann Transfer in Asana-Form.
+- **Claude AI Debrief für Arved** (23.04.): Briefing-Mail als Gmail-Draft geparkt. Notion-Kostenübersicht erstellt. Jahresplan-Wechsel = ~20% / ~2.270 €/Jahr Sparpotential. 7 Premium-Seats bestätigt. Details in [claude-admin.md](projects/claude-admin.md).
+- **Meeting 23.04. 10:30 Tim-Ole + Jens** (3 Themen): Notion Intranet Architecture, Claude Skills Program, AI Workflow & Session Recording. PostHog-Empfehlung aus Research-Brief zurückgezogen → 3-Phasen-Modell (Plausible → Matomo → PostHog). Details in [platform-analytics.md](projects/platform-analytics.md).
+- **Prep v2 für Antonia-Follow-up 23.04. 15:30** erstellt: [Google Doc](https://docs.google.com/document/d/1SJUJWtctbN5CMHsss9IhT87uAkK70ttaPDL5u7YBiek/edit).
