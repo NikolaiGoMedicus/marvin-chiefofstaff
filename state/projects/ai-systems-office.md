@@ -2,7 +2,7 @@
 project: ai-systems-office
 status: active
 owner: nikolai
-updated: 2026-04-22
+updated: 2026-04-24
 tags: [work, role, strategy, cdio]
 ---
 
@@ -56,6 +56,12 @@ Personio Jobs 2594644 + 2608146. Optimierungs-Doc an Flo (16.04.). Triage-Sessio
 | **Malekkhouyan, Arash** | — | — | Nikolai-Favorit: moderner Stack, Entwicklungspotential | Interview vorbereiten |
 | **Crumbach, Tobias** | — | — | Solider Kandidat, abwarten | Flos Meinung einholen |
 | **Lakhani, Priya** | — | — | Nicht passend | Absage senden |
+
+### Initiativbewerbung — Kennedy Chikaodili Idoko (24.04.)
+
+Thread: Flo → Jens → Nikolai → Flo. Profil: Pflege + NGO Nigeria als reale Erfahrung; Data-Science-Claims freelance ohne nachweisbare Kunden; §341 SGB V / gematik nicht belegt. Kein Hiring-Match: "Manager Digital Health Ops" = seit 01.04. Antonia, IT Ops Lead hat Malekkhouyan/Crumbach/Lakhani, Franzi Löle kommt 1.8./1.9. Pre-Screening-Aufgabe vereinbart statt direktem Gespräch (testet FHIR/SNOMED/LOINC, §341 SGB V, 90-Tage-Roadmap). Draft fertig — Nikolai entscheidet ob an Flo schicken / als Gmail Draft anlegen.
+
+- [ ] Pre-Screening-Mail an Flo finalisieren (Draft an f.kleinau@gomedicusgroup.com oder Gmail Draft anlegen)
 
 ### Open Items
 
