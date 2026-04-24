@@ -1,6 +1,6 @@
 ---
 channel: slack
-last_run: null
+last_run: 2026-04-24T18:35:00+02:00
 updated: 2026-04-24
 ---
 
@@ -14,6 +14,7 @@ _Bestätigte offene Items (warten auf Nikolais Aktion). Leer beim Bootstrap._
 
 | ID | Since | Source | Summary | Project | Link |
 |----|-------|--------|---------|---------|------|
+| S-001 | 2026-04-24 | DM Antonia Gebhardt | heydata.eu DSGVO-Tool — Relevanz für GoMedicus? | — | [slack](slack://channel?team=T04KJACGGBH&id=D0APEL56T7S) |
 
 ## Pending Confirmation
 
