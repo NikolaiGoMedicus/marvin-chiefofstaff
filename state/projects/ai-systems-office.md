@@ -14,6 +14,29 @@ tags: [work, role, strategy, cdio]
 
 Tim-Ole 1:1 (15.04.): [Meeting-Notizen](https://docs.google.com/document/d/1ac88fa1JB55ityZ_E3CWbg1uwE-cmvH0ZrjZDdV93g0/edit) — CDIO-Seite fast fertig, 2 offene Jens-Punkte. Strategie-Shift Bottom-up → Top-down bestätigt.
 
+## 🟠 OKR-Finalisierungs-Meeting 24.04. (Jens + Tim-Ole) — OFFEN, nachbereiten
+
+[Transcript](https://docs.google.com/document/d/19vdjk7lEBwYzxPO4Hra_FNddUlUf0mR1vSiSA53JFL4/edit) · ~56 Min · noch nicht vollständig verarbeitet.
+
+**Kern-Outcomes (Kurzfassung):**
+- **Mandats-Reset:** Nikolai fokussiert auf AI Enablement + IT Systems Architecture + Praxen-Integration (Lüt/KB/Pedoc, ~4 Monate). **Raus:** Marketing, Welcome Packages, CI (→ Jens / Sebastian Kühen).
+- **Tomedo-DB Lesezugriff bestätigt.** Ben + Juan seit 23.04. dran (33 GB, 2000 Tabellen). Strategie: Einmal-Export → eigene Plattform. Vision: *vor* Tomedo statt *hinter*.
+- **OKRs fertig** bis auf PVS-Integration-Datum (wartet auf Plattform-Roadmap).
+- **Konflikt-Moment:** Jens wollte Commitments, Nikolai flaggte Abhängigkeiten. Jens las als "verteidigen warum nichts geht". Bilateral nachbereiten.
+- **Red Flag:** Sebastian Schulz hat Jens erzählt, Nikolai habe seit 2 Monaten keinen Call mit ihm — stimmt laut Nikolai nicht.
+
+**Offene Action Items aus diesem Meeting:**
+- [ ] **Nikolai:** AI-Organisationsstrategie detailliert niederlegen für Folge-Walkthrough mit Jens (nächste Woche). Phasen 1–4, Ende Q2 "jeder auf Claude+Notion gesettet".
+- [ ] **Nikolai:** Walkthrough-Termin mit Jens nächste Woche in Kalender eintragen (AI Org Notion-Seite durchgehen).
+- [ ] **Nikolai:** VPN/Tunnelblick + Spanien-Firewall für Tim-Ole per IT-Ticket.
+- [ ] **Nikolai:** Bei Flo nachfassen — Status Notion-Übergabe nach Workshop.
+- [ ] **Nikolai:** Sebastian-Schulz-Missverständnis bilateral klären (2-Monate-Call-Narrativ).
+- [ ] **Nikolai:** Jens-Konflikt reflektieren/nachbereiten (Konversationsstil bei Commitments vs. Flagging).
+- [ ] **Tim-Ole:** Notion-Objectives konsolidieren (5–7, eins davon "Voraussetzungen fürs OKR-Mandat schaffen") fürs Signing nächste Woche.
+- [ ] **Jens:** Direkt mit Ben Migration-Scope klären; CI mit Sebastian Kühen bis Ende April.
+
+**Noch zu tun (separat):** Transcript komplett ins Vault als Meeting-Notiz ziehen, wenn Nikolai bereit ist (`Arbeit/GoMedicus/Meetings/2026-04-24 OKR-Finalisierung Jens Tim-Ole.md`).
+
 ## 3 Säulen
 
 1. **AI Infrastructure / Enablement** — AI-first Org

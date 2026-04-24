@@ -2,7 +2,7 @@
 project: design-assets-rollout
 status: active
 owner: nikolai
-updated: 2026-04-22
+updated: 2026-04-24
 tags: [work, design, rollout, priority, lütjensee, kronprinzenbau, paedoc, nils-anfrage-sent]
 ---
 
@@ -13,6 +13,8 @@ tags: [work, design, rollout, priority, lütjensee, kronprinzenbau, paedoc, nils
 **21.04.:** Flo-AI #4 an Nikolai übergeben ("Externe Designer-Ressourcen zusammenstellen"). Parallel AI #1 (Poster-Kosten ermitteln) über Henry-DM bereits gestartet — er hat Drive-Referenzen geliefert.
 
 **22.04.:** Follow-up-Mail an Nils gesendet (Reply im Thread der Original-Anfrage 21.04.) mit kompletter Asset-Link-Liste (Designer-Brief Google Doc, Referenz-Drive-Ordner, alle drei Figma-Links), da Nils die ursprünglichen Drive-/Figma-Sharing-Notifications offenbar nicht erhalten hatte. Waiting-on-Status und Angebots-Deadline ~05.05. unverändert.
+
+**24.04.:** Nils-Angebot eingegangen — 3 Tage vor der erbetenen Deadline 05.05. Angebotsspanne: **2.945–4.560 €** inkl. Mengenrabatt (10% ab 3k, 15% ab 4k). Zahlungsplan: 750 € Anzahlung + 1.000 € zum 01.06. + Rest nach Lieferung. PDF liegt auf `~/Desktop/Kalkulation_GoMedicus-Lütjensee_Kronprinzenbau.xlsx.pdf`. Mengen-Klärung intern gestartet: Slack MPIM mit Michael + Flo (Channel C09MEQ9SQD7, Gruppen-DM neu, initiiert 24.04.). Nach Rückmeldung: Mail an Nils mit fixen Mengen + Standort-Split-Bitte + Druckkosten-Schätzung.
 
 **Ziel der aktuellen Phase:** Designer-Briefing an Freelancer rausgeben → **Preisangebot pro Asset-Typ** bekommen, um ein realistisches Budget für den Rollout zu planen.
 
@@ -86,12 +88,15 @@ tags: [work, design, rollout, priority, lütjensee, kronprinzenbau, paedoc, nils
 - ✅ **Figma View-Zugang für Nils eingerichtet (21.04.):** Beschilderung, WLAN-Schild, Brand Library alle als View-only geteilt.
 - ✅ **Drive-Referenz-Ordner mit Nils geteilt (21.04.):** Nikolai hat manuell geteilt.
 - ✅ **Nils Graßmann-Anfrage gesendet (21.04.):** Designer-Briefing-Doc + Referenz-Drive-Ordner + Figma-Links übermittelt. Angebot bis ~05.05. erbeten.
-- [ ] Nach Angebots-Rückkehr: Entscheidungsvorlage (machen wir alles, Teil, welche Prios)
+- ✅ **Nils-Angebot eingeholt (24.04.):** 2.945–4.560 €, PDF auf Desktop.
+- [ ] Mengen-Klärung mit Michael + Flo abwarten (Slack MPIM C09MEQ9SQD7)
+- [ ] Mail an Nils: fixe Mengen + Standort-Split-Bitte (Lüt vs. KB) + Druckkosten-Schätzung anfordern
+- [ ] Nach Rückmeldung: Entscheidungsvorlage (machen wir alles, Teil, welche Prios)
 - [ ] PaeDoc/Kids Phase 2 abwarten (Brand-Definition durch Phillipp)
 
 ## Waiting On
 
-- **Nils Graßmann** — Angebot (Preis pro Asset-Typ + Pauschal-Option), erbeten bis ~05.05. (Erstanfrage 21.04., Follow-up mit Asset-Links 22.04.)
+- **Michael + Flo** — Mengen-Klärung (Slack MPIM C09MEQ9SQD7, initiiert 24.04.)
 
 ## Links
 

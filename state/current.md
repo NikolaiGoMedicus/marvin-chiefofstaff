@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-24 17:20
+Last updated: 2026-04-24 18:30
 
 > **Modulare State-Architektur (seit 21.04.):** Details leben in `state/projects/*.md`. Diese Datei ist der Index + aktuelle Prioritäten. Für die alte Monolith-Version siehe `current.md.pre-migration`.
 
@@ -42,6 +42,7 @@ _Drafts, die auf Absenden warten. Drafts landen hier durch `/draft park`, werden
 | 1 | Flo Kleinau (f.kleinau@gomedicusgroup.com) | IT Operations Manager – Praxis-IT: Fazit zu den 3 aktiven Bewerbungen | Gmail Draft `r-4148311281209141750` |
 | 2 | Arved Schneider (a.schneider@gomedicusgroup.com) | Claude AI @ GoMedicus — Kurz-Briefing für dein Debrief | Gmail Draft `r2985519939217385353` |
 | 3 | Flo Kleinau (f.kleinau@gomedicusgroup.com) | Kennedy Chikaodili Idoko — Pre-Screening-Aufgabe | Draft fertig (24.04.), noch nicht als Gmail Draft angelegt — Nikolai entscheidet |
+| 4 | Henry Krause (Slack DM) | Design-Assets Inventar — Bitte um Co-Füllung der ❓-Zeilen | Slack Draft `Dr0AUX36SYRH` in Channel `D0801K7MZ9P` |
 
 ## Stale Threads (>14 Tage ohne Bewegung)
 
@@ -49,6 +50,8 @@ _Keine aktiven Stale Threads. Aufgeräumt 21.04._
 
 ## Today's Focus / Notes
 
-- **24.04. — Brand University Day 3** (heute Fr 8:30–11:00): Persistent Contexts + Advanced Prompting. Sola Gem/GPT-Demo, Prompt Library freigeben. Details in [brand-university.md](projects/brand-university.md).
+- **🟠 OKR-Finalisierungs-Meeting 24.04. mit Jens + Tim-Ole — OFFEN, nachbereiten.** Mandats-Reset (AI Enablement / IT Systems / Praxen-Integration; raus aus Marketing/CI/Welcome Packages), Tomedo-DB-Lesezugriff bestätigt, Konflikt-Moment mit Jens + Sebastian-Schulz-Missverständnis zu klären. AI-Org-Walkthrough mit Jens nächste Woche. Action Items → [ai-systems-office.md](projects/ai-systems-office.md). Transcript: [Google Doc](https://docs.google.com/document/d/19vdjk7lEBwYzxPO4Hra_FNddUlUf0mR1vSiSA53JFL4/edit).
+- **24.04. — Brand University Day 3** ✅ (durch).
 - **Offen aus 23.04.:** Antonia Follow-up erledigt? → Linear-Epic "Operations Reporting" noch anlegen. Arved Scope-Call (DB-only Phase 1 vs. Personio). Details in [ai-services-rollout.md](projects/ai-services-rollout.md) + [tomedo-exploration.md](projects/tomedo-exploration.md).
-- **Outbox-Drafts pending:** Flo Hiring-Fazit, Antragswesen Paul, Arved Claude-Briefing — alle warten auf Nikolai-Freigabe.
+- **Outbox-Drafts pending (4):** Flo Hiring-Fazit, Arved Claude-Briefing, Kennedy Pre-Screening (noch kein Gmail-Draft), Henry Inventar-Bitte (Slack DM) — warten auf Nikolai-Freigabe. Slack Michael+Flo (Mengen-Klärung Design) wurde gesendet.
+- **Design-Assets Rollout:** Nils-Angebot 24.04. eingegangen (2.945–4.560 €). Warte auf Michael+Flo Mengen-Klärung → dann Mail an Nils. Details in [design-assets-rollout.md](projects/design-assets-rollout.md).

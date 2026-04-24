@@ -2,7 +2,7 @@
 project: antragswesen
 status: active
 owner: nikolai
-updated: 2026-04-22
+updated: 2026-04-24
 tags: [work, ai, systems, gomedicus]
 ---
 
