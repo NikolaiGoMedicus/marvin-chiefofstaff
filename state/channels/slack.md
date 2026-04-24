@@ -14,7 +14,6 @@ _Bestätigte offene Items (warten auf Nikolais Aktion). Leer beim Bootstrap._
 
 | ID | Since | Source | Summary | Project | Link |
 |----|-------|--------|---------|---------|------|
-| S-001 | 2026-04-24 | DM Antonia Gebhardt | heydata.eu DSGVO-Tool — Relevanz für GoMedicus? | — | [slack](slack://channel?team=T04KJACGGBH&id=D0APEL56T7S) |
 
 ## Pending Confirmation
 
@@ -26,3 +25,4 @@ _Letzte 7 Tage. Wird automatisch gepruned._
 
 | ID | Closed | Source | Resolution |
 |----|--------|--------|------------|
+| S-001 | 2026-04-24 | DM Antonia Gebhardt | replied |

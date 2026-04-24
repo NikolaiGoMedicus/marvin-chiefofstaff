@@ -2,7 +2,7 @@
 project: marvin-infrastructure
 status: active
 owner: nikolai
-updated: 2026-04-21
+updated: 2026-04-24
 tags: [work, marvin, infrastructure]
 ---
 
@@ -18,6 +18,16 @@ tags: [work, marvin, infrastructure]
 - **UI:** Flicker-Free aktiviert (`CLAUDE_CODE_NO_FLICKER=1`), TUI fullscreen.
 - **Agents:** logging + context-refinement agents laufen parallel bei `/end` (ab 21.04.).
 - **State:** Modulare Struktur mit current.md als Index + state/projects/*.md (ab 21.04.).
+
+## Channel-Agents Slack MVP (24.04.2026)
+
+- **Shipped:** Channel-Agents Layer — neue Architektur-Ebene `state/channels/` zwischen Slack und MARVIN.
+- **state/channels/slack.md:** Persistenter Inbox-State fur Slack-Triage. S-001 (erste Session) bereits abgeschlossen.
+- **Subagent:** `.claude/agents/channel-slack.md` — spezialisierter Agent fur Slack-Inbox-Verarbeitung (liest Channels, Threads, draftet Antworten, updated state/channels/slack.md).
+- **Command:** `/triage-slack` — neuer Slash-Command; ruft channel-slack Subagent auf, gibt strukturiertes Triage-Resultat zuruck.
+- **CLAUDE.md:** Channel-Agents Layer + state/channels/ Konvention dokumentiert.
+- **Spec + Plan:** `docs/superpowers/channel-agents-spec.md` + `docs/superpowers/channel-agents-plan.md` angelegt.
+- **Status:** MVP live. Nachste Schritte: channel-email (Gmail), Channel-Index in current.md bei Bedarf erganzen.
 
 ## Routines (Cloud)
 
