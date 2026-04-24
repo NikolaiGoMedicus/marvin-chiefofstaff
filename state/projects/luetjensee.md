@@ -2,7 +2,7 @@
 project: luetjensee
 status: active
 owner: nikolai
-updated: 2026-04-22
+updated: 2026-04-24
 tags: [work, lambda, priority, praxis]
 ---
 
@@ -46,6 +46,7 @@ Eingerichtet (20.03.), 2 SSIDs (`Praxis-Luetjensee` + `GoMedicus-Gast`). ✅ WLA
 - Obsidian: `Projekte/Lütjensee/Hardware-Inventar-Luetjensee.md`
 - ✅ Lambda-Angebot AG-4023 erhalten (09.04.) — Nachverhandlung läuft
 - [ ] Talkmaster-PC Funktion klären
+- **Hinweis SMC-B (24.04.):** Die 4 Kartenleser im Inventar sind nicht nach SMC-B vs. eGK differenziert — Inventar ist "Entwurf, Abgleich mit Franzi ausstehend". Für SMC-B-Info: Tomedo-Admin, LANFOCUS (Daniel Doobe, 040/65 65 665), oder Franzi direkt fragen.
 
 ## Lambda-Angebot AG-4023
 

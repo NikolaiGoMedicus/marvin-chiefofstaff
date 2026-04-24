@@ -16,6 +16,10 @@ tags: [work, design, rollout, priority, lütjensee, kronprinzenbau, paedoc, nils
 
 **24.04.:** Nils-Angebot eingegangen — 3 Tage vor der erbetenen Deadline 05.05. Angebotsspanne: **2.945–4.560 €** inkl. Mengenrabatt (10% ab 3k, 15% ab 4k). Zahlungsplan: 750 € Anzahlung + 1.000 € zum 01.06. + Rest nach Lieferung. PDF liegt auf `~/Desktop/Kalkulation_GoMedicus-Lütjensee_Kronprinzenbau.xlsx.pdf`. Mengen-Klärung intern gestartet: Slack MPIM mit Michael + Flo (Channel C09MEQ9SQD7, Gruppen-DM neu, initiiert 24.04.). Nach Rückmeldung: Mail an Nils mit fixen Mengen + Standort-Split-Bitte + Druckkosten-Schätzung.
 
+**24.04. (Flo-Input, Slack MPIM):** Stempel raus (nicht benötigt). Impressum vielleicht 1 Exemplar. Lüt-Namensschilder ~10, Lüt-Poster ~4. Terminkarten ja. Konzept-Pushback: lieber 1 Master + Standort-Anpassungen statt je 1 eigenem Master pro Standort. Offene Frage an Nikolai: "Henry statt Nils?" (Gemeint: ob Henry intern übernehmen kann.) Michael hat zu KB-Mengen noch nichts gemeldet — nachziehen.
+
+**24.04.:** Notion-Inventar-Seite angelegt: [Design-Assets Inventar — Lütjensee + Kronprinzenbau](https://www.notion.so/34c57538249e813183e1eaefb936a699) (Page-ID `34c57538-249e-8131-83e1-eaefb936a699`), verlinkt aus Lüt + KB Notion-Seiten.
+
 **Ziel der aktuellen Phase:** Designer-Briefing an Freelancer rausgeben → **Preisangebot pro Asset-Typ** bekommen, um ein realistisches Budget für den Rollout zu planen.
 
 **Scope-Split:**
@@ -89,14 +93,15 @@ tags: [work, design, rollout, priority, lütjensee, kronprinzenbau, paedoc, nils
 - ✅ **Drive-Referenz-Ordner mit Nils geteilt (21.04.):** Nikolai hat manuell geteilt.
 - ✅ **Nils Graßmann-Anfrage gesendet (21.04.):** Designer-Briefing-Doc + Referenz-Drive-Ordner + Figma-Links übermittelt. Angebot bis ~05.05. erbeten.
 - ✅ **Nils-Angebot eingeholt (24.04.):** 2.945–4.560 €, PDF auf Desktop.
-- [ ] Mengen-Klärung mit Michael + Flo abwarten (Slack MPIM C09MEQ9SQD7)
+- [ ] Mengen-Klärung mit Michael + Flo abwarten (Slack MPIM C09MEQ9SQD7) — Flo hat geantwortet (Lüt: Namensschilder ~10, Poster ~4, Terminkarten ja, Stempel raus, Impressum ~1), **Michael zu KB-Mengen noch ausstehend — nachziehen**
+- [ ] Frage klären: Henry statt Nils für Design-Umsetzung? (Flo-Input 24.04.)
 - [ ] Mail an Nils: fixe Mengen + Standort-Split-Bitte (Lüt vs. KB) + Druckkosten-Schätzung anfordern
 - [ ] Nach Rückmeldung: Entscheidungsvorlage (machen wir alles, Teil, welche Prios)
 - [ ] PaeDoc/Kids Phase 2 abwarten (Brand-Definition durch Phillipp)
 
 ## Waiting On
 
-- **Michael + Flo** — Mengen-Klärung (Slack MPIM C09MEQ9SQD7, initiiert 24.04.)
+- **Michael** — KB-Mengen (Slack MPIM C09MEQ9SQD7, Flo hat geantwortet, Michael noch nicht — nachziehen)
 
 ## Links
 
@@ -107,3 +112,4 @@ tags: [work, design, rollout, priority, lütjensee, kronprinzenbau, paedoc, nils
 - [Beschilderung-Spec Google Doc](https://docs.google.com/document/d/13gq96mEYMitGFCvKHrPyLxZuz4LS3zH6qGgdHsvFyzE/edit)
 - [Lütjensee Briefkopf Google Doc (10.03.)](https://docs.google.com/document/d/1d0JrZOd5_Z_oy-_V3_Xu2A_1rHTFQrqTDfvbwxbKwt4/edit)
 - [Figma Brand Library — GoMedicus-Group Copy](https://www.figma.com/design/d6lFJSA877PpXaZOIygin1)
+- 📋 **Notion Inventar-Seite (24.04.):** [Design-Assets Inventar — Lütjensee + Kronprinzenbau](https://www.notion.so/34c57538249e813183e1eaefb936a699)

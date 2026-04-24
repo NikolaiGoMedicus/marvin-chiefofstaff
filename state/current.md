@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-24 19:45
+Last updated: 2026-04-24 20:30
 
 > **Modulare State-Architektur (seit 21.04.):** Details leben in `state/projects/*.md`. Diese Datei ist der Index + aktuelle Prioritäten. Für die alte Monolith-Version siehe `current.md.pre-migration`.
 
@@ -42,7 +42,7 @@ _Drafts, die auf Absenden warten. Drafts landen hier durch `/draft park`, werden
 | 1 | Flo Kleinau (f.kleinau@gomedicusgroup.com) | IT Operations Manager – Praxis-IT: Fazit zu den 3 aktiven Bewerbungen | Gmail Draft `r-4148311281209141750` |
 | 2 | Arved Schneider (a.schneider@gomedicusgroup.com) | Claude AI @ GoMedicus — Kurz-Briefing für dein Debrief | Gmail Draft `r2985519939217385353` |
 | 3 | Flo Kleinau (f.kleinau@gomedicusgroup.com) | Kennedy Chikaodili Idoko — Pre-Screening-Aufgabe | Draft fertig (24.04.), noch nicht als Gmail Draft angelegt — Nikolai entscheidet |
-| 4 | Henry Krause (Slack DM) | Design-Assets Inventar — Bitte um Co-Füllung der ❓-Zeilen | Slack Draft `Dr0AUX36SYRH` in Channel `D0801K7MZ9P` |
+| 4 | Henry Krause (Slack DM) | Design-Assets Inventar — Bitte um Co-Füllung der ❓-Zeilen | Copy-Paste-Text bereitgestellt (Session 24.04.) — Widget-Draft unsichtbar, Nikolai sendet manuell |
 ## Stale Threads (>14 Tage ohne Bewegung)
 
 _Keine aktiven Stale Threads. Aufgeräumt 21.04._
