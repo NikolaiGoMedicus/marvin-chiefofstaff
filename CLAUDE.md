@@ -65,6 +65,9 @@ state/
 │   ├── luetjensee.md     Je ein File pro Projekt/Thread mit Frontmatter
 │   ├── ai-services-rollout.md
 │   └── ...               ~30 Files
+├── channels/             Kanalzentrierte Inbound-Queues (SSoT für "someone waiting on me")
+│   ├── slack.md          Slack DMs + @-Mentions, getracked via /triage-slack
+│   └── ...               Gmail, Notion, Calendar, Drive (spätere Phasen)
 └── sessions/             Session-Logs (eine Datei pro Tag)
 ```
 
@@ -73,6 +76,7 @@ state/
 - Jedes Projekt-File hat Frontmatter: `project`, `status` (active/waiting/paused/done), `owner`, `updated`, `tags`.
 - `/start` lädt nur `current.md` + `goals.md`. Projekt-Files werden on-demand gelesen.
 - `context-refinement` Agent patched nur die Projekt-Files, die sich in der Session geändert haben.
+- `state/channels/*.md` ist **orthogonal** zu `state/projects/*.md`: Kanäle tracken Inbound-Queue ("someone waiting on me"), Projekte tracken längsseitigen Arc. Cross-Links optional, keine Auto-Writes zwischen den Layern.
 
 ### Session Logs (`sessions/`)
 
@@ -96,6 +100,7 @@ Eine Datei pro Tag (`YYYY-MM-DD.md`). Mehrere Sessions/Tag werden appended. Form
 
 - **logging** — schreibt `sessions/{TODAY}.md`. Spawned von `/end` und `/update`. Model: sonnet.
 - **context-refinement** — patched `state/current.md` + relevante `state/projects/*.md`. Spawned von `/end` (parallel zu logging), `/update` (wenn material change), und PreCompact-Hook. Model: sonnet.
+- **channel-slack** — triagiert Slack-Inbox, klassifiziert Action-Needed-Items. Spawned von `/triage-slack`. Model: sonnet.
 
 Bei `/end` laufen beide Agents **parallel** in einer Message — keine File-Konflikte, weil logging nur sessions/ und context-refinement nur state/ anfasst.
 
@@ -138,6 +143,7 @@ Bei `/end` laufen beide Agents **parallel** in einer Message — keine File-Konf
 | `/code` | Open MARVIN in your IDE |
 | `/help` | Show commands and available integrations |
 | `/sync` | Get updates from MARVIN template |
+| `/triage-slack` | Triage Slack inbox: offene Items klassifizieren, Smart-Close erkennen |
 
 ---
 
