@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-24 20:30
+Last updated: 2026-04-27 13:12
 
 > **Modulare State-Architektur (seit 21.04.):** Details leben in `state/projects/*.md`. Diese Datei ist der Index + aktuelle Prioritäten. Für die alte Monolith-Version siehe `current.md.pre-migration`.
 
@@ -49,9 +49,8 @@ _Keine aktiven Stale Threads. Aufgeräumt 21.04._
 
 ## Today's Focus / Notes
 
-- **🟠 OKR-Finalisierungs-Meeting 24.04. mit Jens + Tim-Ole — OFFEN, nachbereiten.** Mandats-Reset (AI Enablement / IT Systems / Praxen-Integration; raus aus Marketing/CI/Welcome Packages), Tomedo-DB-Lesezugriff bestätigt, Konflikt-Moment mit Jens + Sebastian-Schulz-Missverständnis zu klären. AI-Org-Walkthrough mit Jens nächste Woche. Action Items → [ai-systems-office.md](projects/ai-systems-office.md). Transcript: [Google Doc](https://docs.google.com/document/d/19vdjk7lEBwYzxPO4Hra_FNddUlUf0mR1vSiSA53JFL4/edit).
-- **24.04. — Brand University Day 3** ✅ (durch).
-- **Offen aus 23.04.:** Antonia Follow-up erledigt? → Linear-Epic "Operations Reporting" noch anlegen. Arved Scope-Call (DB-only Phase 1 vs. Personio). Details in [ai-services-rollout.md](projects/ai-services-rollout.md) + [tomedo-exploration.md](projects/tomedo-exploration.md).
-- **Outbox-Drafts pending (4):** Flo Hiring-Fazit, Arved Claude-Briefing, Kennedy Pre-Screening (noch kein Gmail-Draft), Henry Inventar-Bitte (Slack DM) — warten auf Nikolai-Freigabe. Slack Michael+Flo (Mengen-Klärung Design) wurde gesendet.
-- **Design-Assets Rollout:** Nils-Angebot 24.04. eingegangen (2.945–4.560 €). Warte auf Michael+Flo Mengen-Klärung → dann Mail an Nils. Details in [design-assets-rollout.md](projects/design-assets-rollout.md).
-- **Channel-Agents Slack MVP shipped (24.04.):** state/channels/ Layer, channel-slack Subagent, /triage-slack Command live. S-001 abgeschlossen. Details → [marvin-infrastructure.md](projects/marvin-infrastructure.md).
+- **Janina-Termin neu gesetzt: Di 28.04. 13:00–13:50** (nach Ausfall 22.04. + Ablehnung 27.04.). Meet `kxv-bsqh-tdf`. Slot ist tight: Nima endet 13:00 → Janina → Claude×Antonia 14:00.
+- **⚠️ Konflikt morgen Di 28.04. 11:00 (Arved AI Sync) vs. 11:30 (JF | GoM x ak)** — noch nicht aufgelöst.
+- **🟠 OKR-Finalisierungs-Meeting 24.04. mit Jens + Tim-Ole — noch nachzubereiten.** Action Items → [ai-systems-office.md](projects/ai-systems-office.md). Transcript: [Google Doc](https://docs.google.com/document/d/19vdjk7lEBwYzxPO4Hra_FNddUlUf0mR1vSiSA53JFL4/edit).
+- **Outbox-Drafts pending (4):** Flo Hiring-Fazit, Arved Claude-Briefing, Kennedy Pre-Screening (noch kein Gmail-Draft), Henry Inventar-Bitte (Slack DM) — warten auf Nikolai-Freigabe.
+- **Design-Assets Rollout:** Nils-Angebot 24.04. (2.945–4.560 €). Warte auf Michael+Flo Mengen-Klärung → dann Mail an Nils. Details in [design-assets-rollout.md](projects/design-assets-rollout.md).
