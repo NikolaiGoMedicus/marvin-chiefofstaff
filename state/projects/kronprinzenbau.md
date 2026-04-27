@@ -2,7 +2,7 @@
 project: kronprinzenbau
 status: active
 owner: nikolai
-updated: 2026-04-21
+updated: 2026-04-27
 tags: [work, it-rollout, lambda, priority]
 ---
 
@@ -11,6 +11,8 @@ tags: [work, it-rollout, lambda, priority]
 ## Status
 
 Phase 1: ~24 Arbeitsplätze, nun in **2 Installationen** aufgeteilt. SSoT: [Definition IT-Ausstattung](https://www.notion.so/33c57538249e81bb8268e9345c6d86a5) (Update 17.04., Deadline 30.04.). [Notion Projektseite](https://www.notion.so/33c57538249e814f80c9e437e75f460e). Angebot bis 15.05. Lambda-Woche 20.-24.07. bestätigt.
+
+**Timeline (Flo-Stand 27.04.):** Integration ca. **27.07.–07.08.2026** (Lambda IT-Installation 20.–23.07., Schulung/Probebetrieb/Eröffnung 27.–31.07., Betriebsstart 01.08., Stabilisierungs-Woche 1).
 
 ## Installationen
 

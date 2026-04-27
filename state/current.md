@@ -10,7 +10,7 @@ Last updated: 2026-04-27 17:30
 2. **GoMedicus Platform & MVP** — ⚠️ Muss live. Practice Management Redesign + GOM-2862/2863 (Urgent) dominieren Dev. GOM-1976 Notification Events: waiting on Cloudnonic review. → [projects/gomedicus-platform.md](projects/gomedicus-platform.md)
 3. **Kronprinzenbau IT-Planung** — 🔴 Deadline 18.04. bei Michael überfällig. Angebot bis 15.05. → [projects/kronprinzenbau.md](projects/kronprinzenbau.md)
 4. **Lütjensee** — Go-Live Juli. Lambda-Nachverhandlung 49,7k → 25-30k läuft. → [projects/luetjensee.md](projects/luetjensee.md)
-5. **GoMedicus Kids — Tomedo-Migration** — PaeDoc-Umstellung fixiert 13.08.2026. KW 19 Bisingen-Timeline prüfen. → [projects/gomedicus-kids.md](projects/gomedicus-kids.md)
+5. **GoMedicus Kids — Tomedo-Migration** — PaeDoc-Umstellung ca. Ende August 2026 (Datum offen, Flo-Stand 27.04.). KW 19 Bisingen-Timeline prüfen. → [projects/gomedicus-kids.md](projects/gomedicus-kids.md)
 6. **AI & Systems Office (Jens-Deliverables)** — 30-60-90 + Hiring IT Ops Lead. → [projects/ai-systems-office.md](projects/ai-systems-office.md)
 7. **Series A Tech DD** — 🔴 IP-Transfer Cloudnonic blockt LOI. → [projects/series-a-dd.md](projects/series-a-dd.md)
 

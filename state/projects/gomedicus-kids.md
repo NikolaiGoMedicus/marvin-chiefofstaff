@@ -2,7 +2,7 @@
 project: gomedicus-kids
 status: active
 owner: nikolai
-updated: 2026-04-21
+updated: 2026-04-27
 tags: [work, lambda, kids, tomedo-migration]
 ---
 
@@ -27,7 +27,7 @@ tags: [work, lambda, kids, tomedo-migration]
 
 Backup + RZ-Spiegel KW 17, Test-DKV KW 17, Produktivumstellung KW 19 (ab 4.5.). Präferenz: Teamviewer statt VPN für Server-Zugriff.
 
-⚠️ **PaeDoc-Deadline gesetzt (Flo-Mail 21.04.):** Tomedo-Umstellung PaeDoc auf **13.08.2026** fixiert. KW 19-Timeline für Bisingen mit Flo/Jan gegenprüfen — ob das noch kompatibel ist oder angepasst werden muss.
+⚠️ **PaeDoc-Timeline (Flo-Stand 27.04.):** Tomedo-Umstellung **ca. Ende August 2026, finales Datum noch offen** (vorheriger Stand 13.08. ist nicht mehr fix). KW 19-Timeline für Bisingen mit Flo/Jan gegenprüfen.
 
 ## Open Items
 
