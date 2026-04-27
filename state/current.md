@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-27 14:45
+Last updated: 2026-04-27 17:30
 
 > **Modulare State-Architektur (seit 21.04.):** Details leben in `state/projects/*.md`. Diese Datei ist der Index + aktuelle Prioritäten. Für die alte Monolith-Version siehe `current.md.pre-migration`.
 
