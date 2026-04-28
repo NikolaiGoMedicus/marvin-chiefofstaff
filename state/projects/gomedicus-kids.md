@@ -23,11 +23,11 @@ tags: [work, lambda, kids, tomedo-migration]
 
 3.000 € einmalig pro Cluster, Installationspauschale pro AP, inkl. managed XDR + Supportflatrate + NIS2-ready. Rabattstaffel: 5% ab Standort 28, 10% ab Standort 40. Kein Mietmodell auf GoMedicus Services GmbH (Bonität) → Barkonditionen. paeDoc im Budget, Lütjensee leicht drüber (laut Arved).
 
-## Jan Kreimeyer Timeline Bisingen
+## paeDOC Timeline (Flo-Stand 27.04.2026)
 
-Backup + RZ-Spiegel KW 17, Test-DKV KW 17, Produktivumstellung KW 19 (ab 4.5.). Präferenz: Teamviewer statt VPN für Server-Zugriff.
+**Tomedo-Umstellung paeDOC ca. Ende August 2026** — gilt für alle 3 Standorte (Bisingen, Altensteig, Fellbach). Finales Datum noch offen.
 
-⚠️ **PaeDoc-Timeline (Flo-Stand 27.04.):** Tomedo-Umstellung **ca. Ende August 2026, finales Datum noch offen** (vorheriger Stand 13.08. ist nicht mehr fix). KW 19-Timeline für Bisingen mit Flo/Jan gegenprüfen.
+**Wichtige Klärung:** Bisingen ist **ein paeDOC-Standort**, nicht ein separates Projekt. Die frühere Jan-Kreimeyer-Timeline (Backup KW 17, Produktivumstellung KW 19 ab 04.05.) ist durch den Flo-Stand 27.04. überholt. Reihenfolge der Standorte intern: Bisingen → Altensteig → Fellbach. Lambda-Präferenz: Teamviewer statt VPN für Server-Zugriff.
 
 ## Open Items
 

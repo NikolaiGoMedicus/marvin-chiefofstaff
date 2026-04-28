@@ -72,12 +72,23 @@ Gegenangebot system-helden.de (Nabil Hiepler) für Lütjensee eingeholt (17.04.,
 - **Systemhelden Profil:** ~70 MA, tomedo-only seit 2014, ~350 Praxen / 4500 APs betreut. Kooperationen Stuttgart/Berlin/München für Vor-Ort-Service. Referenzen: Rick&Nick, Ortheum, Ortivity, Artemis, Verifymed. Alternativ-Modell: komplett managed (Infra + Macs mieten) → ~3.900 €/Monat.
 - **Offene Hebel auf Lambda-Seite:** 80h→40h IT-Service (~4.914 € sparen), ggf. Telefonsystem streichen wenn Lütjensee behält (~1.526 € sparen).
 
-## Tomedo-Migration KW 31
+## Tomedo-Migration KW 28 (06.–10.07.) + KW 31 Telefon
 
-- [ ] Nikolai: Email Medizintechnik-Inventar, Video-Walkthrough, Raumplan, Labor-Info, WLAN-Details an Lambda
+**Angebots-Stand (Lambda-Thread):** Hardware-Inventar (9 PCs / 7 Mon / 9 Drucker / 4 Kartenleser / 2 APs / 9 Räume + Flos +1) ist 02.04. inline an Martin Hakenesch raus. Lambda-Angebot 09.04. (AG-4023) basiert darauf, MacMinis-Variante 27.04. zum Unterschreiben geschickt. Ball liegt bei Jens.
+
+- [ ] **Jens: Lütjensee-Angebot (MacMinis-Variante, Jan-Mail 27.04.) unterschreiben**
 - [ ] Nikolai: Augustwoche (ab 3.8.) mit Familie blocken
 - [ ] Florian: Harte PVS-Deadline konkretisieren
-- [ ] Martin (Lambda): Angebot erstellen
+
+### Konversions-Vorbereitung (für KW 28, nicht für Angebot)
+
+Diese Punkte sind **kein Angebots-Blocker** — Lambda arbeitet im Angebot mit Puffer. Werden vor Ort / Walkthrough KW 28 gebraucht:
+- [ ] Medizintechnik-Inventar erstellen
+- [ ] Video-Walkthrough Praxis (1 Tag Aufwand)
+- [ ] Raumplan / Grundriss
+- [ ] Labor-Anbieter + Anbindung dokumentieren
+- [ ] WLAN-Topologie (über die 2 AP-Modelle hinaus: SSIDs, VLANs)
+- [ ] Telefonanlage-Modell + aktuelles Setup
 
 ## Telefonanlage
 

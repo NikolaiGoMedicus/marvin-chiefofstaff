@@ -19,6 +19,18 @@ T1 fertig (Ø Sicherheit 3,1/5). Office Hours Do 15:00 weekly (ab 16.04.). Näch
 - **Antonia Gebhardt** — Stufe 2 gestartet (15.04.), Check-in 22.04. 10:00. [Rollenseite](https://www.notion.so/33b57538249e81319fb6cadaad9a5eb2). T1 nachholen. **22.04.:** Pro-Upgrade nötig geworden (Limit erschöpft = starkes Adoption-Signal). Hat [Reporting-Sheet](https://docs.google.com/spreadsheets/d/1vQ5ng5dUc4KpEWyLkfZLEzo-eywpbe0bXhIhAlvZSWA/edit) geliefert — 3-Horizonte-Framework (Heute/Quick Fix/Claude-Layer/Plattform) für 4 Reporting-Prozesse (AK/eTermin, Zanadio, SV KVT/MKD, SV MV/BB/MKD) + 5 offene Fragen. Call-Plan siehe unten.
 - **Thomas Flieger** — ⚠️ Pipedrive MCP hat seit 09.04. NIE funktioniert ("Failed to spawn process: No such file or directory" — kein Node.js + Claude Desktop erbt kein Shell-PATH). Meeting 20.04. 09:30–10:10: Node LTS installiert, PATH-Fix (.zshrc export /usr/local/bin), Shell-Wrapper-Config bereitgestellt. Verifikation nach Neustart ausstehend.
 - **Janina Huebsch** — ✅ Setup komplett. Pipedrive Anrede-Problem: Custom-Feld "Begrüßung" anlegen + testen vor Di 21.04. [Webinar-Guide](https://docs.google.com/document/d/1y86DSiPAij2zw6SwI3ALhZcdAQGqOrZRK9gQIAfG8OE/edit)
+- **Sebastian Luitle (Sebastian L., Reporting & Admin)** — Einführung erhalten + Personio MCP eingerichtet ✅. Offen: 4 Willkommens-Kurs-Videos liefern (E-Mail Warum/Wie + Slack Warum/Wie). T1/T2 ❓ (noch nicht befragt). _(Plesk-E-Mails sind nicht Teil der AI Org — separat tracken)_
+- **Sebastian Schulz (Basti, Digital Health Head)** — Claude Premium-User ✅ (7. der Liste, 23.04. in Notion nachgepatcht). Designierter **Reporting-Owner** Tomedo-Auslastungs-Reporting. Offen: Cluster-Datenzugriff (Flos AI-Liste #3+#7), Bilateral wegen 2-Monate-Call-Narrativ, Tomedo-Discovery-Scope-Call mit Arved (Sheet liegt bereit). T2-Form Empfänger-Wave-1 (zusammen mit Jens). T1 ❓.
+- **Friederike Posnien (Digital Operations)** — Noch **nicht im Rollout**. Operations-Weekly-Owner (eines der 4 Reporting-Dokumente, die Antonia ablösen soll). QA-Tester (GOM-2764: fehlende Qualifikationen im Arzt-Profil-Selektor). Kein Linear-User. Claude-Status ❓. T1/T2 ❓. Setup-Session steht aus.
+- **Florian Kleinau (Flo, Operational Excellence + Sales & Admin)** — **Co-Owner Rollout (OKRs)**, nicht Teilnehmer im klassischen Sinn. Hat eigene AI-Liste 21.04. geschickt (#1, #2, #4 erledigt; #3+#7 Schulz-Cluster offen). Eigenes Claude-Setup / T1 / T2 ❓ — zu klären, ob er als User formal mitläuft.
+- **Jens Neubert (CEO)** — ✅ läuft. Adoption-Owner / "Prozess & Adoption" (Alice-Nachfolge). T2-Form Wave-1-Empfänger.
+- **Phillipp Gonser (CMO)** — ✅ läuft. Offen: DXT deinstallieren + Config mit vollem uvx-Pfad.
+- **Arved Schneider (Finance)** — ✅ läuft. Claude Premium-User. Partner im Tomedo-Auslastungs-Reporting-Scope.
+- **Michael Füllemann (Regional Director)** — ⚠️ noch aufgreifen. Setup-Status ❓, T1/T2 ❓. Engagement: Praxen-IT (KB / Lütjensee / Bisingen) — natürlicher Use-Case-Cluster für ihn.
+- **Henry Krause (Marketing)** — ⚠️ noch aufgreifen. Setup-Status ❓, T1/T2 ❓. Offener Inbound: Slack-DM Design-Assets-Inventar (Outbox seit 24.04.).
+- **Sandra Heidmann (Finance)** — ⚠️ noch aufgreifen. Setup-Status ❓, T1/T2 ❓. Kein bisheriger Berührungspunkt im Rollout — Erstkontakt nötig.
+
+_Tim-Ole Pek (M&A) bewusst nicht in dieser Liste — noch nicht Teil der Org._
 
 ## Thomas Flieger Follow-ups (16.04. + 20.04.)
 
@@ -30,20 +42,23 @@ T1 fertig (Ø Sicherheit 3,1/5). Office Hours Do 15:00 weekly (ab 16.04.). Näch
 
 ## Offene Setups
 
-- [ ] Sebastian L.: Google Auth + 30 Plesk E-Mail-Adressen ([Anleitung](https://docs.google.com/document/d/10_OZwtcmvcH1lcqLGZliPsJuMEF2RDcFxyZGEXmQIgE/edit))
 - [ ] Google Cloud App auf Production schalten (16 User aktiv)
 - [ ] Phil: DXT deinstallieren + Config mit vollem uvx-Pfad
 
 ## Nächste Schritte
 
 - [ ] T1-Auswertung an Flo teilen
-- [ ] T2 Form: Vorschau prüfen, auf 16 Namen erweitern, an Basti+Jens (~21.04.). [Form](https://docs.google.com/forms/d/18FEtF2zVqjbUpCmgZnhNNqCb7Pc9BOq7mMYZcNuyv_k/edit)
+- [ ] T2 Form: **um 2 Wochen geschoben (Ziel ~12.05.)**. Dann: Vorschau prüfen, auf 15 Namen erweitern (Tim-Ole bewusst raus), an Basti (Schulz) + Jens als Wave 1. [Form](https://docs.google.com/forms/d/18FEtF2zVqjbUpCmgZnhNNqCb7Pc9BOq7mMYZcNuyv_k/edit)
 - [ ] Prompt-Workshop planen
 - [x] Antonia-Call 22.04. durchführen (siehe Antonia-Sektion unten) ✅ 2026-04-22
 - [ ] Antonia Follow-up 23.04. 15:30-16:15 "Reporting-Automatisierung: Workflow-Konkretisierung" (Meet: pxh-cbkc-ctk)
 - [ ] T1-Befragung Antonia nachholen
 - [ ] Jens: Ownership "Prozess & Adoption" (Alice-Nachfolge)
 - [ ] Agent-Demo für Basti, Henry, Jens — **Kandidat: Zanadio-Versand-Workflow** (aus Antonias Sheet)
+- [ ] **Aufgreifen-Wave** Setup-Sessions terminieren: Michael Füllemann, Henry Krause, Sandra Heidmann (je 30 Min, T1 mitlaufend)
+- [ ] Friederike Posnien Setup-Session terminieren (T1 Wave)
+- [ ] Sebastian Luitle Videos nachhalten (E-Mail/Slack Warum/Wie) — kein Termin nötig, ist versorgt
+- [ ] Sebastian Schulz: Cluster-Datenzugriff klären (Modell, Compliance, Tooling) + Bilateral-Slot 2-Monate-Narrativ
 
 ## Antonia Operations Reporting (ab 22.04.)
 

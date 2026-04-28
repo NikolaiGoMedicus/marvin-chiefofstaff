@@ -2,7 +2,7 @@
 project: gomedicus-platform
 status: active
 owner: nikolai
-updated: 2026-04-21
+updated: 2026-04-27
 tags: [work, platform, mvp, priority]
 ---
 
@@ -92,6 +92,15 @@ Nicolas hat 9 offene Business-Fragen + 5 Edge Cases aufbereitet. Proposed Decisi
 - **Scope:** Areas 1-3 (Appointment / Task / Video) — Area 4 (Prescriptions/Docs) parked post-launch
 - **7 offene Fragen** pending their input
 - **Next:** Nach Review → finalisieren → als Linear-Comment posten → Tatiana erstellt Implementation-Tickets
+
+## Qualifications (Arzt-Fachgebiete)
+
+Recherche 27.04. — Epic GOM-728/GOM-841 (Qualifications-Feature), GOM-2607 (completed). GOM-2886 ist ein frischer offener Bug (Fachgebiet-Selektor).
+
+- **Stakeholder QA-Seite:** Friederike (GOM-2764 — hat fehlende Qualifikationen im Selektor gemeldet). Alice hat 0 Linear-Tickets in diesem Bereich.
+- **Google Sheet "qualifications"** (ID `1_bOrt7cjIjiVqOXMOaO5A5xz68rgO3q3H1J4F-BDBLA`, 260 Zeilen, zuletzt geändert 2025-12-15) liegt bei Nikolai. Friederike ist kein Contributor.
+- [ ] Klären: Ist das Sheet noch SSoT oder leben die Daten schon im Backend?
+- [ ] GOM-2886 priorisieren oder zuweisen.
 
 ## Offene Issues
 
