@@ -55,10 +55,11 @@ _Tim-Ole Pek (M&A) bewusst nicht in dieser Liste — noch nicht Teil der Org._
 - [ ] T1-Befragung Antonia nachholen
 - [ ] Jens: Ownership "Prozess & Adoption" (Alice-Nachfolge)
 - [ ] Agent-Demo für Basti, Henry, Jens — **Kandidat: Zanadio-Versand-Workflow** (aus Antonias Sheet)
-- [ ] **Aufgreifen-Wave** Setup-Sessions terminieren: Michael Füllemann, Henry Krause, Sandra Heidmann (je 30 Min, T1 mitlaufend)
-- [ ] Friederike Posnien Setup-Session terminieren (T1 Wave)
+- [x] Aufgreifen-Wave terminiert (28.04.): Michael Di 05.05. 12:30, Henry Mi 06.05. 13:00, Sandra Do 07.05. 11:30 ✅
+- [x] Friederike Posnien Setup-Session terminiert: Do 30.04. 16:00 ✅
+- [x] Sebastian Schulz Bilateral + Cluster-Slot terminiert: Mi 29.04. 13:15 ✅
 - [ ] Sebastian Luitle Videos nachhalten (E-Mail/Slack Warum/Wie) — kein Termin nötig, ist versorgt
-- [ ] Sebastian Schulz: Cluster-Datenzugriff klären (Modell, Compliance, Tooling) + Bilateral-Slot 2-Monate-Narrativ
+- [ ] Nach jedem Termin: Setup-Status + offene Use-Cases im Teilnehmer-Eintrag patchen
 
 ## Antonia Operations Reporting (ab 22.04.)
 
