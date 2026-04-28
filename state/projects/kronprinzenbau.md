@@ -2,7 +2,7 @@
 project: kronprinzenbau
 status: active
 owner: nikolai
-updated: 2026-04-27
+updated: 2026-04-28
 tags: [work, it-rollout, lambda, priority]
 ---
 
@@ -27,7 +27,7 @@ Phase 1: ~24 Arbeitsplätze, nun in **2 Installationen** aufgeteilt. SSoT: [Defi
 
 ## Risiken
 
-⚠️ **Parallelbetrieb-Risiko:** Jens hat angedeutet → Bestand-Mix fällt weg, komplett neu nötig. Jan Kreimeyer Termin ausstehend (Email 15.04.).
+⚠️ **Parallelbetrieb-Risiko:** Jens hat angedeutet → Bestand-Mix fällt weg, komplett neu nötig. Jan Kreimeyer Termin (Email 15.04.) hat nun Substanz bekommen — Bauplan 3.OG + konkrete WLAN-Coverage- und Notion-Zugriff-Fragen verschickt 28.04.
 
 ## Open Items
 
@@ -35,6 +35,16 @@ Phase 1: ~24 Arbeitsplätze, nun in **2 Installationen** aufgeteilt. SSoT: [Defi
 - [ ] Michael Füllemann → 2x SMC-KT + 2x Cherry Kartenleser an Lambda
 - [ ] Michael Füllemann → Adressen Robert & Nele an Paul Epple
 - [ ] Paul Epple → Angebot Telemedizin-Setup + VPN-Gateways
+- [ ] **AP-Anzahl / Positionierung** — Frage 28.04. an Jan Kreimeyer (Lambda) weitergegeben mit neuem Bauplan-PDF. Deadline 30.04. hängt an seiner Antwort.
 - [ ] Offene Zellen (SSoT): iPad-Bestand Empfang, WLAN-AP-Anzahl (beide Installationen), Drucker mit Kopierer Installation 1, Telefon-schnurlos-Anzahl Nord (8?)
 - [ ] Rezeptdrucker-Modell klären
 - [ ] Cherry ST-1506 Kartenleser klären
+
+## Waiting On
+
+- **Jan Kreimeyer (Lambda)** — WLAN-Coverage-Empfehlung + Notion-Zugriff-Modus (Mail 28.04.)
+
+## Resources / Bauplan
+
+- [Bauplan 3.OG (von Michael, 28.04.)](https://drive.google.com/file/d/1slo1M5ra-QsMZstNw4o3LTw6HA6tspLu/view) — Google Drive
+- [Drive-Folder "Kronprinzenbau IT"](https://drive.google.com/drive/folders/16Egi943rkjr8Incng3UjM1KXdNm9YhWq) — Google Drive

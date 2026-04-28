@@ -2,7 +2,7 @@
 project: ai-systems-office
 status: active
 owner: nikolai
-updated: 2026-04-28
+updated: 2026-04-28 17:30
 tags: [work, role, strategy, cdio]
 ---
 
@@ -65,8 +65,13 @@ Doctolib-Hintergrund, PVS-Projektleitung bei Dr. Lipp (2 Jahre). Start 1.8. oder
 
 ## Links
 
-- [Notion Spec](https://www.notion.so/32d57538249e8015a424f04a61f0a348)
-- [Ownership](https://www.notion.so/2e757538249e804cbf10ea312f83ec39)
+- [Notion Spec + Full OKRs](https://www.notion.so/32d57538249e8015a424f04a61f0a348) — ✅ Synchronisiert 28.04.: Kids paeDOC September (Bisingen → Altensteig → Fellbach), O2-Schärfung Kids-Datensync 31.10. (statt 30.09.), Timeline-Tabelle Aug/Sep angepasst.
+- [Ownership & Accountability](https://www.notion.so/2e757538249e804cbf10ea312f83ec39) — ✅ KPI 7 korrigiert 28.04.: war "Kids Juni + Lütjensee Sep" → jetzt "Lütjensee Juli (KW 28) + Kids September on schedule".
+
+## OKR-Scope-Entscheidungen (28.04.)
+
+- **Kronprinzenbau bleibt aus den OKRs** — bewusste Entscheidung. O0/O0.6-Ball bleibt bei Jens.
+- **Series A bleibt aus den OKRs** — bewusste Entscheidung.
 
 ## Hiring IT Ops Lead — IT Operations Manager Praxis-IT
 

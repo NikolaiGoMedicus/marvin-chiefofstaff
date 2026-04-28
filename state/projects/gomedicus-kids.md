@@ -2,7 +2,7 @@
 project: gomedicus-kids
 status: active
 owner: nikolai
-updated: 2026-04-28
+updated: 2026-04-28 17:30
 tags: [work, lambda, kids, tomedo-migration]
 ---
 
@@ -25,7 +25,7 @@ tags: [work, lambda, kids, tomedo-migration]
 
 ## paeDOC Timeline (Jan-Stand 28.04.2026)
 
-**Tomedo-Umstellung paeDOC ca. September 2026** — gilt für alle 3 Standorte (Bisingen, Altensteig, Fellbach). Verschoben von Ende August (Flo-Stand 27.04.) auf September (Jan-Antwort 28.04.). Finales Datum noch offen.
+**Tomedo-Umstellung paeDOC ca. September 2026** — gilt für alle 3 Standorte (Bisingen, Altensteig, Fellbach). Verschoben von Ende August (Flo-Stand 27.04.) auf September (Jan-Antwort 28.04.). Finales Datum noch offen. ✅ Notion OKR-Page (Full Spec + OKRs) synchronisiert 28.04. — Reihenfolge Bisingen → Altensteig → Fellbach eingetragen, O2-Schärfung Kids-Datensync auf 31.10. (statt 30.09., 1 Monat Sync-Stabilisierung).
 
 **Jan-Antwort 28.04. (Mail `19dd32e1dd77e37e`):**
 > „Für mich hat das gerade nicht mehr die allerhöchste Prio, da wir ja jetzt auf September verschoben haben. Ich gehe das direkt nach der Hausärztemesse hier auf Borkum an. Da bin ich noch bis Sonntag. Ich brauche allerdings die Zugänge zu allen Servern, nicht nur Bisingen."
