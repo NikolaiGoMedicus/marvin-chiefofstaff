@@ -2,7 +2,7 @@
 project: tomedo-exploration
 status: active
 owner: nikolai
-updated: 2026-04-23
+updated: 2026-04-28
 tags: [work, gomedicus, tomedo, reporting, knowledge-base]
 ---
 
@@ -118,13 +118,14 @@ bf481f3  chore: initial setup (M0)
 - **Schema-Metadata:** 2.314 Tabellen, 14.703 Spalten, 3.078 Indizes, 13 Views, 4.140 pseudo-FKs
 - **12 Entity-Docs** (patient, termin, **besuch**, leistung, kvschein, medikamentenverordnung, diagnose, labor, karteieintrag, patientenformular, epa, cke)
 - **3 Pattern-Docs** (patient-join-kaskade, hibernate-conventions, objectid-timestamp-decode)
-- **6 Reusable-Queries**:
+- **7 Reusable-Queries**:
   - `adipositaskurs-woche.sql` — Wochenreport AK/eTermin + verlinkte Adipositas-Meds (Antonia)
   - `zanadio-beantwortete-formulare.sql` — Permalink-Formulare mit dekodiertem Timestamp (Antonia)
   - `termine-mit-verordnung.sql` — generisches LEGO-Stück (Antonia)
   - `auslastung-taegliche-besuche.sql` — Patienten/Tag/Standort/Arzt (Arved, seit 23.04.)
   - `auslastung-stunden-heatmap.sql` — Besuche/Stunde/Standort (Arved, seit 23.04.)
   - `telemed-kontakte.sql` — Videosprechstunden via EBM 01450, KW × Standort × Arzt (Sebastian Lüttle, seit 23.04.)
+  - `zanadio-datenweitergabe.sql` — Patienten mit Consent-Ja (bezeichner/wert-Pattern), 402 Pat live getestet (Antonia, seit 28.04.)
 - **4 Pattern-Docs** (+1 seit 23.04.):
   - `patient-join-kaskade.md`, `hibernate-conventions.md`, `objectid-timestamp-decode.md`
   - `abrechnung-ziffern-join.md` — EBM-Zuschläge → Patient via kvschein (neu)
@@ -142,9 +143,32 @@ bf481f3  chore: initial setup (M0)
 
 5. **`verordnungsauftrag` ist leer** (0 Rows) — geplanter Shortcut für patient→verordnung existiert nur strukturell. Cascade nötig.
 
+## Update 2026-04-28 — Zanadio-Datenweitergabe-Query für Antonia
+
+**Kontext:** VPN up, Direct-DB-Zugriff via psql + run_query.py bestätigt. Neue Ad-hoc-Query für Antonia Gebhardt (Operations Reporting).
+
+**Query:** Patienten mit Zanadio-Datenweitergabe=Ja (Consent-Formular). Field: `bezeichner='weitergabe-informationen'`, `wert='Ja'`.
+
+**Ergebnis live getestet (28.04.):**
+
+| Terminart | Patienten |
+|-----------|----------:|
+| zanadio | 310 |
+| adipositasberatung-zanadio | 92 |
+| **Total Zanadio-Datenweitergabe=Ja** | **402** |
+| brustkrebs-beratung (selbes Feld) | 10 |
+
+**Artefakt:** SQL an Antonia via Slack (Outbox #10) — Nikolai sendet manuell (Widget-Draft D0APEL56T7S). SQL ggf. als Slack-Snippet posten.
+
+**Neue Erkenntnisse:**
+- `weitergabe-informationen` / `Ja` ist ein wiederkehrendes Pattern für Disease-Management-Consents (Zanadio, Brustkrebs-Beratung)
+- Formular-Felder via `patientenformular` → `bezeichner`/`wert` direkt abfragbar ohne Join-Kaskade
+
+---
+
 ## Use-Cases (Empfänger)
 
-1. **Antonia's Operations Reporting** — 3 Reusable-Queries decken AK/eTermin + Zanadio-Flow ab. Nächster Schritt: Queries an Antonia übergeben + in Claude-Project einbinden.
+1. **Antonia's Operations Reporting** — 4 Reusable-Queries: AK/eTermin + Zanadio-Flow + Zanadio-Datenweitergabe-Consent (402 Pat, 28.04. live getestet). SQL an Antonia via Slack (Outbox #10).
 2. **MKD Integration Phase 3** — Wenn Deep Integration angeht, ist die Knowledge Base die Grundlage für Backend-Migration-Design.
 3. **Praxis-KPIs** — Dashboard-Layer könnte auf den Reusable-Queries aufbauen.
 4. **Notification-Trigger** — für das Notification Events Epic (GOM-1976 blocked by Cloudnonic).
@@ -153,7 +177,7 @@ bf481f3  chore: initial setup (M0)
 
 - [x] ~~M5-Commit abschließen (PROJECT_CONTEXT.md, README, dieses File)~~ ✅ 22.04.
 - [x] ~~Entscheidung: GitHub-Remote anlegen ja/nein?~~ → **private Repo in GoMedicus-Org** angelegt am 22.04., alle 6 Commits gepusht.
-- [ ] Antonia die 3 Queries zeigen im nächsten Call → zu Linear-Epic "Operations Reporting" hinzufügen
+- [x] ~~Antonia die 3 Queries zeigen im nächsten Call → zu Linear-Epic "Operations Reporting" hinzufügen~~ → Zanadio-Datenweitergabe-SQL direkt via Slack (28.04.) ✅
 - [ ] Permission-Rules in `~/marvin/.claude/settings.local.json` eintragen, damit zukünftige DB-Queries ohne Bang-Prefix laufen (siehe `/Users/nikolaibockholt/.claude/plans/schau-dir-mal-folgende-parallel-yeti.md`)
 - [ ] Labor-Result-Join (labverspalteentity / labverzeileentity) vollständig verifizieren (TBD-Marker in `docs/entities/labor.md`)
 - [ ] CKE-Definition-Tabelle finden (TBD-Marker in `docs/entities/cke.md`)

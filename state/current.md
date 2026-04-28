@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-28 13:18
+Last updated: 2026-04-28 16:45
 
 > **Modulare State-Architektur (seit 21.04.):** Details leben in `state/projects/*.md`. Diese Datei ist der Index + aktuelle Prioritäten. Für die alte Monolith-Version siehe `current.md.pre-migration`.
 
@@ -49,6 +49,7 @@ _Drafts, die auf Absenden warten. Drafts landen hier durch `/draft park`, werden
 | 7 | Flo Kleinau (Slack DM) | AEKSH-Kammerbeitrag Stefan — Bearbeitungs-Status? | Copy-Paste-Text bereitgestellt (Session 28.04.), Nikolai sendet manuell |
 | 8 | Phil Gonser (p.gonser@gomedicusgroup.com) | Antragswesen Folge-Frage: Kampmeyer-Sitz Reutlingen-Kaiserstr (MVZ Reutlingen, nicht ZAK) — wie im Antrag behandeln? | Gmail Draft `r-457120822385611219` (Reply im Thread `19db5d9a635fe787`). Vorgänger-Drafts `r-887994339486291649` + `r-235284118004984304` sind beantwortet/obsolet — manuell löschen. |
 | 9 | Christoph Haas (c.haas@seidemann.com), CC Jan Kreimeyer | Re: Zugang Bisingen — Folge-Anfrage Altensteig + Fellbach (Seidemann auch zuständig?) | Gmail Draft `r2115316684675037718` (Thread `19db3d72c5b22561`) |
+| 10 | Antonia Gebhardt (Slack DM) | Zanadio Datenweitergabe=Ja — SQL fürs Tomedo-Statistik-Editor (402 Pat live getestet 28.04.) | Copy-Paste-Text bereitgestellt (Session 28.04.) — Widget-Draft unsichtbar, Nikolai sendet manuell. SQL-Block ggf. als Slack-Snippet posten. |
 ## Stale Threads (>14 Tage ohne Bewegung)
 
 _Aktiv zu beobachten:_
@@ -59,6 +60,6 @@ _Aktiv zu beobachten:_
 - **Janina-Termin neu gesetzt: Di 28.04. 13:00–13:50** (nach Ausfall 22.04. + Ablehnung 27.04.). Meet `kxv-bsqh-tdf`. Slot ist tight: Nima endet 13:00 → Janina → Claude×Antonia 14:00.
 - **⚠️ Konflikt morgen Di 28.04. 11:00 (Arved AI Sync) vs. 11:30 (JF | GoM x ak)** — noch nicht aufgelöst.
 - **🟠 OKR-Finalisierungs-Meeting 24.04. mit Jens + Tim-Ole — noch nachzubereiten.** Action Items → [ai-systems-office.md](projects/ai-systems-office.md). Transcript: [Google Doc](https://docs.google.com/document/d/19vdjk7lEBwYzxPO4Hra_FNddUlUf0mR1vSiSA53JFL4/edit).
-- **Outbox-Drafts pending (9):** Flo Hiring-Fazit, Arved Claude-Briefing, Kennedy Pre-Screening (noch kein Gmail-Draft), Henry Inventar-Bitte (Slack DM), medatixx Lütjensee Workstation, Olaf VPN-User Stefan (Mobilnummer-Platzhalter ersetzen!), Flo AEKSH-Status (Slack DM), Phil Antragswesen-Restanforderung, Christoph Haas Seidemann (Altensteig + Fellbach-Zugänge) — warten auf Nikolai-Freigabe.
+- **Outbox-Drafts pending (10):** Flo Hiring-Fazit, Arved Claude-Briefing, Kennedy Pre-Screening (noch kein Gmail-Draft), Henry Inventar-Bitte (Slack DM), medatixx Lütjensee Workstation, Olaf VPN-User Stefan (Mobilnummer-Platzhalter ersetzen!), Flo AEKSH-Status (Slack DM), Phil Antragswesen-Restanforderung, Christoph Haas Seidemann (Altensteig + Fellbach-Zugänge), Antonia Zanadio-SQL (Slack DM) — warten auf Nikolai-Freigabe.
 - **Antragswesen Tool-Refactor (28.04.):** Aus One-Shot wurde Bundle-aware. 9 Standorte, 5 Person-YAMLs erweitert, render.py + Templates angepasst. 20 → 13 Gaps. Web-Recherche auf gomedicus.com hat Adressen + Tel für 8 Praxen geliefert. Strukturelle Korrektur: Träger ist "Go-medicus Zollernalb MVZ GmbH" (3 MVZs), nicht "MVZ GoMedicus Südwest GmbH".
 - **Design-Assets Rollout:** Nils-Angebot 24.04. (2.945–4.560 €). Warte auf Michael+Flo Mengen-Klärung → dann Mail an Nils. Details in [design-assets-rollout.md](projects/design-assets-rollout.md).

@@ -2,7 +2,7 @@
 project: ai-systems-office
 status: active
 owner: nikolai
-updated: 2026-04-24
+updated: 2026-04-28
 tags: [work, role, strategy, cdio]
 ---
 
@@ -76,7 +76,7 @@ Personio Jobs 2594644 + 2608146. Optimierungs-Doc an Flo (16.04.). Triage-Sessio
 
 | Kandidat | App-ID | Personio-Candidate-ID | Einschätzung | Next Step |
 |----------|--------|-----------------------|--------------|-----------|
-| **Malekkhouyan, Arash** | — | — | Nikolai-Favorit: moderner Stack, Entwicklungspotential | Interview vorbereiten |
+| **Malekkhouyan, Nima** | — | — | Grenzwertig. Transcript reviewed 28.04. Nicht by-default durchrutschen lassen. | 2. Runde: Szenarien, Benjamin-Slot, Side-by-side Kennedy + 3. Kandidat |
 | **Crumbach, Tobias** | — | — | Solider Kandidat, abwarten | Flos Meinung einholen |
 | **Lakhani, Priya** | — | — | Nicht passend | Absage senden |
 
@@ -91,7 +91,7 @@ Thread: Flo → Jens → Nikolai → Flo. Profil: Pflege + NGO Nigeria als reale
 - [ ] Flo: Fazit zu den 3 aktiven Bewerbungen — Gmail Draft `r-4148311281209141750` (an f.kleinau@gomedicusgroup.com)
 - [ ] Lakhani absagen (nach Flo-Absprache)
 - [ ] Crumbach: Flos Meinung abwarten, dann entscheiden
-- [ ] Malekkhouyan: Interview einleiten wenn Flo zustimmt
+- [ ] Malekkhouyan Nima: 2. Runde mit Szenarien organisieren (Benjamin-Slot, Side-by-side Kennedy + 3. Kandidat). Empfehlung: nicht by-default durchwinken.
 - [ ] Flo: Feedback zum Optimierungs-Doc + IT-Stellenanzeige verfeinern (gemeinsam)
 - [ ] Nach Feedback: Titel + Text in Personio aktualisieren
 - [ ] Active Sourcing starten (LinkedIn: Tomedo/medatixx/TI/Hexnode) + Franzi/Antonia-Kontakte
