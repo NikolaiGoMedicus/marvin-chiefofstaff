@@ -2,7 +2,7 @@
 project: luetjensee
 status: active
 owner: nikolai
-updated: 2026-04-24
+updated: 2026-04-28
 tags: [work, lambda, priority, praxis]
 ---
 
@@ -37,7 +37,6 @@ Eingerichtet (20.03.), 2 SSIDs (`Praxis-Luetjensee` + `GoMedicus-Gast`). ✅ WLA
 
 - [ ] Schild ausdrucken + im Wartezimmer aufhängen
 - [ ] Hexnode MDM: 3 Lütjensee-iPads supervised enrollen. **SSoT Anleitung:** [📱 iPad & Hardware Deployment (Notion)](https://www.notion.so/34157538249e81278deadf1846e2e9c8) — Vanilla Way (ADE + Configurator Wiederherstellen) am 20.04. verifiziert. → Hexnode-Instance gehört zu MKD, siehe [mkd-hardware.md](mkd-hardware.md).
-- [ ] MacBook Air für Praxis-Arzt einrichten (Telemedizin)
 
 ## Hardware-Inventar
 
@@ -47,6 +46,22 @@ Eingerichtet (20.03.), 2 SSIDs (`Praxis-Luetjensee` + `GoMedicus-Gast`). ✅ WLA
 - ✅ Lambda-Angebot AG-4023 erhalten (09.04.) — Nachverhandlung läuft
 - [ ] Talkmaster-PC Funktion klären
 - **Hinweis SMC-B (24.04.):** Die 4 Kartenleser im Inventar sind nicht nach SMC-B vs. eGK differenziert — Inventar ist "Entwurf, Abgleich mit Franzi ausstehend". Für SMC-B-Info: Tomedo-Admin, LANFOCUS (Daniel Doobe, 040/65 65 665), oder Franzi direkt fragen.
+
+## Stefan Haupt — Onboarding & Hardware
+
+Stefan ist **Weiterbildungsassistent** (bezahlt nach Marburger Bund, Quelle: Lütjensee Status Update 16.03., Phillipp Gonser). Hauptsächlich Praxis vor Ort + gelegentlich Telemedizin von zuhause. AEKSH-Mitglied (Ärztekammer Schleswig-Holstein).
+
+### Geräte-Setup
+- **MacBook (Apple):** ✅ Im Einsatz seit ~25.03.2026 (Apple-Rechnung BD85087227, mit Antonia/Barbara/Jens beschafft). Use-Case Telemedizin (in Praxis + von zuhause). Voraussetzung war WLAN-Aufrüstung 14.03. durch Olaf Rajek (R260025).
+- **Windows-Laptop:** Hardware vorhanden, Setup ausstehend (28.04.). Use-Case **ausschließlich medatixx x.comfort** (PVS-Doku, BDT-Import, Patienten-Neuanlage). Praxis lokal + VPN-Remote für gelegentliche Doku von zuhause.
+- **Lifecycle-Plan:** Nach Tomedo-Migration (KW 31, ab 03.08.) wird der Windows-Laptop an **Henry Krause** weitergegeben (medatixx tot). Stefan arbeitet danach nur noch mit MacBook (Tomedo nativ + Telemedizin).
+
+### Open Items (aktiv 28.04.)
+- [ ] **medatixx-Ticket** an support.xcomfort@medatixx.de — x.comfort-Client-Install auf Windows-Laptop + Stefans User-Rechte für BDT-Import heben (Admin-/Power-User für Patientenstamm + BDT-Modul). Mail-Draft 28.04.
+- [ ] **VPN-User „haupt"** über Olaf Rajek (PC-Fun, 04552-999896, Olaf@pc-fun.de) anlegen lassen — analog zu Arveds `schneider`. Mail-Draft 28.04. — **fehlt: Stefans Mobilnummer für SMS-PW**.
+- [ ] **Telemedizin-Plattform** (MacBook-Track): Klären, was Lütjensee aktuell nutzt oder ob neu einzurichten — separater Track.
+- [ ] **Stefan in Tomedo-Praxisfragebogen** ergänzen ([Notion-Draft](https://www.notion.so/34a57538249e81ba88b2d463cb9fc1d6)) — Behandler-Liste, eigener Arbeitsplatz, BDT-Workflow Tomedo-seitig validieren.
+- [ ] **AEKSH-Kammerbeitrag**: Stefan-Mail an people@ vom 13.04. (cc Flo) — „Kosten einmalig übernehmen". Status nach 2 Wochen unklar, bei Flo/Buchhaltung nachfragen.
 
 ## Lambda-Angebot AG-4023
 
@@ -89,6 +104,7 @@ Diese Punkte sind **kein Angebots-Blocker** — Lambda arbeitet im Angebot mit P
 - [ ] Labor-Anbieter + Anbindung dokumentieren
 - [ ] WLAN-Topologie (über die 2 AP-Modelle hinaus: SSIDs, VLANs)
 - [ ] Telefonanlage-Modell + aktuelles Setup
+- [ ] Stefan Haupt: BDT-Import-Workflow Tomedo-seitig validieren (Lambda-Walkthrough KW 28)
 
 ## Telefonanlage
 

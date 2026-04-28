@@ -2,7 +2,7 @@
 project: gomedicus-practices
 status: active
 owner: nikolai
-updated: 2026-04-21
+updated: 2026-04-28
 tags: [work, practices, priority, paedoc]
 ---
 
@@ -18,6 +18,7 @@ Staged Rollout geplant (6 Phasen), [Notion-Ausführungsplan](https://www.notion.
 
 ## Open Items
 
+- [ ] **VSS-Terminbuchungs-Fehler (paeDOC Schömberg + Gosheim)** — Lambda-Support-Ticket gesendet 28.04. an support@lambda-itsystems.de, CC Friederike Posnien. Nikolai hat Screenshot von Luana Di Trizio (Slack-DM, IMG_1374.jpg) manuell ergänzt. Weitere betroffene Standorte noch zu prüfen. Rückrufnummer Luana: 07121 8913253.
 - ✅ **Sebastian Luitle: Meeting + Umsetzungs-Zeit angefragt** (21.04. gesendet). Flo-AI #2 erledigt, Antwort abwarten.
 - [ ] Phase 1 (Discovery) starten nach Termin mit Sebastian
 - [ ] Domain-Transfer paedoc.de + paedoc-mvz.de (Auth-Codes gesichert)
@@ -28,4 +29,5 @@ Staged Rollout geplant (6 Phasen), [Notion-Ausführungsplan](https://www.notion.
 
 ## Waiting On
 
+- Lambda IT Systems (support@lambda-itsystems.de) — Antwort auf VSS-Terminbuchungs-Fehler paeDOC (Ticket gesendet 28.04., CC Friederike Posnien)
 - Sebastian Luitle — Rückmeldung mit Meeting-Slot + Umsetzungs-Kapazität (Mail 21.04.)

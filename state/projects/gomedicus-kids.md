@@ -2,7 +2,7 @@
 project: gomedicus-kids
 status: active
 owner: nikolai
-updated: 2026-04-27
+updated: 2026-04-28
 tags: [work, lambda, kids, tomedo-migration]
 ---
 
@@ -23,18 +23,27 @@ tags: [work, lambda, kids, tomedo-migration]
 
 3.000 € einmalig pro Cluster, Installationspauschale pro AP, inkl. managed XDR + Supportflatrate + NIS2-ready. Rabattstaffel: 5% ab Standort 28, 10% ab Standort 40. Kein Mietmodell auf GoMedicus Services GmbH (Bonität) → Barkonditionen. paeDoc im Budget, Lütjensee leicht drüber (laut Arved).
 
-## paeDOC Timeline (Flo-Stand 27.04.2026)
+## paeDOC Timeline (Jan-Stand 28.04.2026)
 
-**Tomedo-Umstellung paeDOC ca. Ende August 2026** — gilt für alle 3 Standorte (Bisingen, Altensteig, Fellbach). Finales Datum noch offen.
+**Tomedo-Umstellung paeDOC ca. September 2026** — gilt für alle 3 Standorte (Bisingen, Altensteig, Fellbach). Verschoben von Ende August (Flo-Stand 27.04.) auf September (Jan-Antwort 28.04.). Finales Datum noch offen.
 
-**Wichtige Klärung:** Bisingen ist **ein paeDOC-Standort**, nicht ein separates Projekt. Die frühere Jan-Kreimeyer-Timeline (Backup KW 17, Produktivumstellung KW 19 ab 04.05.) ist durch den Flo-Stand 27.04. überholt. Reihenfolge der Standorte intern: Bisingen → Altensteig → Fellbach. Lambda-Präferenz: Teamviewer statt VPN für Server-Zugriff.
+**Jan-Antwort 28.04. (Mail `19dd32e1dd77e37e`):**
+> „Für mich hat das gerade nicht mehr die allerhöchste Prio, da wir ja jetzt auf September verschoben haben. Ich gehe das direkt nach der Hausärztemesse hier auf Borkum an. Da bin ich noch bis Sonntag. Ich brauche allerdings die Zugänge zu allen Servern, nicht nur Bisingen."
+
+**Status:**
+- Jan offline bis **So 03.05.** (Hausärztemesse Borkum). Lift startet **ab Mo 04.05.**
+- 🆕 **Neue Anforderung:** Jan braucht Server-Zugänge zu **allen 3 Standorten** (nicht nur Bisingen wie ursprünglich gedacht).
+
+**Wichtige Klärung:** Bisingen ist **ein paeDOC-Standort**, nicht ein separates Projekt. Die frühere Jan-Kreimeyer-Timeline (Backup KW 17, Produktivumstellung KW 19 ab 04.05.) ist überholt. Reihenfolge der Standorte intern: Bisingen → Altensteig → Fellbach. Lambda-Präferenz: Teamviewer statt VPN für Server-Zugriff.
 
 ## Open Items
 
-- [ ] Jans offene Fragen beantworten: Testdatenkonvertierung T2med, Internet-Infos der Standorte, paeDoc-Abrechnung über welche GmbH
+- [ ] **Server-Zugänge alle 3 Standorte** für Jan vorbereiten (Bisingen + Altensteig + Standort 3) — neue Jan-Anforderung 28.04. Bisher nur Bisingen via Seidemann/Christoph Haas geplant.
+- [ ] Jans offene Fragen beantworten: Testdatenkonvertierung T2med, Internet-Infos der Standorte, paeDoc-Abrechnung über welche GmbH (Jan hat in 28.04.-Antwort nicht direkt darauf geantwortet — sind weiterhin offen, kein Blocker für ihn pre-Borkum)
 - [ ] Internet-Infos 3 Standorte — bei Lambda nachfragen
 - [ ] Zollsoft-Rahmenvertrag mit Martin (Lambda) klären
 - [ ] Lambda (Jan): Angebot erstellen
+- [ ] **Reminder Mo 04.05. 09:33** ✅ Kalender-Event angelegt (28.04.) — falls Jan nach Borkum-Rückkehr nicht selbst pingt, kurze Nachfass-Mail.
 
 ## Tomedo Praxisfragebogen (zollsoft)
 
@@ -48,4 +57,5 @@ Maria Schweinitz (zollsoft) will Praxisfragebogen auch für paeDOC ausgefüllt h
 
 ## Waiting On
 
-- Seidemann IT Solutions — Admin-Zugang + Teamviewer Bisingen-Server (Email 17.04.)
+- Seidemann IT Solutions — Admin-Zugang + Teamviewer Bisingen-Server (Email 17.04.). Christoph Haas (07121 69509-30, c.haas@seidemann.com) hat Zugangsdaten + Teamviewer **seit 22.04. bereit liegen**, Jan hat ihn aber noch nicht angerufen. Jan wird's nach Borkum (ab 04.05.) angehen.
+- Jan Kreimeyer (Lambda) — Angebot, Lift paeDOC-Migration. Offline bis 03.05. (Borkum).
