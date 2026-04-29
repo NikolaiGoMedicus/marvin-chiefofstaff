@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-28 17:00
+Last updated: 2026-04-28 17:45
 
 > **Modulare State-Architektur (seit 21.04.):** Details leben in `state/projects/*.md`. Diese Datei ist der Index + aktuelle Prioritäten. Für die alte Monolith-Version siehe `current.md.pre-migration`.
 
@@ -32,7 +32,7 @@ Last updated: 2026-04-28 17:00
 - [Claude Admin / Lizenzmanagement](projects/claude-admin.md) — Pricing, Jahresplan-Hebel, Arved-Debrief (23.04.)
 - [Platform Analytics & Session Recording](projects/platform-analytics.md) — 3-Phasen-Strategie (Plausible → Matomo → PostHog). PostHog-Empfehlung zurückgezogen (DSGVO). Phase 1 (Plausible Event-Spec) läuft.
 - [GOM-2530 MCP Server PoC](projects/gom-mcp-poc.md) — Adriano PR #819 getestet (27.04.), smoke test OK. Warte auf Nikolai-Entscheidung re Feedback.
-- [Privat](projects/privat.md) — Strom, Solar, Karriere, Claudio, Meshtastic, Flipper, Laser Forge
+- [Privat](projects/privat.md) — Strom, Solar, Karriere, Claudio, Meshtastic, Flipper, Laser Forge · [Adobe Bewerbung](projects/adobe.md) — Unterlagen fertig 29.04., noch nicht eingereicht
 
 ## Outbox
 
@@ -57,3 +57,4 @@ _Aktiv zu beobachten:_
 - **Antragswesen Tool-Refactor (28.04.):** Aus One-Shot wurde Bundle-aware. 9 Standorte, 5 Person-YAMLs erweitert, render.py + Templates angepasst. 20 → 13 Gaps. Web-Recherche auf gomedicus.com hat Adressen + Tel für 8 Praxen geliefert. Strukturelle Korrektur: Träger ist "Go-medicus Zollernalb MVZ GmbH" (3 MVZs), nicht "MVZ GoMedicus Südwest GmbH".
 - **Design-Assets Rollout:** Nils-Angebot 24.04. (2.945–4.560 €). Warte auf Michael+Flo Mengen-Klärung → dann Mail an Nils. Details in [design-assets-rollout.md](projects/design-assets-rollout.md).
 - **Kronprinzenbau (28.04.):** Bauplan 3.OG von Michael bekommen, in Drive + Notion abgelegt. An Jan Kreimeyer (Lambda) verschickt mit WLAN-Coverage- + Notion-Zugriff-Frage. Deadline 30.04. hängt an seiner Antwort.
+- **Gmail-MVP (28.04.):** Spec + Plan + 5 von 10 Tasks gebaut (Branch `feat/channel-gmail-mvp`). Tasks 4–8 + 10 (live testing) offen. → [marvin-infrastructure.md](projects/marvin-infrastructure.md)

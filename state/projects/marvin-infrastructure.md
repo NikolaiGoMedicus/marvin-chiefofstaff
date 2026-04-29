@@ -2,7 +2,7 @@
 project: marvin-infrastructure
 status: active
 owner: nikolai
-updated: 2026-04-24
+updated: 2026-04-28
 tags: [work, marvin, infrastructure]
 ---
 
@@ -28,6 +28,14 @@ tags: [work, marvin, infrastructure]
 - **CLAUDE.md:** Channel-Agents Layer + state/channels/ Konvention dokumentiert.
 - **Spec + Plan:** `docs/superpowers/channel-agents-spec.md` + `docs/superpowers/channel-agents-plan.md` angelegt.
 - **Status:** MVP live. Nachste Schritte: channel-email (Gmail), Channel-Index in current.md bei Bedarf erganzen.
+
+## Channel-Agents Gmail MVP (28.04.2026)
+
+- **Spec:** `docs/superpowers/specs/2026-04-28-channel-agents-gmail-phase2-design.md`
+- **Plan:** `docs/superpowers/plans/2026-04-29-channel-agents-gmail-mvp.md`
+- **Branch:** `feat/channel-gmail-mvp` (9 Commits)
+- **Status:** Tasks 0, 1, 2, 3, 9 done. Tasks 4–8 + 10 (live testing) noch offen — User testet selbst.
+- **Gebaute Files:** env vars, `state/channels/gmail.md` Template, `.claude/agents/channel-gmail.md` Subagent, `/triage-gmail` Command, CLAUDE.md Doku (inkl. Code-Review-Refinements).
 
 ## Routines (Cloud)
 
