@@ -10,10 +10,18 @@ tags: [privat, karriere, bewerbung]
 
 ## Status
 
-Bewerbungsunterlagen fertiggestellt (29.04.). Cover Letter + CV als PDF gerendert. Noch nicht eingereicht — wartet auf finales Review + Submit.
+Bewerbungsunterlagen fertiggestellt (29.04.). Cover Letter + CV als PDF gerendert.
+
+**29.04. Nachmittag — CV überarbeitet:**
+- Reverse-chronologische Reihenfolge: GoMedicus → Brand University → Google → Miami → Agency → advanced users (vorher hatte Markdown-Quelle und HTML-Render abweichende Sortierungen)
+- Body-Bullet ehrlich gemacht: Google I/O = recap presenter EMEA Sales, nicht Keynote
+- Neue Sektion **Selected Speaking & Public Appearances** (Cannes 2016–23 ex. pandemic, dmexco 2019, I/O Recap 2018–23, Brand U, Miami Ad School)
+- Lindt Gold Bunny AR-Project → verlinkt auf bandara.ch
+- 4 Seiten, jetzt inhaltlich gefüllt statt halbleer
 
 ## Open Items
 
+- [ ] Customer-Reference suchen (Volkswagen / Lindt / Mondelez) → falls verfügbar als 4. Reference einsetzen, dann re-render
 - [ ] Bewerbung einreichen über Adobe Careers Portal (R167792)
 - [ ] Prüfen ob Serviceplan-Gespräch zuerst abwarten oder parallel einreichen
 

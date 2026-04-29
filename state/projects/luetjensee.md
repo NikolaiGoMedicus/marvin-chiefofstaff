@@ -2,7 +2,7 @@
 project: luetjensee
 status: active
 owner: nikolai
-updated: 2026-04-28
+updated: 2026-04-29
 tags: [work, lambda, priority, praxis]
 ---
 
@@ -155,6 +155,7 @@ Maria Schweinitz (zollsoft) will Praxisfragebogen für Lütjensee ausgefüllt ha
 
 ## Waiting On
 
+- **Sebastian Schulz (DSB)** — Datenschutz-App-Text Review (verschickt 29.04. via Gmail). Basis: Drive-Vorlage "Aufklärung und Einwilligung zur Datenübermittlung.pdf" (11.06.2024). Trägerschaft im Text: GoMedicus RheinNeckar MVZ GmbH, Hamburger Str. 33, 22952 Lütjensee. Code: `/Users/nikolaibockholt/Documents/web/gom-datenschutz-signing/public/index.html:48-95`. Hinweis: Telemedizin-Erweiterung (02.05.2025) im Drive als Update-Kandidat identifiziert — noch nicht eingepflegt.
 - Corti.ai / Adam Culbertson — Addendum v3 versendet (14.04.), Feedback abwarten. [v3 Doc](https://docs.google.com/document/d/1Z2voUKJNa3Q-DrM3vWtHTYjisSuWRd3YsOvgGTiPmnY/edit) — direkte Abhängigkeit zu [mkd-integration.md](mkd-integration.md) Phase 1 Corti-Features
 - Seidemann IT Solutions — Admin-Zugang + Teamviewer Bisingen-Server (Email 17.04.)
 - Lambda Support (22.04.) — Ticket 1: Tunnelblick DNS-Warnung `fmichels` (Franziska Michel, unkritisch — Tomedo-Connection ok, Einschätzung erbeten). Ticket 2: VPN-Zugang Benjamin Heinke für read-only Tomedo-DB, Lütjensee als Startpunkt vorgeschlagen (Scope-Fragen offen). An support@lambda-itsystems.de + Paul Epple CC. → Nachhaken nach 2–3 Tagen falls keine Antwort.
