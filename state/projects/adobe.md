@@ -10,24 +10,35 @@ tags: [privat, karriere, bewerbung]
 
 ## Status
 
-Bewerbungsunterlagen fertiggestellt (29.04.). Cover Letter + CV als PDF gerendert.
+Bewerbungsunterlagen fertiggestellt (29.04., 2 Iterationen). Cover Letter + CV als PDF mit neuem **Forest Green Tech-Editorial Mono CI**.
 
-**29.04. Nachmittag — CV überarbeitet:**
-- Reverse-chronologische Reihenfolge: GoMedicus → Brand University → Google → Miami → Agency → advanced users (vorher hatte Markdown-Quelle und HTML-Render abweichende Sortierungen)
-- Body-Bullet ehrlich gemacht: Google I/O = recap presenter EMEA Sales, nicht Keynote
-- Neue Sektion **Selected Speaking & Public Appearances** (Cannes 2016–23 ex. pandemic, dmexco 2019, I/O Recap 2018–23, Brand U, Miami Ad School)
-- Lindt Gold Bunny AR-Project → verlinkt auf bandara.ch
-- 4 Seiten, jetzt inhaltlich gefüllt statt halbleer
+**29.04. Vormittag — Initial render:**
+- Cover Letter + CV als HTML + PDF erstellt (Charter Serif, Editorial Modernist Stil)
+
+**29.04. Nachmittag — Iteration 2 (CI-Redesign + Content-Cleanup):**
+- Brainstorming: 3 Stilrichtungen → Tech-Editorial Mono gewählt; 4 Farben → Forest Green (#355E3B + Cream #FBF9F4)
+- Komplett neuer HTML-Render: Top-Bar, Monogramm "N · B", Mono-Akzente (JetBrains Mono), Datums-Spalte links, grüne Bullet-Marker
+- Reverse-chronologisch: GoMedicus → Brand U → Google → Miami → Agency → advanced users
+- Speaking-Sektion **Selected Speaking & Public Appearances** auf Seite 4 forciert (Page-Break) → Page 4 jetzt Speaking + 3 Refs + Footer (statt halbleer)
+- Lindt Gold Bunny AR verlinkt auf [bandara.ch](https://www.bandara.ch/work/gold-bunny-ar)
+- Body-Bullet ehrlich: Google I/O = recap presenter EMEA Sales, nicht Keynote
+- **Content-De-AI-fication**: alle Em-Dashes raus (durch · oder Punkt ersetzt), AI-Phrasen umgeschrieben ("rare combination", "deep customer empathy", "land in player-coach", "player muscle/coach muscle", "first-hand view"), Profile komplett neu in tighterem Voice
+- Cover Letter auf 1 Seite getrimmt (10.5pt → 9.8pt, line-height 1.65 → 1.5)
+- Spec: `marvin/docs/superpowers/specs/2026-04-29-adobe-cv-redesign.md`
+
+**Status 15:30:** User-Sichtcheck OK ("sieht gut aus"). PDFs ready zum Submit.
 
 ## Open Items
 
-- [ ] Customer-Reference suchen (Volkswagen / Lindt / Mondelez) → falls verfügbar als 4. Reference einsetzen, dann re-render
-- [ ] Bewerbung einreichen über Adobe Careers Portal (R167792)
-- [ ] Prüfen ob Serviceplan-Gespräch zuerst abwarten oder parallel einreichen
+- [ ] **Swatch CMO Reference**: Nikolai schreibt Michelle an (Quote für 4. Reference). Wenn da → einsetzen + re-render
+- [ ] **Bewerbung einreichen** über Adobe Careers Portal (R167792)
+- [ ] **Serviceplan parallel**: gleiche CI auf Serviceplan-CL anwenden vor München-Termin
+- [ ] **LinkedIn-Header / Figma-Asset** (optional, später als Portfolio-Asset)
 
 ## Waiting On
 
-_nichts_
+- Michelle (Swatch CMO) — Reference Quote
+- Julian Kramer (Adobe-intern) — Pre-Flight-Check der PDFs + potenzieller Referral-Push. Draft-Nachricht von MARVIN vorbereitet; Nikolai schickt via bevorzugtem Kanal.
 
 ## Links
 
