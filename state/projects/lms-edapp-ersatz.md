@@ -2,7 +2,7 @@
 project: lms-edapp-ersatz
 status: active
 owner: nikolai
-updated: 2026-04-29
+updated: 2026-04-30
 tags: [work, lms, people, evaluation, decision-pending]
 ---
 
@@ -48,7 +48,7 @@ tags: [work, lms, people, evaluation, decision-pending]
 ## Open Items
 
 - [ ] **Slack-Heads-Up an Arved senden** (Draft im Session-Log 29.04.)
-- [ ] **Decision-Termin 30.04.:** Arved + Flo + Nikolai zur LMS-Entscheidung
+- [x] **Decision-Termin 30.04.:** Arved + Flo + Nikolai zur LMS-Entscheidung ✅ 2026-04-30 — eLeDia bestätigt
 - [ ] **Bei Entscheidung eLeDia:** 3-Monats-Abo buchen (€450), 6 SCORM-Pakete migrieren (1-2 Tage)
 - [ ] **Sebastian Schulz (DSB):** AVV-Vorab-Check (~1h Aufwand) **nach** Decision
 - [ ] **TalentLMS Free 30 Tage parallel laufen lassen**, dann kündigen
