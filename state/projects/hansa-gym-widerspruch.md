@@ -39,7 +39,7 @@ tags: [privat, familie, schule, ari, widerspruch]
 - Tel: +49 40 428 93 43-0, Fax: +49 40 4279 71128
 
 ## Next Actions
-- [ ] Heute: Brief per Email versenden
+- [x] Heute: Brief per Email versenden ✅ 2026-04-30
 - [ ] Mo 4.5.: Einschreiben mit Rückschein hinterher
 - [ ] Aris Mutter ggf. mitunterzeichnen lassen
 - [ ] ~mid-May: bei Schule nach Nachrücker-Stand fragen
