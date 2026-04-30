@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-29 15:30
+Last updated: 2026-04-30 08:29
 
 > **Modulare State-Architektur (seit 21.04.):** Details leben in `state/projects/*.md`. Diese Datei ist der Index + aktuelle Prioritäten. Für die alte Monolith-Version siehe `current.md.pre-migration`.
 
@@ -40,8 +40,7 @@ _Drafts, die auf Absenden warten. Drafts landen hier durch `/draft park`, werden
 
 | # | Ziel | Thema | Ort |
 |---|------|-------|-----|
-
-_Outbox geleert 28.04. — alle 11 Drafts erledigt._
+| 1 | Antonia Gebhardt + Benjamin Heinke (Group-DM) | Doctolib-Connector PVS-Bridge — Architektur-Input + Build-vs-Buy-Entscheidung | Slack Group-DM |
 ## Stale Threads (>14 Tage ohne Bewegung)
 
 _Aktiv zu beobachten:_

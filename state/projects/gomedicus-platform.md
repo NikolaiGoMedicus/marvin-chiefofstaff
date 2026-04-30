@@ -2,7 +2,7 @@
 project: gomedicus-platform
 status: active
 owner: nikolai
-updated: 2026-04-27
+updated: 2026-04-30
 tags: [work, platform, mvp, priority]
 ---
 
@@ -66,6 +66,19 @@ Nicolas hat 9 offene Business-Fragen + 5 Edge Cases aufbereitet. Proposed Decisi
 - ⚠️ Formatierung im Doc noch manuell fixen (Heading-Styles Schritt 3.1/3.2)
 - [ ] Alice: Antwort auf Trägergesellschaftswechsel-Frage (Fast-Follow oder Launch-Scope?)
 - [ ] Nach Alice-Feedback: Scope-Abgrenzung ggf. anpassen + Link auf GOM-2638 posten
+
+## Doctolib-Connector — Plattform→Tomedo-Bridge (2026-04-30)
+
+**Kontext:** Architektur-Analyse für Doctolib-Connector als Grundlage für GoMedicus-eigene PVS-Bridge.
+
+**Build vs. Buy Entscheidung — offen.** Analyse zeigt:
+- Doctolib hat proprietary Connector-Architektur; kein Open-Source-Äquivalent nutzbar.
+- GoMedicus-eigene Bridge (Plattform → Tomedo) ist 4–8 Wochen Schätzung für MVP-Scope.
+- Alternativen: Tomedo API v4 direkt (limitiert), oder Intermediate-DB-Layer via bestehenden readonly-Zugang.
+
+**Next Actions:**
+- [ ] Antonia + Benjamin (Group-DM) Slack-Draft senden — Entscheidungs-Input von Operations + Dev einholen (Draft offen, Nikolai sendet selbst)
+- [ ] Nach Feedback: Go/No-Go für eigenständige Bridge vs. schrittweise API-Integration
 
 ## PVS-Workflow-Analyse (Ben, Feb 2026)
 

@@ -2,7 +2,7 @@
 project: tomedo-exploration
 status: active
 owner: nikolai
-updated: 2026-04-28
+updated: 2026-04-30
 tags: [work, gomedicus, tomedo, reporting, knowledge-base]
 ---
 
@@ -172,6 +172,25 @@ bf481f3  chore: initial setup (M0)
 2. **MKD Integration Phase 3** — Wenn Deep Integration angeht, ist die Knowledge Base die Grundlage für Backend-Migration-Design.
 3. **Praxis-KPIs** — Dashboard-Layer könnte auf den Reusable-Queries aufbauen.
 4. **Notification-Trigger** — für das Notification Events Epic (GOM-1976 blocked by Cloudnonic).
+
+## Update 2026-04-30 — KW18 GKV-Scheine-Query (Verordnungs-Analyse)
+
+**Kontext:** Ad-hoc-Query für KW18 GKV-Schein-Übersicht.
+
+**Ergebnisse:**
+
+| Metrik | Wert |
+|--------|-----:|
+| GKV-Scheine gesamt (KW18) | **812** |
+| Distinct Patienten | **788** |
+| davon HZV | **247** |
+| Verordnungen (medikamentenverordnung) | **495** |
+
+**Schema-Klarstellung:**
+- `ausstellungsdatum4102` ist **unmaintained** — Feld wird in der Praxis nicht gepflegt.
+- **`sortierdatum`** ist das korrekt befüllte Datum-Feld für Scheine — ab sofort als Primärquelle für Zeitraum-Queries nutzen.
+
+**Top-Präparate:** in Session ermittelt (Verordnungs-Analyse KW18).
 
 ## Offene TODOs
 
