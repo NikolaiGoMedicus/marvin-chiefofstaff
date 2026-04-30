@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-30 00:30
+Last updated: 2026-04-30 12:00
 
 > **Modulare State-Architektur (seit 21.04.):** Details leben in `state/projects/*.md`. Diese Datei ist der Index + aktuelle Prioritäten. Für die alte Monolith-Version siehe `current.md.pre-migration`.
 
@@ -31,7 +31,7 @@ Last updated: 2026-04-30 00:30
 - [Website](projects/website.md) · [Design-Assets Rollout (Lüt/KB/Kids)](projects/design-assets-rollout.md) · [Lütjensee Designer-Brief (superseded)](projects/luetjensee-designer-brief.md)
 - [Claude Admin / Lizenzmanagement](projects/claude-admin.md) — Pricing, Jahresplan-Hebel, Arved-Debrief (23.04.)
 - [Platform Analytics & Session Recording](projects/platform-analytics.md) — 3-Phasen-Strategie (Plausible → Matomo → PostHog). PostHog-Empfehlung zurückgezogen (DSGVO). Phase 1 (Plausible Event-Spec) läuft.
-- [GOM-2530 MCP Server PoC](projects/gom-mcp-poc.md) — Adriano PR #819 getestet (27.04.), smoke test OK. Warte auf Nikolai-Entscheidung re Feedback.
+- [GOM-2530 MCP Server PoC](projects/gom-mcp-poc.md) — Adriano PR #819 getestet (27.04.), smoke test OK. Jens-Handoff-Doc erstellt (30.04.). Warte auf Nikolai-Entscheidung: Feedback an Adriano + ob/wann Doc mit Jens teilen.
 - [Privat](projects/privat.md) — Strom, Solar, Karriere, Claudio, Meshtastic, Flipper, Laser Forge · [Adobe Bewerbung](projects/adobe.md) — Unterlagen komplett uberarbeitet (Forest Green Tech-Editorial Mono CI, de-AI-fied, Speaking-Sektion). Nachster Schritt: Julian Kramer (Adobe-intern) Pre-Flight + Referral-Push, dann Submit R167792.
 
 ## Outbox
