@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-30 14:13
+Last updated: 2026-04-30 15:30
 
 > **Modulare State-Architektur (seit 21.04.):** Details leben in `state/projects/*.md`. Diese Datei ist der Index + aktuelle Prioritäten. Für die alte Monolith-Version siehe `current.md.pre-migration`.
 
@@ -49,12 +49,8 @@ _Aktiv zu beobachten:_
 
 ## Today's Focus / Notes
 
-- **Janina-Termin neu gesetzt: Di 28.04. 13:00–13:50** (nach Ausfall 22.04. + Ablehnung 27.04.). Meet `kxv-bsqh-tdf`. Slot ist tight: Nima endet 13:00 → Janina → Claude×Antonia 14:00.
-- **⚠️ Konflikt morgen Di 28.04. 11:00 (Arved AI Sync) vs. 11:30 (JF | GoM x ak)** — noch nicht aufgelöst.
-- **🟠 OKR-Finalisierungs-Meeting 24.04. mit Jens + Tim-Ole — noch nachzubereiten.** Action Items → [ai-systems-office.md](projects/ai-systems-office.md). Transcript: [Google Doc](https://docs.google.com/document/d/19vdjk7lEBwYzxPO4Hra_FNddUlUf0mR1vSiSA53JFL4/edit).
-- **Pipedrive Begrüßung-Backfill (28.04.) ✅:** Stufe 1 durch — 1.373 Personen in offenen Deals deterministisch via Anrede-Mapping gefüllt (637 Herr / 736 Frau). 0 Errors, alle verifiziert. Rollback-Daten in `/tmp/pipedrive_recon/`. Datenqualitäts-Finding: ~67% der "Personen" in offenen Deals sind eigentlich Einrichtungen → CRM-Bereinigung wäre größerer Hebel als Stufe 2. Details: [pipedrive-mcp.md](projects/pipedrive-mcp.md).
-- **Janina Pipedrive-MCP-Setup (28.04.):** Live. Problem war fehlender Node — Homebrew + Node installiert, `npx` unter `/opt/homebrew/bin/npx`, absoluten Pfad in `claude_desktop_config.json` eingetragen. Eigener API-Token gesetzt.
-- **Antragswesen Tool-Refactor (28.04.):** Aus One-Shot wurde Bundle-aware. 9 Standorte, 5 Person-YAMLs erweitert, render.py + Templates angepasst. 20 → 13 Gaps. Web-Recherche auf gomedicus.com hat Adressen + Tel für 8 Praxen geliefert. Strukturelle Korrektur: Träger ist "Go-medicus Zollernalb MVZ GmbH" (3 MVZs), nicht "MVZ GoMedicus Südwest GmbH".
-- **Design-Assets Rollout:** Nils-Angebot 24.04. (2.945–4.560 €). Warte auf Michael+Flo Mengen-Klärung → dann Mail an Nils. Details in [design-assets-rollout.md](projects/design-assets-rollout.md).
-- **Kronprinzenbau (28.04.):** Bauplan 3.OG von Michael bekommen, in Drive + Notion abgelegt. An Jan Kreimeyer (Lambda) verschickt mit WLAN-Coverage- + Notion-Zugriff-Frage. Deadline 30.04. hängt an seiner Antwort.
-- **Gmail-MVP (28.04.):** Spec + Plan + 5 von 10 Tasks gebaut (Branch `feat/channel-gmail-mvp`). Tasks 4–8 + 10 (live testing) offen. → [marvin-infrastructure.md](projects/marvin-infrastructure.md)
+- **Datenschutz-Signing App Lütjensee (30.04.) ✅:** WinSW-Resilience-Layer eingebaut — Boot-Autostart, Auto-Restart, SCM-Recovery, Crash-Test verifiziert. Details: [luetjensee.md](projects/luetjensee.md) Datenschutz-Signing-Section. TODO: `DEPLOYMENT.md` im Repo noch nicht synchronisiert.
+- **Pipedrive Begrüßung-Backfill (28.04.) ✅:** Stufe 1 durch — 1.373 Personen deterministisch gefüllt. Details: [pipedrive-mcp.md](projects/pipedrive-mcp.md).
+- **Antragswesen Tool-Refactor (28.04.) ✅:** Bundle-aware, 20 → 13 Gaps. Details: [antragswesen.md](projects/antragswesen.md).
+- **Kronprinzenbau (28.04.):** Bauplan 3.OG an Jan Kreimeyer (Lambda) gesendet. Antwort ausstehend.
+- **Gmail-MVP (28.04.):** Spec + Plan + 5 von 10 Tasks gebaut. Tasks 4–8 + 10 offen. → [marvin-infrastructure.md](projects/marvin-infrastructure.md)

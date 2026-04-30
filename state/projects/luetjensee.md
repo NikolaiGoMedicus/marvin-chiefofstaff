@@ -2,7 +2,7 @@
 project: luetjensee
 status: active
 owner: nikolai
-updated: 2026-04-29
+updated: 2026-04-30
 tags: [work, lambda, priority, praxis]
 ---
 
@@ -15,6 +15,8 @@ Go-Live Juli, PVS-Migration KW 31 (ab 3. August), Konversion KW 28. Lambda-Angeb
 ## Datenschutz-Signing App
 
 ✅ Deployed + in Benutzung. [Repo](https://github.com/GoMedicus/gom-luetjensee-datenschutzsign) · [Notion](https://www.notion.so/30c57538249e81e9b846c75d2025c3a8) · Server: `192.168.0.1:3000`, VPN `remote.dr-muenchow.de`
+
+**Resilience-Layer (30.04.2026):** App war down (vermutlich seit irgendeinem Reboot — Scheduled Task war nie eingerichtet, war seit Initial-Deployment offener Punkt). Manueller Restart + WinSW als Windows-Service eingebaut: Boot-Autostart, Auto-Restart bei Crash (SCM-Recovery 10/30/60s, Reset 10min, `failureflag=1`), Logging in `C:\Apps\datenschutz-signing\logs\`. Crash-Test verifiziert (60s Recovery in "warm counter"-State). Doku: `Vault/Arbeit/GoMedicus/Projekte/Lütjensee/Datenschutz-Signing/Deployment-Datenschutz-Signing.md` Section 8 (Setup) + Section 10 (Diagnose-Playbook). Service-Befehle: `Get-Service DatenschutzSigning`, `Restart-Service DatenschutzSigning`. Repo `DEPLOYMENT.md` ist noch nicht synchronisiert — TODO.
 
 ## Beschilderung Redesign
 
