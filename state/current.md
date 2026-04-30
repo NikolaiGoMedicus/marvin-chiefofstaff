@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-04-30 14:06
+Last updated: 2026-04-30 14:13
 
 > **Modulare State-Architektur (seit 21.04.):** Details leben in `state/projects/*.md`. Diese Datei ist der Index + aktuelle Prioritäten. Für die alte Monolith-Version siehe `current.md.pre-migration`.
 
@@ -20,7 +20,7 @@ Last updated: 2026-04-30 14:06
 - [MKD Integration Roadmap](projects/mkd-integration.md) · [MKD Hardware](projects/mkd-hardware.md)
 - [Claude Design Setup](projects/claude-design-setup.md) · [Brand University](projects/brand-university.md)
 - [M&A Pipeline](projects/ma-pipeline.md)
-- [LMS / EdApp-Ersatz](projects/lms-edapp-ersatz.md) — Decision-Meeting 30.04. mit Arved + Flo. Top 2: reteach vs. eLeDia (Empfehlung: eLeDia). TalentLMS-Empfehlung hinfällig.
+- [LMS / EdApp-Ersatz](projects/lms-edapp-ersatz.md) — Decision-Doc refreshed 30.04. DSB-Constraint gelockert. Empfehlung: TalentLMS Pro. Top 3: TalentLMS Pro / Coassemble / 360Learning. Entscheidung mit Arved + Flo ausstehend.
 - [MFA Onboarding Guide](projects/mfa-onboarding-guide.md) · [People / Onboarding](projects/people-onboarding.md) · [Alice Offboarding](projects/alice-offboarding.md)
 - [BDT Export/Import](projects/bdt-export.md) · [Email Templates — siehe GoMedicus Platform](projects/gomedicus-platform.md)
 - [Antragswesen](projects/antragswesen.md) — Bundle-aware Architektur fertig (28.04.). Aktueller Allgemeinmed-Antrag: 13 Gaps offen + Trägerstruktur-Klärung (3 MVZs entdeckt) bei Phil.
