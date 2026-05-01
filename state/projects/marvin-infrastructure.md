@@ -2,7 +2,7 @@
 project: marvin-infrastructure
 status: active
 owner: nikolai
-updated: 2026-04-28
+updated: 2026-05-01
 tags: [work, marvin, infrastructure]
 ---
 
@@ -28,6 +28,16 @@ tags: [work, marvin, infrastructure]
 - **CLAUDE.md:** Channel-Agents Layer + state/channels/ Konvention dokumentiert.
 - **Spec + Plan:** `docs/superpowers/channel-agents-spec.md` + `docs/superpowers/channel-agents-plan.md` angelegt.
 - **Status:** MVP live. Nachste Schritte: channel-email (Gmail), Channel-Index in current.md bei Bedarf erganzen.
+
+## Channel-Agents Slack MVP — Calibration Round 1 (01.05.2026)
+
+- **Datum:** 2026-05-01 (scheduled calibration agent, Task 7 des Slack-MVP-Plans)
+- **Zeitraum:** 2026-04-24 bis 2026-05-01 (Woche 1 nach Ship)
+- **Aktivität:** 1 triage-slack Live-Run (2026-04-28). 0 Action-Needed-Kandidaten. 0 False-Positives oder Misses gemeldet. Sessions 2026-04-25 + 04-26 fehlen.
+- **Schlüsselbefund — DM-Gap:** `slack_list_channels` gibt keine privaten DMs zurück → DM-Workflow in Agent-Step 2 war stillschweigend nicht-funktional. Jetzt explizit mit Error-Reporting-Verhalten dokumentiert.
+- **Heuristik-Änderungen:** Nur DM-Gap-Dokumentation. Keine Regel-Änderungen (zu wenig Signal für breites Tuning).
+- **PR:** `feat/channel-slack-calibration-1` — offen für Nikolais Review.
+- **Nächste Kalibrierung:** Round 2 nach ≥3 weiteren Live-Runs oder erstem gemeldeten False-Positive/Miss.
 
 ## Channel-Agents Gmail MVP (28.04.2026)
 
