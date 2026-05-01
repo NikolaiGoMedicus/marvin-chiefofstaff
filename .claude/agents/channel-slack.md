@@ -44,6 +44,7 @@ Der Agent liest selbst:
 1. **Parse Prompt**: Extrahiere `slack_user_id`, `last_run`, Open-Items-Liste, Recently-Closed-Liste, und Flags.
 2. **Fetch Inbox-Events seit `last_run`**:
    - Alle DM-Channels des Users → `slack_get_channel_history(oldest=last_run)`
+     **Bekannte Einschränkung (DM-Gap, dokumentiert 2026-04-28):** `slack_list_channels` gibt keine privaten DMs zurück. DMs sind nur abrufbar, wenn explizite Channel-IDs bekannt sind. Falls keine DM-Channel-IDs im Prompt übergeben werden, DM-Fetch überspringen und im `errors`-Feld dokumentieren: `["dm_gap: private DMs not accessible via slack_list_channels — Phase-2.5 item"]`. Keine stillschweigende Nichtbehandlung.
    - Channels mit @-Mentions → via Channel-History mit Filter auf `<@SLACK_USER_ID>`
 3. **Klassifiziere neue Events als Kandidaten:**
 
@@ -118,3 +119,5 @@ Wenn keine Kandidaten: leere Arrays, keine Ausnahme.
 - Erste Woche ist Kalibrierungsphase: Heuristik-Tuning durch Nikolai-Feedback.
 - MVP-Fokus: DMs + direkte @-Mentions. Thread-Replies in Non-DM-Channels sind Phase 2.
 - Newsletter-Blacklist erweitert sich iterativ basierend auf Nikolais Rauschen-Feedback.
+- **DM-Gap (Phase-2.5):** Private Slack-DMs sind über `slack_list_channels` MCP nicht erreichbar. Bis zur MCP-Erweiterung: DM-Fetch nur wenn Channel-IDs explizit im Prompt geliefert werden; sonst `dm_gap`-Error im Output. Die DM-Rule in Schritt 3 gilt weiterhin — sie greift, sobald DM-Channels zugänglich sind.
+- **Calibration Round 1 (2026-05-01):** Woche war zu ruhig für breite Heuristik-Anpassung — 1 Triage-Run, 0 Kandidaten, 0 False-Positives/Misses von Nikolai gemeldet. Einzige Änderung: DM-Gap explizit in Workflow-Step 2 dokumentiert. Weitere Kalibrierung in Round 2 nach mehr Live-Runs.
