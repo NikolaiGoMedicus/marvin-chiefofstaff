@@ -2,7 +2,7 @@
 project: adobe
 status: active
 owner: nikolai
-updated: 2026-04-29
+updated: 2026-05-03
 tags: [privat, karriere, bewerbung]
 ---
 
@@ -27,6 +27,12 @@ Bewerbungsunterlagen fertiggestellt (29.04., 2 Iterationen). Cover Letter + CV a
 - Spec: `marvin/docs/superpowers/specs/2026-04-29-adobe-cv-redesign.md`
 
 **Status 15:30:** User-Sichtcheck OK ("sieht gut aus"). PDFs ready zum Submit.
+
+**03.05. — PDF-Render + Formular-Q&A:**
+- CV + Cover Letter als PDF gerendert via Chrome headless: `Nikolai-Bockholt_CV_Adobe.pdf` (4 Seiten, 280 KB), `Nikolai-Bockholt_CoverLetter_Adobe.pdf` (1 Seite, 88 KB). Forest Green/Cream CI sauber durchgekommen.
+- **GPA-Feld:** Macromedia 2003, Note 2 (1–5-Skala). Empfehlung: 2.0 eingeben + Scale "Germany 1-5" im Scale-Feld; falls nur Zahleneingabe → 2.0 + Notes-Feld mit Erklärung der Skala.
+- **Credential-Type:** Macromedia wurde erst 2006 anerkannte Hochschule; Abschluss 2003 ist Diplom — bei Dropdown "Diploma" oder "Other" wählen, nicht Bachelor.
+- **Studiendauer:** 2000–2003 (actual).
 
 ## Open Items
 
