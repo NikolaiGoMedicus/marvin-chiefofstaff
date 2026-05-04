@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-05-03 12:00
+Last updated: 2026-05-04 14:00
 
 > **Modulare State-Architektur (seit 21.04.):** Details leben in `state/projects/*.md`. Diese Datei ist der Index + aktuelle Prioritäten. Für die alte Monolith-Version siehe `current.md.pre-migration`.
 
@@ -13,6 +13,8 @@ Last updated: 2026-05-03 12:00
 5. **GoMedicus Kids — Tomedo-Migration** — PaeDoc-Umstellung **ca. September 2026** (Jan-Stand 28.04., nach Borkum-Messe). Jan braucht Server-Zugänge **alle 3 Standorte** (nicht nur Bisingen). → [projects/gomedicus-kids.md](projects/gomedicus-kids.md)
 6. **AI & Systems Office (Jens-Deliverables)** — 30-60-90 + Hiring IT Ops Lead. → [projects/ai-systems-office.md](projects/ai-systems-office.md)
 7. **Series A Tech DD** — 🔴 IP-Transfer Cloudnonic blockt LOI. → [projects/series-a-dd.md](projects/series-a-dd.md)
+
+- [Pflegeheim-Scraper AOK-Webinar](projects/pflegeheim-scraper-aok.md) — ⏳ waiting: Liste an Sebastian 04.05. 13:46. Frau Oldenburg Versand 05.05., Webinar 19.05.
 
 ## Secondary / laufend
 
@@ -54,3 +56,4 @@ _Aktiv zu beobachten:_
 - **Antragswesen Tool-Refactor (28.04.) ✅:** Bundle-aware, 20 → 13 Gaps. Details: [antragswesen.md](projects/antragswesen.md).
 - **Kronprinzenbau (28.04.):** Bauplan 3.OG an Jan Kreimeyer (Lambda) gesendet. Antwort ausstehend.
 - **Gmail-MVP (28.04.):** Spec + Plan + 5 von 10 Tasks gebaut. Tasks 4–8 + 10 offen. → [marvin-infrastructure.md](projects/marvin-infrastructure.md)
+- **Pflegeheim-Scraper BB+MV (04.05.) ✅:** BIVA scraped, 597 Heime / 544 unique Emails an Sebastian. Liste in `~/Downloads/Pflegeheime_BB_MV_2026-05-04.xlsx` — Sebastian muss File noch manuell in Slack droppen.
