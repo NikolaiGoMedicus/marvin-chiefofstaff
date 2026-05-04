@@ -2,7 +2,7 @@
 project: gomedicus-kids
 status: active
 owner: nikolai
-updated: 2026-04-28 17:30
+updated: 2026-05-04
 tags: [work, lambda, kids, tomedo-migration]
 ---
 
@@ -22,6 +22,18 @@ tags: [work, lambda, kids, tomedo-migration]
 ## Lambda Rahmenvertrag-Konditionen (14.04.)
 
 3.000 € einmalig pro Cluster, Installationspauschale pro AP, inkl. managed XDR + Supportflatrate + NIS2-ready. Rabattstaffel: 5% ab Standort 28, 10% ab Standort 40. Kein Mietmodell auf GoMedicus Services GmbH (Bonität) → Barkonditionen. paeDoc im Budget, Lütjensee leicht drüber (laut Arved).
+
+## Standardprozesse & Onboarding (PaeDoc-Aurelia-Approach, 04.05.2026)
+
+**Approach-Wechsel:** Kein 90-Min-Wissensextraktion-Workshop mehr. Stattdessen: Aurelia befüllt asynchron eine Tomedo-Standardprozesse-Folie parallel zu ihren laufenden Praxisbesuchen (Maiwoche 2, 12.–22.05.). Danach: 60-Min-Klärungstermin (Vorschlag Mi 20.05. mittags) für Lücken + Migrationsrisiken.
+
+**Google Doc:** "GoMedicus Kids — Standardprozesse & Onboarding (Draft)" — Doc ID `1uQK6xV0ot5iHs3E9zEmhOOqtwOSZ-XngKvVmRV2wD9M`, im Onboarding-Ordner. Phil hat Editor-Rechte. Inhalt: Neckar-Alb-Struktur 1:1 als Tomedo-Anker + 🔵-Sektionen für Pädiatrie-Spezifika (U-Untersuchungen, Impfmanagement, Eltern-Kommunikation, Familienversicherung, pädiatrische Notfälle, Vorsorge & Früherkennung, Standort-Profile, Migrations-Risiken).
+
+**Email an Phil 04.05.** mit Doc-Link + Approach-Vorschlag gesendet — wartet auf Phil-Antwort.
+
+**Aurelia-Verfügbarkeit:** Aus China zurück. Maiwoche 2 (12.–22.05.) frei.
+
+**Migrationstermin fix: 13.08.2026.**
 
 ## paeDOC Timeline (Jan-Stand 28.04.2026)
 
@@ -57,5 +69,6 @@ Maria Schweinitz (zollsoft) will Praxisfragebogen auch für paeDOC ausgefüllt h
 
 ## Waiting On
 
+- **Phil Gonser** — Antwort auf 04.05.-Email (Standardprozesse-Doc + Approach-Vorschlag). Phil hat Editor-Rechte auf Doc `1uQK6xV0ot5iHs3E9zEmhOOqtwOSZ-XngKvVmRV2wD9M`.
 - Seidemann IT Solutions — Admin-Zugang + Teamviewer Bisingen-Server (Email 17.04.). Christoph Haas (07121 69509-30, c.haas@seidemann.com) hat Zugangsdaten + Teamviewer **seit 22.04. bereit liegen**, Jan hat ihn aber noch nicht angerufen. Jan wird's nach Borkum (ab 04.05.) angehen.
 - Jan Kreimeyer (Lambda) — Angebot, Lift paeDOC-Migration. Offline bis 03.05. (Borkum).

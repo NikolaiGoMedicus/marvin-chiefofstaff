@@ -30,6 +30,8 @@ tags: [work, lms, people, evaluation, decision-pending]
 
 **Aktuelle Brücke:** TalentLMS Free-Tier (5 User) — wird ggf. zu Pro-Plan upgegradet (kein Bonus für Bestand bei Decision, aber operativ pragmatisch wenn Pick = TalentLMS).
 
+**Hinweis (04.05.):** TalentLMS ist faktisch bereits für Schulungen im Einsatz. Finale LMS-Entscheidung ist dennoch **nicht gefallen** — Entscheidung mit Arved + Flo steht noch aus.
+
 ## Decision-Setup für Arved + Flo
 
 **Artefakt (Refresh 30.04.):** [Google Doc — LMS-Entscheidungsvorlage](https://docs.google.com/document/d/19-836LmBu96DDUjkkxOxSx5zrI2B8rgOSyOf5zf5XTY/edit)

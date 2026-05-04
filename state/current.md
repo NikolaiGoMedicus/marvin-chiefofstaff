@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-05-04 14:41
+Last updated: 2026-05-04 17:30
 
 > **Modulare State-Architektur (seit 21.04.):** Details leben in `state/projects/*.md`. Diese Datei ist der Index + aktuelle Prioritäten. Für die alte Monolith-Version siehe `current.md.pre-migration`.
 
@@ -25,6 +25,7 @@ Last updated: 2026-05-04 14:41
 - [LMS / EdApp-Ersatz](projects/lms-edapp-ersatz.md) — Decision-Doc refreshed 30.04. DSB-Constraint gelockert. Empfehlung: TalentLMS Pro. Top 3: TalentLMS Pro / Coassemble / 360Learning. Entscheidung mit Arved + Flo ausstehend.
 - [MFA Onboarding Guide](projects/mfa-onboarding-guide.md) · [People / Onboarding](projects/people-onboarding.md) · [Alice Offboarding](projects/alice-offboarding.md)
 - [BDT Export/Import](projects/bdt-export.md) · [Email Templates — siehe GoMedicus Platform](projects/gomedicus-platform.md)
+- [ak/Takeda — SharePoint Report](projects/ak-takeda.md) — Editor-Rechte-Approach via Friederike-Pattern. Klärung + Update an Steffi offen.
 - [Antragswesen](projects/antragswesen.md) — Bundle-aware Architektur fertig (28.04.). Aktueller Allgemeinmed-Antrag: 13 Gaps offen + Trägerstruktur-Klärung (3 MVZs entdeckt) bei Phil.
 - [Pipedrive MCP](projects/pipedrive-mcp.md) · [Slack MCP](projects/slack-mcp.md) · [MARVIN Infrastructure](projects/marvin-infrastructure.md)
 - [Telefon AI Agent](projects/telefon-ai-agent.md) · [Tomedo CUA Agent](projects/tomedo-cua-agent.md) · [Tomedo Exploration](projects/tomedo-exploration.md) · [Voice Onboarding](projects/voice-onboarding.md)
@@ -64,3 +65,6 @@ _Aktiv zu beobachten:_
 - **Friederike Setup neu (04.05.):** Mo 11.05. 09:30–10:30 (Operations Weekly als ersten Pilot). 30.04. ausgefallen (Friederike Do frei).
 - **Notion Housekeeping (04.05.):** Notion Intranet Architecture (war top-level) unter "The AI Org" eingehängt.
 - **Serviceplan Brüll-Termin (04.05.):** Mi 06.05. 09:00–10:00 fixiert. Pre-Read-Doc erstellt (`bruell-pre-read.md`). Antonia-Call 10:00 muss noch verschoben werden (ACTION offen).
+- **PaeDoc-Standardprozesse-Doc (04.05.):** Approach-Wechsel auf Aurelia-async-Befüllung + 60-Min-Klärungstermin Mi 20.05. mittags. Doc `1uQK6xV0ot5iHs3E9zEmhOOqtwOSZ-XngKvVmRV2wD9M` angelegt, Phil hat Editor-Rechte. Email an Phil raus — wartet auf Antwort. → [gomedicus-kids.md](projects/gomedicus-kids.md)
+- **SharePoint-Report ak/Takeda (04.05.):** Editor-Rechte-Approach via Friederike-Pattern. Email an Steffi + Christian Schneider raus. Nächster Schritt: Friederike-Klärung. → [ak-takeda.md](projects/ak-takeda.md)
+- **medatixx TT-26-094040 (04.05.):** Slack-DM an Stefan Haupt zu BDT-Import-Block. Antwort ausstehend, dann gebündeltes medatixx-Reply. → [luetjensee.md](projects/luetjensee.md)

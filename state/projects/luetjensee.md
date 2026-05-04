@@ -2,7 +2,7 @@
 project: luetjensee
 status: active
 owner: nikolai
-updated: 2026-04-30
+updated: 2026-05-04
 tags: [work, lambda, priority, praxis]
 ---
 
@@ -59,7 +59,7 @@ Stefan ist **Weiterbildungsassistent** (bezahlt nach Marburger Bund, Quelle: Lü
 - **Lifecycle-Plan:** Nach Tomedo-Migration (KW 31, ab 03.08.) wird der Windows-Laptop an **Henry Krause** weitergegeben (medatixx tot). Stefan arbeitet danach nur noch mit MacBook (Tomedo nativ + Telemedizin).
 
 ### Open Items (aktiv 28.04.)
-- [ ] **medatixx-Ticket** an support.xcomfort@medatixx.de — x.comfort-Client-Install auf Windows-Laptop + Stefans User-Rechte für BDT-Import heben (Admin-/Power-User für Patientenstamm + BDT-Modul). Mail-Draft 28.04.
+- [ ] **medatixx-Ticket TT-26-094040** — Stand 30.04.: Punkt 1 (x.comfort-Client-Install auf neuem Laptop, lokal + VPN) bei Niederlassung Nord in Bearbeitung. Punkt 2 (User-Rechte BDT-Import): medatixx rückgefragt "keine unterschiedliche Berechtigungsstruktur — welches Problem konkret?" → Vermutung Modul-Freischaltung BDT oder Profil-Mismatch, kein Rechte-Thema. Punkte 3 (VPN-Performance) + 4 (Setup-Termin) noch ohne Antwort. **Slack-DM an Stefan Haupt 04.05.** mit Klärungsfrage zum BDT-Import-Block gesendet — wartet auf Stefan-Antwort. Sobald Diagnose da: medatixx-Reply gebündelt nachreichen.
 - [ ] **VPN-User „haupt"** über Olaf Rajek (PC-Fun, 04552-999896, Olaf@pc-fun.de) anlegen lassen — analog zu Arveds `schneider`. Mail-Draft 28.04. — **fehlt: Stefans Mobilnummer für SMS-PW**.
 - [ ] **Telemedizin-Plattform** (MacBook-Track): Klären, was Lütjensee aktuell nutzt oder ob neu einzurichten — separater Track.
 - [ ] **Stefan in Tomedo-Praxisfragebogen** ergänzen ([Notion-Draft](https://www.notion.so/34a57538249e81ba88b2d463cb9fc1d6)) — Behandler-Liste, eigener Arbeitsplatz, BDT-Workflow Tomedo-seitig validieren.
@@ -157,6 +157,7 @@ Maria Schweinitz (zollsoft) will Praxisfragebogen für Lütjensee ausgefüllt ha
 
 ## Waiting On
 
+- **Stefan Haupt** — Klärung BDT-Import-Block (Slack-DM 04.05.). Danach: gebündeltes medatixx-Reply zu TT-26-094040 Punkt 2.
 - **Sebastian Schulz (DSB)** — Datenschutz-App-Text Review (verschickt 29.04. via Gmail). Basis: Drive-Vorlage "Aufklärung und Einwilligung zur Datenübermittlung.pdf" (11.06.2024). Trägerschaft im Text: GoMedicus RheinNeckar MVZ GmbH, Hamburger Str. 33, 22952 Lütjensee. Code: `/Users/nikolaibockholt/Documents/web/gom-datenschutz-signing/public/index.html:48-95`. Hinweis: Telemedizin-Erweiterung (02.05.2025) im Drive als Update-Kandidat identifiziert — noch nicht eingepflegt.
 - Corti.ai / Adam Culbertson — Addendum v3 versendet (14.04.), Feedback abwarten. [v3 Doc](https://docs.google.com/document/d/1Z2voUKJNa3Q-DrM3vWtHTYjisSuWRd3YsOvgGTiPmnY/edit) — direkte Abhängigkeit zu [mkd-integration.md](mkd-integration.md) Phase 1 Corti-Features
 - Seidemann IT Solutions — Admin-Zugang + Teamviewer Bisingen-Server (Email 17.04.)
