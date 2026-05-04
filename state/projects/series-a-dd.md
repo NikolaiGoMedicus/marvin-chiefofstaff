@@ -2,7 +2,7 @@
 project: series-a-dd
 status: active
 owner: nikolai
-updated: 2026-04-21
+updated: 2026-05-04
 tags: [work, due-diligence, compliance]
 ---
 
@@ -17,7 +17,7 @@ tags: [work, due-diligence, compliance]
 - [Scorecard](https://docs.google.com/document/d/16CycnHLBl1N1quuo1_t-e6X2iOnot-ofIllwBBfPhjI/edit) (WIP, 31% — 16/51 Meilensteine)
 - [Playbook](https://docs.google.com/document/d/1lShnhdqXWIOQvIVjhThVLlkMY80hq7x8W9XYst6Lva8/edit) (WIP, 5 Phasen)
 - [Drive](https://drive.google.com/drive/folders/1gnJY9eTsSUAFF80FUvXhgEPzrnVPmkhT)
-- [ ] CDIO-Profil + Hiring-Pipeline — noch nicht erstellt
+- ✅ **CDIO-Profil + Team-Aufbau** (04.05.) — [Owner-Page](https://www.notion.so/2e757538249e804cbf10ea312f83ec39) (3 Domänen, 9 KPIs, Q1-Bilanz) + [CIO/CDO Full Spec](https://www.notion.so/32d57538249e8015a424f04a61f0a348) (O0–O7 OKRs, Q2–Q4 Timeline) + 3 Rollenprofile (IT Ops Lead, Mediengestalter, PM Plattform). In Tech-DD-Page als eigene Section verlinkt.
 
 ⚠️ **§393 SGB V (Cloud C5):** GoMedicus braucht ggf. eigenes C5-Testat. Prüfauftrag Sebastian Schulz. Wird durch [mkd-integration.md](mkd-integration.md) Phase 3 (Backend-Migration) getriggert.
 

@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-05-04 17:30
+Last updated: 2026-05-04 18:30
 
 > **Modulare State-Architektur (seit 21.04.):** Details leben in `state/projects/*.md`. Diese Datei ist der Index + aktuelle Prioritäten. Für die alte Monolith-Version siehe `current.md.pre-migration`.
 
@@ -35,6 +35,7 @@ Last updated: 2026-05-04 17:30
 - [Platform Analytics & Session Recording](projects/platform-analytics.md) — 3-Phasen-Strategie (Plausible → Matomo → PostHog). PostHog-Empfehlung zurückgezogen (DSGVO). Phase 1 (Plausible Event-Spec) läuft.
 - [GOM-2530 MCP Server PoC](projects/gom-mcp-poc.md) — Adriano PR #819 getestet (27.04.), smoke test OK. Jens-Handoff-Doc erstellt (30.04.). Warte auf Nikolai-Entscheidung: Feedback an Adriano + ob/wann Doc mit Jens teilen.
 - [Privat](projects/privat.md) — Strom, Solar, Karriere, Claudio, Meshtastic, Flipper, Laser Forge · [Adobe Bewerbung](projects/adobe.md) — Unterlagen komplett uberarbeitet (Forest Green Tech-Editorial Mono CI, de-AI-fied, Speaking-Sektion). Nachster Schritt: Julian Kramer (Adobe-intern) Pre-Flight + Referral-Push, dann Submit R167792.
+- [**Serviceplan — Brüll-Gespräch Mi 06.05. 09:00**](projects/serviceplan.md) — 🔴 Nächste Runde mit Matthias Brüll (Vorstand Holding / Global CEO Mediaplus). Pre-Read erstellt. Antonia-Call 10:00 muss noch verschoben werden.
 - [Hansa-Gym Widerspruch (Ari)](projects/hansa-gym-widerspruch.md) — 🔴 Frist Mo 11.05.2026. Fristwahrender Widerspruch heute per Email, Mo per Einschreiben.
 
 ## Outbox
@@ -44,6 +45,7 @@ _Drafts, die auf Absenden warten. Drafts landen hier durch `/draft park`, werden
 | # | Ziel | Thema | Ort |
 |---|------|-------|-----|
 | 1 | Antonia Gebhardt + Benjamin Heinke (Group-DM) | Doctolib-Connector PVS-Bridge — Architektur-Input + Build-vs-Buy-Entscheidung | Slack Group-DM |
+| 2 | Justina Pettit (Serviceplan Recruiting) | Termin-Bestätigung Brüll-Call Mi 06.05. 09:00–10:00 Uhr | Gmail Draft (r-2745024539056407098) |
 ## Stale Threads (>14 Tage ohne Bewegung)
 
 _Aktiv zu beobachten:_
@@ -61,3 +63,4 @@ _Aktiv zu beobachten:_
 - **Baseline-First-Methodik (04.05.) ✅ Tim-Ole-aligned via O4-Thread:** Vorher/Nachher-Logik mit harten Performance-Metriken. [Template](https://www.notion.so/35657538249e812ab5e5d86eaf3f0fc6) + [DB](https://www.notion.so/05f9708610a146a1982e60417dfb45ba) live unter AI Playbook. 6 AI-Org-Termine mit Baseline-Agenda erweitert. Pilot Mi 06.05. (Antonia) + Mo 11.05. (Friederike).
 - **Friederike Setup neu (04.05.):** Mo 11.05. 09:30–10:30 (Operations Weekly als ersten Pilot). 30.04. ausgefallen (Friederike Do frei).
 - **Notion Housekeeping (04.05.):** Notion Intranet Architecture (war top-level) unter "The AI Org" eingehängt.
+- **Serviceplan Brüll-Termin (04.05.):** Mi 06.05. 09:00–10:00 fixiert. Pre-Read-Doc erstellt (`bruell-pre-read.md`). Antonia-Call 10:00 muss noch verschoben werden (ACTION offen).
