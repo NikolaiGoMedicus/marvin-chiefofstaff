@@ -109,11 +109,20 @@ Aus Flos Mail 21.04. ("Nikolai AIs"). #1, #2, #4 erledigt. Noch offen:
 
 - [ ] **#3 + #7 Sebastian Schulz — Cluster-Datenzugriff:** Sebastian S. soll Cluster-Daten für AI-Auswertungen nutzen. Klären: Datenzugriff-Modell, Compliance, Tooling. → Ggf. eigenes Projekt-File wenn Scope wächst.
 
+## Notion Intranet Architecture (Jens-assigned, 04.05. eingehängt)
+
+[GoMedicus Notion Intranet Architecture](https://www.notion.so/34057538249e8185927ec1518714b942) (war top-level/herrenlos) → unter [The AI Org](https://www.notion.so/2fd57538249e804abc35fb9d874b2829) als Peer zum AI Playbook eingehängt.
+
+**Substanz-Mail an Jens + Tim-Ole** (04.05., Thread "BLOCKER: Workflows & Co"): 5 Architektur-Fragen aus Jens' Doc + 4 Recap-Klärungspunkte vom 30.04. + Owner-Map-Lücken (Platform Solutions interim, People TBH/Flo, Marketing TBH/Henry-Steward) + Naming-Frage "AI & Technology" vs. "AI & Systems" + Capacity-Hinweis (3-4 Wochen Blueprint-Build) + Workflow Recording als orthogonalen Strang abgegrenzt.
+
+**Freitag-Meeting:** 08.05. 16:30 mit Jens + Tim-Ole — Ziel: Architektur-Skizze + Stage-Gate-Plan, nicht erneut Q&A.
+
 ## Open Items
 
 - [x] **Notion Org-Struktur umsetzen** ✅ (16.04.) — ⚠️ "Nach Office" Board-View Tab muss manuell in Notion UI umsortiert werden
 - [ ] Notion Org-Struktur Link an Jens/Tim-Ole/Flo senden
 - [ ] 30-60-90 Plan weiterentwickeln (Jens-Deliverable)
+- [ ] Jens-Antwort auf Substanz-Mail (5 Architektur-Fragen + 4 Klärungspunkte) bis Donnerstag
 - [ ] Personio-Management Übernahme von Sebastian L. planen
 - [ ] Meeting mit Antonia + Franzi Löle organisieren (IT-Migrations-Erfahrungsaustausch)
 - [ ] Nikolai: Slack-Drafts an Jens absenden (CDIO-Diskussionen abgeschlossen + Skills-Seite aktualisiert)

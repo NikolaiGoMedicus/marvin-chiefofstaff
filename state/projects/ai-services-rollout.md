@@ -28,7 +28,7 @@ T1 fertig (Ø Sicherheit 3,1/5). Office Hours Do 15:00 weekly (ab 16.04.). Näch
 - **Arved Schneider (Finance)** — ✅ läuft. Claude Premium-User. Partner im Tomedo-Auslastungs-Reporting-Scope.
 - **Michael Füllemann (Regional Director)** — ⚠️ noch aufgreifen. Setup-Status ❓, T1/T2 ❓. Engagement: Praxen-IT (KB / Lütjensee / Bisingen) — natürlicher Use-Case-Cluster für ihn.
 - **Henry Krause (Marketing)** — ⚠️ noch aufgreifen. Setup-Status ❓, T1/T2 ❓. Offener Inbound: Slack-DM Design-Assets-Inventar (Outbox seit 24.04.).
-- **Sandra Heidmann (Finance)** — ⚠️ noch aufgreifen. Setup-Status ❓, T1/T2 ❓. Kein bisheriger Berührungspunkt im Rollout — Erstkontakt nötig.
+- **Sandra Heidmann (Finance)** — ⚠️ noch aufgreifen. Setup-Status ❓, T1/T2 ❓. Erstkontakt **Do 07.05. 11:30** (Schreibweise korrigiert: Heidmann, nicht Heitmann). Kein Baseline-Thema in der ersten Session — erst Erstkontakt etablieren.
 
 _Tim-Ole Pek (M&A) bewusst nicht in dieser Liste — noch nicht Teil der Org._
 
@@ -56,8 +56,9 @@ _Tim-Ole Pek (M&A) bewusst nicht in dieser Liste — noch nicht Teil der Org._
 - [ ] Jens: Ownership "Prozess & Adoption" (Alice-Nachfolge)
 - [ ] Agent-Demo für Basti, Henry, Jens — **Kandidat: Zanadio-Versand-Workflow** (aus Antonias Sheet)
 - [x] Aufgreifen-Wave terminiert (28.04.): Michael Di 05.05. 12:30, Henry Mi 06.05. 13:00, Sandra Do 07.05. 11:30 ✅
-- [x] Friederike Posnien Setup-Session terminiert: Do 30.04. 16:00 ✅
+- [x] ~~Friederike Posnien Setup-Session terminiert: Do 30.04. 16:00~~ ❌ ausgefallen (Friederike Do frei) → **neu Mo 11.05. 09:30–10:30** (Meet juv-mhqs-vji) ✅ 04.05.
 - [x] Sebastian Schulz Bilateral + Cluster-Slot terminiert: Mi 29.04. 13:15 ✅
+- [x] **Baseline-First-Methodik aufgebaut** (Tim-Ole-aligned via O4-Thread, 04.05.): Vorher/Nachher-Logik mit harten Performance-Metriken (Zeit/Kosten/Output). Template + Notion-DB live. ✅ 04.05.
 - [ ] Sebastian Luitle Videos nachhalten (E-Mail/Slack Warum/Wie) — kein Termin nötig, ist versorgt
 - [ ] Nach jedem Termin: Setup-Status + offene Use-Cases im Teilnehmer-Eintrag patchen
 
@@ -102,6 +103,29 @@ Prep-Request an Antonia: Ziel-Dokumente mitbringen — Friederikes Operations We
 
 - [ ] CEO Onboarding (Jens), GF Onboarding (Philipp), OKRs mit Flo
 
+## Baseline-First-Methodik (04.05., Tim-Ole-aligned via O4-Thread)
+
+**Kern:** Pro Co-Pilot Goal **vor** AI-Einführung Baseline dokumentieren (Zeit / Kosten / Output / Qualität), nach Einführung gleich messen → Delta. Ohne Baseline keine OKR-Anrechnung.
+
+**Pilot-Cluster:**
+- 🟢 Self-Service (Welle 1): **Antonia, Arved, Basti, Phil**
+- 🟡 Walkthrough (Welle 2): **Henry, Flo, Sebastian L., Friederike, Thomas, Janina, Michael**
+- 🟠 Niedrig (Welle 3, später): Sabrina, Ricarda, Sandra
+- 🚫 Tim-Ole bewusst raus (Reviewer-Rolle, kein Pilot)
+
+**Pilot-Domains:**
+- Antonia (Mi 06.05.) — 3-Horizonte-Sheet → Baseline-Format mapping (AK-Wochenreport, Zanadio, SV KVT/MKD, MV/BB)
+- Friederike (Mo 11.05.) — Operations Weekly als ersten Eintrag
+
+**Artefakte:**
+- [Baseline-Template — AI-Workflow-Pilot](https://www.notion.so/35657538249e812ab5e5d86eaf3f0fc6) (Methodik unter AI Playbook)
+- [AI-Workflow-Baselines DB](https://www.notion.so/05f9708610a146a1982e60417dfb45ba) (Datenheimat unter AI Playbook) — Formula-Felder Wochen-h/Delta noch offen, Notion-API-Syntax
+- Vault: `Arbeit/GoMedicus/Projekte/AI Services Rollout/baseline-template-v1.md`
+
+**Calendar-Integration:** 6 Events mit Baseline-Agenda + DB-Link (Arved 05.05., Michael 05.05., Antonia 06.05., Henry 06.05., AI Office Hours 07.05., Friederike 11.05.). Sandra 07.05. ausgespart.
+
+**O4-KR-Ergänzung committed:** "Baseline vor Einführung dokumentiert, Delta post-Einführung gemessen — 3 Pilot-Domains durch bis Ende Q2".
+
 ## Links
 
 - [AI Org](https://www.notion.so/2fd57538249e804abc35fb9d874b2829)
@@ -109,3 +133,4 @@ Prep-Request an Antonia: Ziel-Dokumente mitbringen — Friederikes Operations We
 - [Prompt-Bibliothek](https://www.notion.so/33057538249e8163960ce8e02607ff32)
 - [Datenschutz-Leitfaden](https://www.notion.so/33057538249e81e69759e6e668324627)
 - [T1-Auswertung](https://docs.google.com/document/d/1wMYAwTYDV3i6_DmYwMQSSm4w3LCf-ijgVd4qCykkUDI/edit)
+- [Baseline-Template](https://www.notion.so/35657538249e812ab5e5d86eaf3f0fc6) · [Baselines DB](https://www.notion.so/05f9708610a146a1982e60417dfb45ba)

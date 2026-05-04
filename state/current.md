@@ -1,6 +1,6 @@
 # Current State
 
-Last updated: 2026-05-04 14:00
+Last updated: 2026-05-04 17:30
 
 > **Modulare State-Architektur (seit 21.04.):** Details leben in `state/projects/*.md`. Diese Datei ist der Index + aktuelle Prioritäten. Für die alte Monolith-Version siehe `current.md.pre-migration`.
 
@@ -57,3 +57,7 @@ _Aktiv zu beobachten:_
 - **Kronprinzenbau (28.04.):** Bauplan 3.OG an Jan Kreimeyer (Lambda) gesendet. Antwort ausstehend.
 - **Gmail-MVP (28.04.):** Spec + Plan + 5 von 10 Tasks gebaut. Tasks 4–8 + 10 offen. → [marvin-infrastructure.md](projects/marvin-infrastructure.md)
 - **Pflegeheim-Scraper BB+MV (04.05.) ✅:** BIVA scraped, 597 Heime / 544 unique Emails an Sebastian. Liste in `~/Downloads/Pflegeheime_BB_MV_2026-05-04.xlsx` — Sebastian muss File noch manuell in Slack droppen.
+- **AI-Org Substanz-Mail an Jens (04.05.) ✅:** Thread "BLOCKER: Workflows & Co" — 5 Architektur-Fragen + 4 Recap-Klärungspunkte + Owner-Map + Capacity-Hinweis vor Freitag-Meeting (08.05. 16:30). Jens-Antwort bis Do erwartet.
+- **Baseline-First-Methodik (04.05.) ✅ Tim-Ole-aligned via O4-Thread:** Vorher/Nachher-Logik mit harten Performance-Metriken. [Template](https://www.notion.so/35657538249e812ab5e5d86eaf3f0fc6) + [DB](https://www.notion.so/05f9708610a146a1982e60417dfb45ba) live unter AI Playbook. 6 AI-Org-Termine mit Baseline-Agenda erweitert. Pilot Mi 06.05. (Antonia) + Mo 11.05. (Friederike).
+- **Friederike Setup neu (04.05.):** Mo 11.05. 09:30–10:30 (Operations Weekly als ersten Pilot). 30.04. ausgefallen (Friederike Do frei).
+- **Notion Housekeeping (04.05.):** Notion Intranet Architecture (war top-level) unter "The AI Org" eingehängt.
