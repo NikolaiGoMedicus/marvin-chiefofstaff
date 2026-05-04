@@ -16,6 +16,7 @@ Liste an Sebastian raus (04.05. 13:46). Warte auf Versand durch Frau Oldenburg (
 
 - [ ] Frau Oldenburg Versand bestätigen (05.05.)
 - [ ] Webinar-Anmeldungen tracken nach 19.05. (Vergleich: Bayern 43 Anmeldungen nach AOK-Blast)
+- [x] Excel-File an Sebastian Schulz gesendet ✅ (04.05.)
 - [ ] Sebastian muss Excel-File manuell in Slack-DM an Frau Oldenburg droppen
 
 ## Waiting On

@@ -12,18 +12,18 @@ tags: [karriere, bewerbung]
 
 Schill-Gespräch positiv abgeschlossen. Nächste Runde mit Matthias Brüll (Vorstand Serviceplan Holding, Global CEO Mediaplus Group) fixiert: **Mi 06.05.2026, 09:00–10:00 Uhr** (Teams, 60 Min). Termin-Bestätigung an Justina Pettit per Gmail-Draft (Outbox).
 
-Antonia AI Check-in 06.05. 10:00–10:30 muss verschoben werden (Kalenderkonflikt, noch offen).
+Antonia AI Check-in 06.05. verschoben auf 10:10 (Konflikt mit Brüll-Call 09:00–10:00 entschärft).
 
 ## Open Items
 
-- [ ] Antonia Check-in 06.05. 10:00 verschieben (Kalenderkonflikt mit Brüll-Call)
-- [ ] Gmail-Draft Termin-Bestätigung an Justina Pettit absenden (Draft ID: r-2745024539056407098)
+- [x] Antonia Check-in 06.05. verschoben → 10:10 ✅ (04.05.)
+- [x] Termin-Bestätigung an Justina Pettit — Nikolai hat privat geantwortet ✅ (04.05.)
 - [ ] Brüll-Call vorbereiten / Pre-Read durcharbeiten
 - [ ] Kompensationsdiskussion: Floor >120k fest, Ziel 140–170k+. Partner-Track erst Gespräch 2/3.
 
 ## Waiting On
 
-- Justina Pettit (Recruiting) — Termin-Bestätigung Mi 06.05. 09:00, nach Draft-Versand (04.05.)
+- ~~Justina Pettit — Termin-Bestätigung~~ ✅ Nikolai privat geantwortet (04.05.)
 
 ## Links
 

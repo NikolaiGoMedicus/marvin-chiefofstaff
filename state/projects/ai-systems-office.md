@@ -2,7 +2,7 @@
 project: ai-systems-office
 status: active
 owner: nikolai
-updated: 2026-04-28 17:30
+updated: 2026-05-04
 tags: [work, role, strategy, cdio]
 ---
 
@@ -76,6 +76,8 @@ Doctolib-Hintergrund, PVS-Projektleitung bei Dr. Lipp (2 Jahre). Start 1.8. oder
 ## Hiring IT Ops Lead — IT Operations Manager Praxis-IT
 
 Personio Jobs 2594644 + 2608146. Optimierungs-Doc an Flo (16.04.). Triage-Session 22.04.: 12 Bewerbungen total, 9 rejected, 3 aktiv.
+
+**Vollumfang-Briefing-Doc (04.05.):** `Arbeit/GoMedicus/Projekte/Hiring/IT-Ops-Lead-Aufgaben-Vollumfang.md` — Strukturiert in Teile A–F: Kern-Scope, Nikolai-Entlastung, Sebastian-L-Verlagerung, Ramp-up, Day-1-Inbox, Schnittstellen. Offene Frage: zeigt Nikolai erst Flo zum Abgleich oder direkt an Bewerber.
 
 ### Aktive Kandidaten (Stand 22.04.)
 
